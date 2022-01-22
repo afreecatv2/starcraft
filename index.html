@@ -5,7 +5,7 @@
 <body>
 		<form id="form1">
 			<input id="input_name" name="name" value="" placeholder="저장명"/>
-			<input type="submit" name="submit" 
+			<input type="button" name="submit" 
 				value="확인" onclick="show()"/>
 		</form>
 <script>
@@ -16,8 +16,7 @@ if(!name || name==''){
 	alert('저장명을 입력하세요.');
 	throw '';
 }
-window.location.replace("/tier.html?name=" + name);
-
+window.open("tier.html?name=" + name,"_self");
 }
 
 </script>
