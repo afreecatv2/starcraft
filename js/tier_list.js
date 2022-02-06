@@ -32,7 +32,7 @@ if( window.location.hostname.indexOf(n1+n2+n3) < 0 ){
 }
 
 
-const url = 'https://afreecatv.dothome.co.kr/afreecatv/select_sc_tier.php?name=' + name;
+const url = 'http://afreecatv.dothome.co.kr/afreecatv/select_sc_tier.php?name=' + name;
 getData(url).then(data => {		
 	if(!data || !data.length || data.length < 2){
 		alert('일치하는 저장명 없음');
