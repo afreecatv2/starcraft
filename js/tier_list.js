@@ -1,1 +1,424 @@
-var _0x2d74b9=_0x3963;function _0x3963(_0x431409,_0x4861d5){var _0xe3d0a9=_0xe3d0();return _0x3963=function(_0x396330,_0x1f532e){_0x396330=_0x396330-0x1f0;var _0x3b0901=_0xe3d0a9[_0x396330];return _0x3b0901;},_0x3963(_0x431409,_0x4861d5);}(function(_0x5dab6e,_0x1652a8){var _0x48249f=_0x3963,_0x13ff67=_0x5dab6e();while(!![]){try{var _0x289611=parseInt(_0x48249f(0x24d))/0x1+-parseInt(_0x48249f(0x20d))/0x2*(-parseInt(_0x48249f(0x23f))/0x3)+parseInt(_0x48249f(0x219))/0x4+-parseInt(_0x48249f(0x238))/0x5+parseInt(_0x48249f(0x254))/0x6*(parseInt(_0x48249f(0x215))/0x7)+-parseInt(_0x48249f(0x20b))/0x8+-parseInt(_0x48249f(0x240))/0x9;if(_0x289611===_0x1652a8)break;else _0x13ff67['push'](_0x13ff67['shift']());}catch(_0xc268){_0x13ff67['push'](_0x13ff67['shift']());}}}(_0xe3d0,0xd0c01));function getParameterByName(_0x5a2a14,_0x14b6ad=window['location'][_0x2d74b9(0x234)]){var _0x133586=_0x2d74b9;_0x5a2a14=_0x5a2a14[_0x133586(0x1f1)](/[\[\]]/g,_0x133586(0x233));var _0x7e237=new RegExp('[?&]'+_0x5a2a14+_0x133586(0x248))[_0x133586(0x217)](_0x14b6ad);return _0x7e237?_0x7e237[0x2]?decodeURIComponent(_0x7e237[0x2]['replace'](/\+/g,'\x20')):'':null;}var name=getParameterByName('name');const wColors=[_0x2d74b9(0x239),'#ccccff',_0x2d74b9(0x228),'#6666ff',_0x2d74b9(0x1f4),_0x2d74b9(0x210)];var n1='free';const lColors=[_0x2d74b9(0x239),_0x2d74b9(0x1f0),_0x2d74b9(0x207),_0x2d74b9(0x200),_0x2d74b9(0x22c),'#ff0000'];function _0xe3d0(){var _0x3cc713=['textContent','#ff9999','setProperty','record','parentNode','2159488VgZIPV','split','200494zLVpSF','addEventListener','span','#0000ff','img/up-circular-64.png','click','onairhref','remove','26894HNOEXx','indexOf','exec','일치하는\x20저장명\x20없음','4134856alKcmK','title','className','container_tier_0','div','img/down-circular-64.png','--color','img_tier','bj-name\x20','open','json','img/live.png','createDocumentFragment','then','querySelectorAll','#9999ff','white','https://0000u.000webhostapp.com/afreecatv/select_sc_tier.php?name=','_blank','#ff3333','log','--bc','style','https://play.afreecatv.com/','appendChild','star-tier-item','\x5c$&','href','star-tier-container','tier_desc','em\x20solid\x20','7758770cIRKHF','#ffffff','children','container_list','lazy\x20tier-thumb','this.onerror=null;\x20this.src=\x22img/bj/noname.png\x22','classList','30BSbhOf','19727181KNUvvZ','setAttribute','tier_link','getElementById','height:30px;position:absolute;top:0px;left:4px;cursor:pointer;pointer-events:none;z-index:99;','0.1em\x20solid\x20#E0E0E0','tier_list','container_tier','(=([^&#]*)|&|#|$)','tagName','.star-tier-image','length','add','1199606huRpKi','fy.ap','catv.netli','getAttribute','floor','tier-item-selected','.bj-name','2550QLNwqi','#ffcccc','replace','https:','onairsrc','#3333ff','parse','catch','star-tier-container2','--b','dblclick','starcraft_list','filter','target','ver','img','range\x20over','#ff6666','lazy\x20star-tier-image','error','height:30px;position:absolute;top:4px;right:2px;cursor:pointer;pointer-events:none;z-index:99;','name','tier-item-unselected'];_0xe3d0=function(){return _0x3cc713;};return _0xe3d0();}var n2=_0x2d74b9(0x24f),clickedName='',tier_list=document[_0x2d74b9(0x243)](_0x2d74b9(0x246));tier_list['addEventListener']('click',function(_0x2b3197){var _0x13385a=_0x2d74b9;'IMG'!=_0x2b3197[_0x13385a(0x1fc)][_0x13385a(0x249)]&&unClickAll();});var n3=_0x2d74b9(0x24e);if(window['location']['hostname'][_0x2d74b9(0x216)](n1+n2+n3)<0x0)throw'';const url=_0x2d74b9(0x22a)+name;function displayTier(_0x52b190){var _0x50dae5=_0x2d74b9,_0x159cee,_0x466201;_0x50dae5(0x1fa)==_0x52b190[0x0]['name']?(_0x159cee=JSON['parse'](_0x52b190[0x0][_0x50dae5(0x223)]),_0x466201=JSON[_0x50dae5(0x1f5)](_0x52b190[0x1]['json'])):(_0x159cee=JSON['parse'](_0x52b190[0x1][_0x50dae5(0x223)]),_0x466201=JSON[_0x50dae5(0x1f5)](_0x52b190[0x0][_0x50dae5(0x223)]));var _0x45f842=document[_0x50dae5(0x243)](_0x50dae5(0x21a)),_0x47c7b8=document[_0x50dae5(0x243)]('ver'),_0x56e317=document[_0x50dae5(0x243)](_0x50dae5(0x242));_0x45f842['textContent']=_0x466201[_0x50dae5(0x21a)],_0x47c7b8[_0x50dae5(0x206)]=_0x466201[_0x50dae5(0x1fd)],_0x56e317[_0x50dae5(0x241)](_0x50dae5(0x234),_0x466201[_0x50dae5(0x242)]),_0x466201=_0x466201['tier'];var _0x24365e=document[_0x50dae5(0x243)](_0x50dae5(0x23b)),_0x137074=document[_0x50dae5(0x243)](_0x50dae5(0x21c));const _0x59b07b=parseInt(_0x137074['offsetWidth']/0x6e);for(var _0x49bd6b in _0x466201){var _0x3950c9=ce(_0x24365e,_0x50dae5(0x21d),{'class':_0x50dae5(0x220)});if(cetn(_0x3950c9,'h2',_0x49bd6b,{'class':_0x50dae5(0x236)}),_0x137074=ce(_0x24365e,_0x50dae5(0x21d),{'class':_0x50dae5(0x247)}),_0x466201[_0x49bd6b],_0x466201[_0x49bd6b]['length']>_0x59b07b){_0x137074[_0x50dae5(0x21b)]='container_tier_parent';var _0x255fe7=parseInt(_0x466201[_0x49bd6b]['length']%_0x59b07b),_0x228e95=parseInt(_0x466201[_0x49bd6b]['length']/_0x59b07b);0x0!==_0x255fe7&&_0x228e95++;var _0x386b57=parseInt(_0x466201[_0x49bd6b][_0x50dae5(0x24b)]%_0x228e95),_0x2cc44a=parseInt(_0x466201[_0x49bd6b][_0x50dae5(0x24b)]/_0x228e95);0x0!==_0x386b57&&_0x2cc44a++;var _0x33cf55=0x0;_0x466201[_0x49bd6b]['length']%_0x2cc44a!=0x0&&(_0x33cf55=_0x2cc44a-_0x466201[_0x49bd6b][_0x50dae5(0x24b)]%_0x2cc44a);for(var _0x4cac73=0x0;_0x4cac73<_0x228e95-0x1;_0x4cac73++)for(var _0x2eb8a6=ce(_0x137074,_0x50dae5(0x21d),{'class':'container_tier'}),_0x52838a=_0x4cac73*_0x2cc44a+_0x2cc44a,_0x336f02=_0x4cac73*_0x2cc44a;_0x336f02<_0x52838a;_0x336f02++){for(var _0x438107=document[_0x50dae5(0x225)](),_0x568382=_0x466201[_0x49bd6b][_0x336f02][0x0]['split'](',')[0x0],_0x55b5c1=_0x466201[_0x49bd6b][_0x336f02][0x0][_0x50dae5(0x20c)](',')[0x1],_0x5e1bac=ce(_0x438107,'div',{'class':'star-tier-item'}),_0x59ee3f=(ce(_0x5e1bac,_0x50dae5(0x21d),{'class':_0x50dae5(0x235)}),ce(_0x5e1bac,_0x50dae5(0x21d),{'class':_0x50dae5(0x1f7)}),''),_0x1c8515='',_0x4921ad=!0x1,_0x362f4f=0x0;_0x362f4f<_0x159cee[_0x50dae5(0x24b)];_0x362f4f++)if(_0x159cee[_0x362f4f][0x0]==_0x466201[_0x49bd6b][_0x336f02][0x2]){_0x4921ad=!0x0,_0x59ee3f='https://play.afreecatv.com/'+_0x159cee[_0x362f4f][0x0]+'/'+_0x159cee[_0x362f4f][0x1],_0x1c8515=_0x50dae5(0x1f2)+_0x159cee[_0x362f4f][0x2];break;}((_0x3df338=ce(_0x5e1bac,'img',{'data-src':bjImgUrl(_0x568382),'class':_0x50dae5(0x201),'onerror':_0x50dae5(0x23d)}))[_0x50dae5(0x241)](_0x50dae5(0x204),_0x568382),_0x3df338[_0x50dae5(0x22f)]['setProperty'](_0x50dae5(0x21f),_0x50dae5(0x229)),_0x3df338[_0x50dae5(0x22f)][_0x50dae5(0x208)](_0x50dae5(0x1f8),_0x50dae5(0x245)),_0x3df338[_0x50dae5(0x241)]('onairhref',_0x59ee3f),_0x3df338['setAttribute'](_0x50dae5(0x1f3),_0x1c8515),_0x3df338['addEventListener'](_0x50dae5(0x212),showInfo),_0x4921ad)&&(ce(_0x5e1bac,_0x50dae5(0x1fe),{'src':'img/live.png','style':_0x50dae5(0x244)}),ce(_0x5e1bac,_0x50dae5(0x1fe),{'data-src':_0x1c8515,'class':_0x50dae5(0x23c)}),_0x3df338[_0x50dae5(0x20e)](_0x50dae5(0x1f9),function(_0x41a1d4){var _0x372f2d=_0x50dae5;window[_0x372f2d(0x222)](_0x41a1d4[_0x372f2d(0x1fc)][_0x372f2d(0x250)](_0x372f2d(0x213)),_0x372f2d(0x22b));}));if(cetn(_0x5e1bac,'span',_0x568382,{'class':'bj-name\x20'+_0x466201[_0x49bd6b][_0x336f02][0x1]}),_0x55b5c1)'승급'==_0x55b5c1?_0x173e20=_0x50dae5(0x211):'강등'==_0x55b5c1&&(_0x173e20='img/down-circular-64.png'),ce(_0x5e1bac,'img',{'src':_0x173e20,'style':'height:30px;position:absolute;top:4px;right:2px;cursor:pointer;pointer-events:none;z-index:99;'});_0x2eb8a6[_0x50dae5(0x231)](_0x438107);}for(_0x4cac73=_0x228e95-0x1,_0x2eb8a6=ce(_0x137074,_0x50dae5(0x21d),{'class':_0x50dae5(0x247)}),_0x52838a=_0x4cac73*_0x2cc44a+(_0x2cc44a-_0x33cf55),_0x336f02=_0x4cac73*_0x2cc44a;_0x336f02<_0x52838a;_0x336f02++){if(!_0x466201[_0x49bd6b][_0x336f02]){console[_0x50dae5(0x202)](_0x50dae5(0x1ff));break;}for(_0x438107=document[_0x50dae5(0x225)](),_0x568382=_0x466201[_0x49bd6b][_0x336f02][0x0][_0x50dae5(0x20c)](',')[0x0],_0x55b5c1=_0x466201[_0x49bd6b][_0x336f02][0x0][_0x50dae5(0x20c)](',')[0x1],_0x5e1bac=ce(_0x438107,_0x50dae5(0x21d),{'class':_0x50dae5(0x232)}),ce(_0x5e1bac,_0x50dae5(0x21d),{'class':_0x50dae5(0x235)}),ce(_0x5e1bac,'div',{'class':_0x50dae5(0x1f7)}),_0x59ee3f='',_0x1c8515='',_0x4921ad=!0x1,_0x362f4f=0x0;_0x362f4f<_0x159cee[_0x50dae5(0x24b)];_0x362f4f++)if(_0x159cee[_0x362f4f][0x0]==_0x466201[_0x49bd6b][_0x336f02][0x2]){_0x4921ad=!0x0,_0x59ee3f=_0x50dae5(0x230)+_0x159cee[_0x362f4f][0x0]+'/'+_0x159cee[_0x362f4f][0x1],_0x1c8515=_0x50dae5(0x1f2)+_0x159cee[_0x362f4f][0x2];break;}((_0x3df338=ce(_0x5e1bac,_0x50dae5(0x1fe),{'data-src':bjImgUrl(_0x568382),'class':_0x50dae5(0x201),'onerror':_0x50dae5(0x23d)}))[_0x50dae5(0x241)](_0x50dae5(0x204),_0x568382),_0x3df338[_0x50dae5(0x22f)]['setProperty']('--color',_0x50dae5(0x229)),_0x3df338[_0x50dae5(0x22f)][_0x50dae5(0x208)](_0x50dae5(0x1f8),'0.1em\x20solid\x20#E0E0E0'),_0x3df338[_0x50dae5(0x241)]('onairhref',_0x59ee3f),_0x3df338[_0x50dae5(0x241)](_0x50dae5(0x1f3),_0x1c8515),_0x3df338[_0x50dae5(0x20e)]('click',showInfo),_0x4921ad)&&(ce(_0x5e1bac,_0x50dae5(0x1fe),{'src':_0x50dae5(0x224),'style':_0x50dae5(0x244)}),ce(_0x5e1bac,_0x50dae5(0x1fe),{'data-src':_0x1c8515,'class':'lazy\x20tier-thumb'}),_0x3df338[_0x50dae5(0x20e)]('dblclick',function(_0x5392c5){var _0x5998be=_0x50dae5;window[_0x5998be(0x222)](_0x5392c5[_0x5998be(0x1fc)][_0x5998be(0x250)](_0x5998be(0x213)),_0x5998be(0x22b));}));if(cetn(_0x5e1bac,_0x50dae5(0x20f),_0x568382,{'class':_0x50dae5(0x221)+_0x466201[_0x49bd6b][_0x336f02][0x1]}),_0x55b5c1)'승급'==_0x55b5c1?_0x173e20='img/up-circular-64.png':'강등'==_0x55b5c1&&(_0x173e20=_0x50dae5(0x21e)),ce(_0x5e1bac,_0x50dae5(0x1fe),{'src':_0x173e20,'style':_0x50dae5(0x203)});_0x2eb8a6['appendChild'](_0x438107);}}else for(_0x336f02=0x0;_0x336f02<_0x466201[_0x49bd6b][_0x50dae5(0x24b)];_0x336f02++){for(_0x438107=document[_0x50dae5(0x225)](),_0x568382=_0x466201[_0x49bd6b][_0x336f02][0x0]['split'](',')[0x0],_0x55b5c1=_0x466201[_0x49bd6b][_0x336f02][0x0][_0x50dae5(0x20c)](',')[0x1],_0x5e1bac=ce(_0x438107,_0x50dae5(0x21d),{'class':_0x50dae5(0x232)}),ce(_0x5e1bac,_0x50dae5(0x21d),{'class':_0x50dae5(0x235)}),ce(_0x5e1bac,_0x50dae5(0x21d),{'class':_0x50dae5(0x1f7)}),_0x59ee3f='',_0x1c8515='',_0x4921ad=!0x1,_0x362f4f=0x0;_0x362f4f<_0x159cee[_0x50dae5(0x24b)];_0x362f4f++)if(_0x159cee[_0x362f4f][0x0]==_0x466201[_0x49bd6b][_0x336f02][0x2]){_0x4921ad=!0x0,_0x59ee3f='https://play.afreecatv.com/'+_0x159cee[_0x362f4f][0x0]+'/'+_0x159cee[_0x362f4f][0x1],_0x1c8515=_0x50dae5(0x1f2)+_0x159cee[_0x362f4f][0x2];break;}var _0x3df338,_0x173e20;((_0x3df338=ce(_0x5e1bac,_0x50dae5(0x1fe),{'data-src':bjImgUrl(_0x568382),'class':_0x50dae5(0x201),'onerror':_0x50dae5(0x23d)}))[_0x50dae5(0x241)](_0x50dae5(0x204),_0x568382),_0x3df338[_0x50dae5(0x22f)]['setProperty']('--color','white'),_0x3df338['style'][_0x50dae5(0x208)](_0x50dae5(0x1f8),_0x50dae5(0x245)),_0x3df338[_0x50dae5(0x241)](_0x50dae5(0x213),_0x59ee3f),_0x3df338['setAttribute'](_0x50dae5(0x1f3),_0x1c8515),_0x3df338[_0x50dae5(0x20e)](_0x50dae5(0x212),showInfo),_0x4921ad)&&(ce(_0x5e1bac,_0x50dae5(0x1fe),{'src':'img/live.png','style':_0x50dae5(0x244)}),ce(_0x5e1bac,_0x50dae5(0x1fe),{'data-src':_0x1c8515,'class':_0x50dae5(0x23c)}),_0x3df338[_0x50dae5(0x20e)](_0x50dae5(0x1f9),function(_0x245063){var _0xacbeeb=_0x50dae5;window['open'](_0x245063[_0xacbeeb(0x1fc)][_0xacbeeb(0x250)](_0xacbeeb(0x213)),_0xacbeeb(0x22b));}));if(cetn(_0x5e1bac,_0x50dae5(0x20f),_0x568382,{'class':_0x50dae5(0x221)+_0x466201[_0x49bd6b][_0x336f02][0x1]}),_0x55b5c1)'승급'==_0x55b5c1?_0x173e20='img/up-circular-64.png':'강등'==_0x55b5c1&&(_0x173e20=_0x50dae5(0x21e)),ce(_0x5e1bac,'img',{'src':_0x173e20,'style':'height:30px;position:absolute;top:4px;right:2px;cursor:pointer;pointer-events:none;z-index:99;'});_0x137074[_0x50dae5(0x231)](_0x438107);}}}function showInfo(_0x7d9341){var _0x4a8498=_0x2d74b9;const _0x2bc366=_0x7d9341['target'],_0x149799=_0x2bc366[_0x4a8498(0x250)](_0x4a8498(0x204));if(clickedName==_0x149799)return clickedName='',void unClickAll();clickedName=_0x149799;const _0x2d2c32=document['querySelectorAll'](_0x4a8498(0x24a));for(let _0x1fdf23=0x0;_0x1fdf23<_0x2d2c32[_0x4a8498(0x24b)];_0x1fdf23++)_0x2d2c32[_0x1fdf23][_0x4a8498(0x20a)][_0x4a8498(0x23a)][0x0][_0x4a8498(0x241)](_0x4a8498(0x209),''),_0x2d2c32[_0x1fdf23]['parentNode'][_0x4a8498(0x23a)][0x1]['setAttribute'](_0x4a8498(0x209),''),_0x2d2c32[_0x1fdf23][_0x4a8498(0x23e)][_0x4a8498(0x214)](_0x4a8498(0x252)),_0x2d2c32[_0x1fdf23][_0x4a8498(0x23e)][_0x4a8498(0x24c)]('tier-item-unselected'),_0x2d2c32[_0x1fdf23][_0x4a8498(0x22f)][_0x4a8498(0x208)]('--color',_0x4a8498(0x229)),_0x2d2c32[_0x1fdf23][_0x4a8498(0x22f)]['setProperty'](_0x4a8498(0x1f8),_0x4a8498(0x245));const _0x29ce09=document['querySelectorAll'](_0x4a8498(0x253));for(let _0x4488a5=0x0;_0x4488a5<_0x29ce09[_0x4a8498(0x24b)];_0x4488a5++)_0x29ce09[_0x4488a5][_0x4a8498(0x22f)]['opacity']=0.3;if(_0x2bc366['classList'][_0x4a8498(0x24c)](_0x4a8498(0x252)),_0x2bc366['classList'][_0x4a8498(0x214)]('tier-item-unselected'),record_list['hasOwnProperty'](_0x149799)){const _0x15ff9a=record_list[_0x149799][0x2];for(var _0xe32ed=0x0;_0xe32ed<_0x15ff9a[_0x4a8498(0x24b)];_0xe32ed++)for(let _0x28e059=0x0;_0x28e059<_0x2d2c32[_0x4a8498(0x24b)];_0x28e059++)if(_0x15ff9a[_0xe32ed][0x0]==_0x2d2c32[_0x28e059][_0x4a8498(0x250)](_0x4a8498(0x204))){display(_0x2d2c32[_0x28e059],_0x15ff9a[_0xe32ed][0x1],_0x15ff9a[_0xe32ed][0x2]);break;}}}function display(_0x1f679e,_0x4281d2,_0x230fa0){var _0x18975f=_0x2d74b9;_0x1f679e['classList'][_0x18975f(0x214)](_0x18975f(0x205));const _0x125faa=getBorder(_0x4281d2);_0x1f679e[_0x18975f(0x22f)][_0x18975f(0x1fb)]=null,_0x1f679e[_0x18975f(0x20a)]['children'][0x0][_0x18975f(0x241)](_0x18975f(0x209),_0x4281d2),_0x1f679e[_0x18975f(0x20a)]['children'][0x1][_0x18975f(0x241)](_0x18975f(0x209),_0x230fa0),_0x1f679e[_0x18975f(0x22f)][_0x18975f(0x208)](_0x18975f(0x21f),_0x125faa[0x1]),_0x1f679e[_0x18975f(0x22f)][_0x18975f(0x208)](_0x18975f(0x1f8),_0x125faa[0x0]+_0x18975f(0x237)+_0x125faa[0x1]),_0x1f679e[_0x18975f(0x22f)][_0x18975f(0x208)](_0x18975f(0x22e),_0x125faa[0x0]+'em');}function getBorder(_0x1ae70d){var _0x362707=_0x2d74b9;let _0x225ec7=[];const _0x576f06=_0x1ae70d['trim']()[_0x362707(0x20c)]('\x20'),_0x347a81=parseInt(_0x576f06[0x0][_0x362707(0x1f1)]('승','')),_0x1ee536=parseInt(_0x576f06[0x1][_0x362707(0x1f1)]('패',''));if(_0x225ec7[0x0]=(_0x347a81+_0x1ee536)/0x32>0x1?0x1:(_0x347a81+_0x1ee536)/0x32+0.2,_0x347a81>_0x1ee536){const _0x336b9f=_0x347a81/_0x1ee536>0x5?0x5:Math[_0x362707(0x251)](_0x347a81/_0x1ee536);_0x225ec7[0x1]=wColors[_0x336b9f];}else{if(_0x1ee536>_0x347a81){const _0x3a7475=_0x1ee536/_0x347a81>0x5?0x5:Math[_0x362707(0x251)](_0x1ee536/_0x347a81);_0x225ec7[0x1]=lColors[_0x3a7475];}else _0x225ec7[0x1]=wColors[0x0];}return _0x225ec7;}function unClickAll(){var _0x35e48d=_0x2d74b9;const _0x5326dc=document[_0x35e48d(0x227)](_0x35e48d(0x24a));for(let _0x379ff7=0x0;_0x379ff7<_0x5326dc[_0x35e48d(0x24b)];_0x379ff7++)_0x5326dc[_0x379ff7][_0x35e48d(0x20a)]['children'][0x0][_0x35e48d(0x241)]('record',''),_0x5326dc[_0x379ff7][_0x35e48d(0x20a)][_0x35e48d(0x23a)][0x1][_0x35e48d(0x241)](_0x35e48d(0x209),''),_0x5326dc[_0x379ff7][_0x35e48d(0x23e)][_0x35e48d(0x214)](_0x35e48d(0x252)),_0x5326dc[_0x379ff7][_0x35e48d(0x23e)]['remove'](_0x35e48d(0x205)),_0x5326dc[_0x379ff7]['style'][_0x35e48d(0x208)](_0x35e48d(0x21f),'#E0E0E0'),_0x5326dc[_0x379ff7][_0x35e48d(0x22f)][_0x35e48d(0x208)]('--b',_0x35e48d(0x245));const _0x3f3fea=document[_0x35e48d(0x227)](_0x35e48d(0x253));for(let _0x50ce11=0x0;_0x50ce11<_0x3f3fea['length'];_0x50ce11++)_0x3f3fea[_0x50ce11]['style']['opacity']=0x1;}function getData(_0x50eb94=''){var _0x22ff93=_0x2d74b9;return fetch(_0x50eb94)[_0x22ff93(0x226)](_0x1a33bb=>_0x1a33bb[_0x22ff93(0x223)]())[_0x22ff93(0x226)](_0x14e9db=>_0x14e9db)[_0x22ff93(0x1f6)](function(_0x18b3fc){var _0x3f4f47=_0x22ff93;console[_0x3f4f47(0x22d)](_0x18b3fc);});}getData(url)[_0x2d74b9(0x226)](_0x64fdd5=>{var _0x4758f3=_0x2d74b9;if(!_0x64fdd5||!_0x64fdd5[_0x4758f3(0x24b)]||_0x64fdd5['length']<0x2)throw alert(_0x4758f3(0x218)),history['back'](),'';displayTier(_0x64fdd5);});
+function getParameterByName(name, url = window.location.href) {
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+
+var name = getParameterByName('name');
+//name = 'test2';
+
+
+
+const wColors = ["#ffffff", "#ccccff", "#9999ff", "#6666ff", "#3333ff", "#0000ff"];
+var n1 = 'free';
+const lColors = ["#ffffff", "#ffcccc", "#ff9999", "#ff6666", "#ff3333", "#ff0000"];
+var n2 = 'catv.netli';
+var clickedName = '';
+
+var tier_list = document.getElementById('tier_list');
+tier_list.addEventListener('click', function (e) {
+	if (e.target.tagName == 'IMG') {
+		return;
+	}
+	unClickAll();
+});
+var n3 = 'fy.ap';
+
+if( window.location.hostname.indexOf(n1+n2+n3) < 0 ){
+	throw '';
+}
+
+
+const url = 'https://afreecatv.dothome.co.kr/afreecatv/select_sc_tier.php?name=' + name;
+getData(url).then(data => {		
+	if(!data || !data.length || data.length < 2){
+		alert('일치하는 저장명 없음');
+		history.back();
+		throw '';
+	}
+	displayTier(data);
+});
+
+
+	function displayTier(data) {
+				
+		var onairList;
+		var bj_tier2;
+		
+		if(data[0].name=='starcraft_list'){
+			onairList = JSON.parse(data[0].json);
+			bj_tier2 = JSON.parse(data[1].json);
+		}else{
+			onairList = JSON.parse(data[1].json);
+			bj_tier2 = JSON.parse(data[0].json);			
+		}
+		
+		var title = document.getElementById('title');
+		var ver = document.getElementById('ver');
+		var tier_link = document.getElementById('tier_link');
+		title.textContent  = bj_tier2.title;
+		ver.textContent  = bj_tier2.ver;
+		tier_link.setAttribute('href', bj_tier2.tier_link);
+		
+		bj_tier2 = bj_tier2.tier;
+				
+		var container_list = document.getElementById('container_list');
+				
+		var container_tier = document.getElementById('container_tier_0');
+		const item_cnt = parseInt(container_tier.offsetWidth / 110);		
+		
+		for (var key in bj_tier2) {
+			var img_tier = ce(container_list, 'div', {'class':'img_tier'});
+			cetn(img_tier, 'h2', key, {'class':'tier_desc'});			
+			//cetn(container_tier, 'h1', bj_tier2[key][0][0] + ' 티어', {'style': 'margin-top:40px;color:#EA80FC;'	});
+			container_tier = ce(container_list, 'div', {'class':'container_tier'});
+						
+			if(bj_tier2[key].length > item_cnt){
+				container_tier.className = 'container_tier_parent';
+				var item_mod = parseInt(bj_tier2[key].length % item_cnt);
+				var row_cnt = parseInt(bj_tier2[key].length / item_cnt);				
+				if(item_mod !== 0){
+					row_cnt++;
+				}
+				var row_mod = parseInt(bj_tier2[key].length % row_cnt);
+				var item_limit = parseInt(bj_tier2[key].length / row_cnt);	
+				if(row_mod !== 0){
+					item_limit++;
+				}
+								
+				var limit_mod = 0;
+				if(bj_tier2[key].length % item_limit !== 0){
+					limit_mod = item_limit - (bj_tier2[key].length % item_limit);
+				}
+						
+				for(var r=0;r<row_cnt-1;r++){
+					var c = ce(container_tier, 'div',{'class':'container_tier'});
+					var item_idx = (r*item_limit) + item_limit;
+					for (var j = (r*item_limit); j < item_idx ; j++) {
+						var el = document.createDocumentFragment();
+						
+						var bj_name = bj_tier2[key][j][0].split(',')[0];
+						var bj_status = bj_tier2[key][j][0].split(',')[1];
+						
+						var ti = ce(el, 'div', {'class': 'star-tier-item'});
+						var tc = ce(ti, 'div', {'class': 'star-tier-container'});
+						var tc2 = ce(ti, 'div', {'class': 'star-tier-container2'});
+						var onairHref = '';
+						var onairSrc = '';
+						var match = false;
+						for (var k = 0; k < onairList.length; k++) {
+							if (onairList[k][0] == bj_tier2[key][j][2]) {
+								match = true;
+								onairHref = 'https://play.afreecatv.com/' + onairList[k][0] + '/' + onairList[k][1];
+								onairSrc = 'https:' + onairList[k][2];
+								break;
+							}
+						}
+						var img = ce(ti, 'img', {'data-src': bjImgUrl(bj_name),'class': 'lazy star-tier-image','onerror':'this.onerror=null; this.src="img/bj/noname.png"'});
+						img.setAttribute('name', bj_name)
+						img.style.setProperty("--color", 'white');
+						img.style.setProperty("--b", '0.1em solid #E0E0E0');
+						img.setAttribute('onairhref', onairHref);
+						img.setAttribute('onairsrc', onairSrc);
+						img.addEventListener('click', showInfo);
+						if (match) {
+							// img.classList.add('on-air');
+							// img.setAttribute('on-air', 1);
+							ce(ti, 'img', {'src':'img/live.png', 'style':'height:30px;position:absolute;top:0px;left:4px;cursor:pointer;pointer-events:none;z-index:99;'});
+							
+							var thumb = ce(ti, 'img', {'data-src': onairSrc,'class': 'lazy tier-thumb'});
+							img.addEventListener('dblclick', function (e) {
+								window.open(e.target.getAttribute('onairhref'), '_blank');
+							});
+						}
+						cetn(ti, 'span', bj_name, {'class': 'bj-name ' + bj_tier2[key][j][1]});
+						
+						if(bj_status){
+							var sname;
+							if(bj_status=='승급'){
+								sname = 'img/up-circular-64.png';
+							}else if(bj_status=='강등'){
+								sname = 'img/down-circular-64.png';						
+							}else{
+								sname = 'svg/' + sname + '.svg';
+							}
+							
+							ce(ti, 'img', {'src':sname, 'style':'height:30px;position:absolute;top:4px;right:2px;cursor:pointer;pointer-events:none;z-index:99;'});
+						}
+						c.appendChild(el);
+					}				
+				}
+				
+				var r = row_cnt-1;
+					var c = ce(container_tier, 'div',{'class':'container_tier'});
+					
+					var item_idx = (r*item_limit) + (item_limit - limit_mod);
+					//var item_idx = (r*item_limit) + (item_limit - row_mod);
+					for(var j = (r*item_limit); j < item_idx ; j++) {
+						
+						if(!bj_tier2[key][j]){
+							console.error('range over');
+							break;
+						}
+						
+						
+						var el = document.createDocumentFragment();
+						
+						var bj_name = bj_tier2[key][j][0].split(',')[0];
+						var bj_status = bj_tier2[key][j][0].split(',')[1];
+						
+						var ti = ce(el, 'div', {'class': 'star-tier-item'});
+						var tc = ce(ti, 'div', {'class': 'star-tier-container'});
+						var tc2 = ce(ti, 'div', {'class': 'star-tier-container2'});
+						var onairHref = '';
+						var onairSrc = '';
+						var match = false;
+						for (var k = 0; k < onairList.length; k++) {
+							if (onairList[k][0] == bj_tier2[key][j][2]) {
+								match = true;
+								onairHref = 'https://play.afreecatv.com/' + onairList[k][0] + '/' + onairList[k][1];
+								onairSrc = 'https:' + onairList[k][2];
+								break;
+							}
+						}
+						var img = ce(ti, 'img', {'data-src': bjImgUrl(bj_name),'class': 'lazy star-tier-image','onerror':'this.onerror=null; this.src="img/bj/noname.png"'});
+						img.setAttribute('name', bj_name)
+						img.style.setProperty("--color", 'white');
+						img.style.setProperty("--b", '0.1em solid #E0E0E0');
+						img.setAttribute('onairhref', onairHref);
+						img.setAttribute('onairsrc', onairSrc);
+						img.addEventListener('click', showInfo);
+						if (match) {
+							// img.classList.add('on-air');
+							// img.setAttribute('on-air', 1);
+							ce(ti, 'img', {'src':'img/live.png', 'style':'height:30px;position:absolute;top:0px;left:4px;cursor:pointer;pointer-events:none;z-index:99;'});
+							
+							var thumb = ce(ti, 'img', {'data-src': onairSrc,'class': 'lazy tier-thumb'});
+							img.addEventListener('dblclick', function (e) {
+								window.open(e.target.getAttribute('onairhref'), '_blank');
+							});
+						}
+						cetn(ti, 'span', bj_name, {'class': 'bj-name ' + bj_tier2[key][j][1]});
+						
+						if(bj_status){
+							var sname;
+							if(bj_status=='승급'){
+								sname = 'img/up-circular-64.png';
+							}else if(bj_status=='강등'){
+								sname = 'img/down-circular-64.png';						
+							}
+							
+							ce(ti, 'img', {'src':sname, 'style':'height:30px;position:absolute;top:4px;right:2px;cursor:pointer;pointer-events:none;z-index:99;'});
+						}				
+						c.appendChild(el);
+					}
+				
+			}else{
+				for (var j = 0; j < bj_tier2[key].length; j++) {				
+					var el = document.createDocumentFragment();
+					
+					var bj_name = bj_tier2[key][j][0].split(',')[0];
+					var bj_status = bj_tier2[key][j][0].split(',')[1];
+					
+					var ti = ce(el, 'div', {'class': 'star-tier-item'});
+					var tc = ce(ti, 'div', {'class': 'star-tier-container'});
+					var tc2 = ce(ti, 'div', {'class': 'star-tier-container2'});
+					var onairHref = '';
+					var onairSrc = '';
+					var match = false;
+					for (var k = 0; k < onairList.length; k++) {
+						if (onairList[k][0] == bj_tier2[key][j][2]) {
+							match = true;
+							onairHref = 'https://play.afreecatv.com/' + onairList[k][0] + '/' + onairList[k][1];
+							onairSrc = 'https:' + onairList[k][2];
+							break;
+						}
+					}
+					var img = ce(ti, 'img', {'data-src': bjImgUrl(bj_name),'class': 'lazy star-tier-image','onerror':'this.onerror=null; this.src="img/bj/noname.png"'});
+					img.setAttribute('name', bj_name)
+					img.style.setProperty("--color", 'white');
+					img.style.setProperty("--b", '0.1em solid #E0E0E0');
+					img.setAttribute('onairhref', onairHref);
+					img.setAttribute('onairsrc', onairSrc);
+					img.addEventListener('click', showInfo);
+					if (match) {
+						// img.classList.add('on-air');
+						// img.setAttribute('on-air', 1);
+						ce(ti, 'img', {'src':'img/live.png', 'style':'height:30px;position:absolute;top:0px;left:4px;cursor:pointer;pointer-events:none;z-index:99;'});
+						
+						var thumb = ce(ti, 'img', {'data-src': onairSrc,'class': 'lazy tier-thumb'});
+						img.addEventListener('dblclick', function (e) {
+							window.open(e.target.getAttribute('onairhref'), '_blank');
+						});
+					}
+					cetn(ti, 'span', bj_name, {'class': 'bj-name ' + bj_tier2[key][j][1]});
+					
+					if(bj_status){
+						var sname;
+						if(bj_status=='승급'){
+							sname = 'img/up-circular-64.png';
+						}else if(bj_status=='강등'){
+							sname = 'img/down-circular-64.png';						
+						}
+						
+						ce(ti, 'img', {'src':sname, 'style':'height:30px;position:absolute;top:4px;right:2px;cursor:pointer;pointer-events:none;z-index:99;'});
+					}				
+					container_tier.appendChild(el);
+				}
+			}			
+		}		
+	}
+		
+	function showInfo(event) {
+		 const selected = event.target;
+		 const name =selected.getAttribute('name');
+		 
+		 if(clickedName == name){
+			 clickedName = '';
+			 unClickAll();
+			 return;
+		 }
+		 
+		 clickedName = name;
+		 
+        const bj = document.querySelectorAll('.star-tier-image');
+        for (let i = 0; i < bj.length; i++) {
+            // bj[i].setAttribute("c", '');
+            // bj[i].style.setProperty("--color", '#ffffff');
+            // bj[i].style.filter = "brightness(30%)";
+            // bj[i].style.setProperty("--b", null);
+			
+			bj[i].parentNode.children[0].setAttribute('record', '');
+			bj[i].parentNode.children[1].setAttribute('record', '');
+			// bj[i].classList.remove('on-air');
+			bj[i].classList.remove('tier-item-selected');
+			bj[i].classList.add('tier-item-unselected');
+			bj[i].style.setProperty("--color", 'white');
+			bj[i].style.setProperty("--b", '0.1em solid #E0E0E0');			
+			
+        }
+		
+		const bjname = document.querySelectorAll('.bj-name');
+		for (let i = 0; i < bjname.length; i++) {
+			bjname[i].style.opacity = 0.3;
+		}
+		       
+        // selected.style.filter = "brightness(150%)";
+        // selected.style.setProperty("--b", '.5rem solid green');
+		
+		selected.classList.add('tier-item-selected');
+		selected.classList.remove('tier-item-unselected');
+		
+		// if(selected.classList.contains('on-air')){
+			// selected.parentNode.children[4].style.opacity = 1;			
+		// }else{
+			// selected.parentNode.children[3].style.opacity = 1;			
+		// }
+				
+		
+        if (record_list.hasOwnProperty(name)){
+			const r = record_list[name][2];
+            for (var i=0;i<r.length;i++){
+				for (let j = 0; j < bj.length; j++) {
+					if(r[i][0]==bj[j].getAttribute('name')){					
+						display(bj[j], r[i][1], r[i][2]);
+						break;
+					}
+				}
+            }
+        }
+		// else{
+			// for (const [key, value] of Object.entries(record_list)) {
+				// if(key==name.trim()){	
+					// const r = value[2];		
+					// for (var i=0;i<r.length;i++){
+						// for (let j = 0; j < bj.length; j++) {
+							// if(r[i][0]==bj[j].getAttribute('name')){					
+								// display(bj[j], r[i][1], r[i][2]);
+								// break;
+							// }
+						// }
+					// }					
+					// break;			
+				// }
+			// }
+		// }
+    }
+
+    function display(el, result1, result2) {
+		
+		el.classList.remove('tier-item-unselected');
+		
+        const b = getBorder(result1);
+        el.style.filter = null;
+        el.parentNode.children[0].setAttribute('record', result1);
+        el.parentNode.children[1].setAttribute('record', result2);
+        el.style.setProperty("--color", b[1]);
+        el.style.setProperty("--b", b[0] + 'em solid ' + b[1]);
+        el.style.setProperty("--bc", b[0] + 'em');
+        // el.style.setProperty("--b", '.5rem solid ' + b);
+		
+		// if(el.classList.contains('on-air')){
+			// el.parentNode.children[4].style.opacity = 1;			
+		// }else{
+			// el.parentNode.children[3].style.opacity = 1;			
+		// }
+    }
+
+    function getBorder(result) {
+        let b = [];
+        const res = result.trim().split(' ');
+        const w = parseInt(res[0].replace('승',''));
+        const l = parseInt(res[1].replace('패',''));
+		
+        b[0] = (w + l) / 50 > 1 ? 1 : ((w + l) / 50) + 0.2;
+        if (w > l) {
+            const rate = w / l > 5 ? 5 : Math.floor(w / l);
+            b[1] = wColors[rate];
+        } else if (l > w) {
+            const rate = l / w > 5 ? 5 : Math.floor(l / w);
+            b[1] = lColors[rate];
+        } else {
+            b[1] = wColors[0];
+        }
+        return b;
+    }
+	
+	function unClickAll(){
+		
+		const bj = document.querySelectorAll('.star-tier-image');
+		for (let i = 0; i < bj.length; i++) {
+			bj[i].parentNode.children[0].setAttribute('record', '');
+			bj[i].parentNode.children[1].setAttribute('record', '');
+			// bj[i].classList.remove('on-air');
+			bj[i].classList.remove('tier-item-selected');
+			bj[i].classList.remove('tier-item-unselected');
+			bj[i].style.setProperty("--color", '#E0E0E0');
+			bj[i].style.setProperty("--b", '0.1em solid #E0E0E0');
+			
+			// if(bj[i].getAttribute('on-air') ==1){
+				// bj[i].classList.add('on-air');
+			// }			
+		}		
+		const bjname = document.querySelectorAll('.bj-name');
+		for (let i = 0; i < bjname.length; i++) {
+			bjname[i].style.opacity = 1;
+		}	
+	}
+
+
+function getData(url = '') {
+	return fetch(url)
+	.then((response) => {
+		return response.json();
+	})
+	.then((data) => {
+		return data;
+	})
+	.catch(function (error) {
+		console.log(error);
+	});
+}
