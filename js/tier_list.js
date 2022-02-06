@@ -411,7 +411,7 @@ getData(url).then(data => {
 
 
 function getData(url = '') {
-	return fetch(url)
+	return fetch(url, {mode:'no-cors'})
 	.then((response) => {
 		return response.json();
 	})
