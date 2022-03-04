@@ -104,11 +104,18 @@ function jsonp(url, callback) {
 		// return 'https://s10.gifyu.com/images/bj_' + bj.romanize() + '.jpg';
 	// }
 // }
+// function bjImgUrl(bj){
+	// if(!bj || bj==''){
+		// return 'https://0000u.github.io/afreecatv/img/bj/noname.png';		
+	// }else{		
+		// return 'https://0000u.github.io/afreecatv/img/bj/' + bj + '.jpg';
+	// }
+// }
 function bjImgUrl(bj){
 	if(!bj || bj==''){
-		return 'https://0000u.github.io/afreecatv/img/bj/noname.png';		
+		return 'img/bj/noname.png';		
 	}else{		
-		return 'https://0000u.github.io/afreecatv/img/bj/' + bj + '.jpg';
+		return 'img/bj/' + bj + '.jpg';
 	}
 }
 
