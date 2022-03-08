@@ -4,7 +4,7 @@ function log(msg){
 }
 
 //displayData(data, filter);
-getDataAsync('http://aengji.dothome.co.kr/fifa/index.html').then(data => {
+getDataAsync('www.aengji.com/fifa/index.html').then(data => {
 	log(data);
 });
 
