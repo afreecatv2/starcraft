@@ -5,6 +5,7 @@ function log(msg){
 
 //displayData(data, filter);
 getDataAsync('www.aengji.com/fifa/index.html').then(data => {
+	log(1);
 	log(data);
 });
 
