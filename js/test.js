@@ -3,10 +3,8 @@ function log(msg){
 	console.log(msg);
 }
 
-
-log(1);
 //displayData(data, filter);
-getDataAsync('http://aengji.dothome.co.kr/fifa/index.html').then(data => {
+getDataAsync('//aengji.dothome.co.kr/fifa/index.html').then(data => {
 	log(data);
 });
 
