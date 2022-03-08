@@ -4,7 +4,7 @@ function log(msg){
 }
 
 //displayData(data, filter);
-getDataAsync('http://www.aengji.com/fifa/index.html').then(data => {
+getDataAsync('www.aengji.com/fifa/index.html').then(data => {
 	log(1);
 	log(data);
 });
@@ -32,7 +32,7 @@ async function getDataAsync(url) {
 		return;
 	}
 	var response = await fetch(url);
-	var data = await response.json();
+	var data = await response;
 	return data;
 }
 
