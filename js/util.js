@@ -113,9 +113,9 @@ function jsonp(url, callback) {
 // }
 function bjImgUrl(bj){
 	if(!bj || bj==''){
-		return '/img/bj/noname.png';		
+		return 'img/bj/noname.png';		
 	}else{		
-		return '/img/bj/' + bj + '.jpg';
+		return 'img/bj/' + bj + '.jpg';
 	}
 }
 
