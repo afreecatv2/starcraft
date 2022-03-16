@@ -93,11 +93,12 @@ html, body{
     position: absolute;
     left: -200px;
     top: -280px;
-	z-index:999;
+	z-index:998;
 	width:480px;
 	height:270px;
 	border: 0.1em solid white;
 }
+
 .tier-item:hover .tier-thumb{
 	display: block;
 }
@@ -197,6 +198,17 @@ html, body{
 	z-index: 3;
 }
 
+.broad-title{
+	display: none;
+    position: absolute;
+    left: -200px;
+    top: -280px;
+	z-index:999;
+	width:480px;
+	font-size:24px;
+	text-align:center;
+}
+
 .star-tier-item:hover .star-tier-container2{
 	display:flex;
 }
@@ -204,6 +216,9 @@ html, body{
 	display: block;
 }
 .star-tier-item:hover .tier-thumb{
+	display: block;
+}
+.star-tier-item:hover .broad-title{
 	display: block;
 }
 .on-air{
