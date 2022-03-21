@@ -111,6 +111,16 @@ function jsonp(url, callback) {
 		// return 'https://0000u.github.io/afreecatv/img/bj/' + bj + '.jpg';
 	// }
 // }
+
+// function bjImgUrl(bj){
+	// if(!bj || bj==''){
+		// return 'https://0000u.github.io/afreecatv/img/bj/noname.png';		
+	// }else{		
+		// return 'https://0000u.github.io/afreecatv/img/bj/' + bj + '.jpg';
+	// }
+// }
+
+
 function bjImgUrl(bj){
 	if(!bj || bj==''){
 		return 'img/bj/noname.png';		
@@ -119,15 +129,6 @@ function bjImgUrl(bj){
 	}
 }
 
-
-// function bjImgUrl(bj){
-	// if(!bj || bj==''){
-		// return 'img/bj/noname.png';		
-	// }else{		
-		// return 'img/bj/' + bj + '.jpg';
-	// }
-// }
-
 async function pageview() {
-	 await fetch("https://test.aengji.com/etc/pageview.php?url=" + 'sc-' + window.location.pathname);
+	 await fetch("/etc/pageview.php?url=" + window.location.pathname);
 }
