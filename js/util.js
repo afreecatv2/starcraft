@@ -130,5 +130,5 @@ function bjImgUrl(bj){
 }
 
 async function pageview() {
-	 await fetch("https://test.aengji.com/etc/pageview.php?url=" + 'univ-' + window.location.pathname);
+	 await fetch("https://test.aengji.com/etc/pageview.php?url=" + 'sc-' + window.location.pathname);
 }
