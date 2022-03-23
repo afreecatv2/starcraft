@@ -57,7 +57,7 @@ function textNode(node, t) {
 
 function popup2(msg) {
   var myDialog = document.createElement("dialog");
-  myDialog.style = "white-space: pre;padding:50px 100px 50px 100px;border:0.2em solid white;background-color:#333;color:white;font-size:1.4em;"
+  myDialog.style = "white-space: pre;padding:50px 100px 50px 100px;border:0.1em solid white;background-color:#1B0B33;color:white;font-size:1.4em;"
   document.body.appendChild(myDialog)
   var text = document.createTextNode(msg);
   myDialog.appendChild(text);
