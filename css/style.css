@@ -186,6 +186,8 @@ html, body{
 .span-button{
 	z-index: 3;
 	cursor: pointer;
+	font-size: 24px;
+	line-height: 32px;
 }
 .span-button2{
 	display: none;
