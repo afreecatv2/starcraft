@@ -1,19 +1,8 @@
-// log('profile_앵지'.romanize() + '.jpg');
-// log('profile_김윤환'.romanize() + '.jpg');
-// log('profile_김성대'.romanize() + '.jpg');
-// log('profile_혜로로'.romanize() + '.jpg');
-// log('profile_오세블리'.romanize() + '.jpg');
-// log('profile_늑대채린'.romanize() + '.jpg');
-// log('profile_이유란'.romanize() + '.jpg');
-// log('profile_러아'.romanize() + '.jpg');
-// log('profile_구루미'.romanize() + '.jpg');
-// log('profile_나무늘봉순'.romanize() + '.jpg');
-
-var aengji_settings = {"titles":["3","2","1","앵~~~","afreecaTV AengJi.","아프리카TV 앵지.","9집 가수 앵지.","공주상사 앵상무.","중수 저그 MidWater.","앵개! 앵개!","눈!코! 눈!코!","앵지는 카리나.","캄성여대 학생회장"],"aenggae":true,"aenggae_volume":"20","spon":[["tjfdk6664","공춘리"],["yeonee1129","다연"],["chzh1chzh","지유"],["dkssudzz11","미니쉘"],["mudorl","무찌"],["kzzang96","경짱"],["hy4985","옆집뽀누나"],["zalalz","뚜밥"],["msuk2017","모꿀몬"],["cyj982002","다나짱"]],"cswu":[["gks2wl",""],["brainzerg7",""],["tjdeosks",""],["llqqqq",""],["impact501",""],["forweourus",""],["smmms2002",""],["clclcl8888",""],["9rumee",""],["yjk011599",""]]}
+var univ_settings = {"fav_idx":0, "fav":[[],[],[],[]]};
 loadSettings();
 
 function loadSettings(){
-	aengji_settings = JSON.parse(localStorage.getItem('aengji_settings')) || aengji_settings;
+	univ_settings = JSON.parse(localStorage.getItem('univ_settings')) || univ_settings;
 }
 
 function log(m){
@@ -119,7 +108,6 @@ function jsonp(url, callback) {
 		// return 'https://0000u.github.io/afreecatv/img/bj/' + bj + '.jpg';
 	// }
 // }
-
 
 function bjImgUrl(bj){
 	if(!bj || bj==''){

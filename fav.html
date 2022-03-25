@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>앵게임넷 - 홈</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="keywords" content="Aenggamenet, 앵게임넷">
+		<meta name="description" content="Aenggamenet, 앵게임넷">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/modal.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/fav.css">
+		<link rel="stylesheet" type="text/css" href="css/menu.css">
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
+	</head>
+	<body>
+		<div class="header">
+			<nav class="sub-menu white">
+				<ul>
+					<li class="active"><a href="fav.html">즐겨찾기</a></li>
+					<li><a href="tier.html">티어표</a></li>
+					<li><a href="#" onclick="return false;">FA(작업중)</a></li>
+					<li><a href="cswu.html">캄성</a></li>
+					<li><a href="ukkz.html">우끼끼즈</a></li>
+					<li><a href="hakvard.html">학버드</a></li>
+					<li><a href="midas.html">미다스</a></li>
+					<li><a href="ysu.html">염석대</a></li>
+					<li><a href="cp.html">CP</a></li>
+					<li><a href="pist.html">파이스트</a></li>
+					<li><a href="cgj.html">철기중대</a></li>
+					<li><a href="nsu.html">NSU</a></li>
+					<li><a href="jsa.html">JSA</a></li>
+					<li><a href="mcu.html">무친대</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div>
+		<div style="width:100%;margin-top: 50px;display:flex;justify-content: center">
+			<div style="display:flex;flex-direction:row;margin-bottom:10px;">
+				<div style="margin-right:4px;">
+					<input id="fav0" name="fav" value=0 type="radio">
+					<label for="fav0"> <span></span>사용 안함 </label>
+				</div>
+				<div style="margin-right:4px;">
+					<input id="fav1" name="fav" value=1 type="radio">
+					<label for="fav1"> <span></span>즐겨찾기 1 </label>
+				</div>
+				<div style="margin-right:4px;">
+					<input id="fav2" name="fav" value=2 checked="checked" type="radio">
+					<label for="fav2"> <span></span>즐겨찾기 2 </label>
+				</div>
+				<div style="margin-right:4px;">
+					<input id="fav3" name="fav" value=3 type="radio">
+					<label for="fav3"> <span></span>즐겨찾기 3 </label>
+				</div>
+			</div>
+			<button id="btn_insert" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" style="color:#1c46ae;background-color:#fff;margin-left:1rem;cursor:pointer;" onclick="showModal()">이름 변경</button>
+			</div>
+			<div class="topbanner" style="margin-top:0px;">
+					<div>
+						<h1 >즐겨찾기</h1>
+						<button id="btn_insert" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" style="color:#1c46ae;background-color:#fff;margin-left:1rem;cursor:pointer;" onclick="showModal()">등록하기</button>
+					</div>
+				</div>
+			</div>
+			<div class="main">
+				<!-- <h1 id="spon_msg" style="text-align:center;margin-top:50px;font-size:3em;color:white;">스폰 상대 검색중..</h1> -->
+				<div id="spon_wrapper" class="wrapper">
+					
+				</div>
+			</div>
+		</div>
+		<script src="js/lazysizes.min.js"></script>
+		<script src="js/data.js?ver=0.0.1"></script>
+		<script src="js/util.js?ver=0.0.1"></script>
+		<!-- <script src="js/onair2.js?ver=0.0.1"></script> -->
+		<script src="https://test.aengji.com/afreecatv/univ/onair2.min.js?ver=0.0.1"></script>
+		<!-- <script>pageview();</script> -->
+	</body>
+</html>
