@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
  
 body {
-	background: #0c052e;
 	font-family: "Jua";
 }
 .header {
@@ -16,6 +15,7 @@ body {
 	/* align-items: center; */
 	text-align:center;
 	z-index: 99999;
+	background-color: #0c052e;
 }
 
 .sub-menu {
