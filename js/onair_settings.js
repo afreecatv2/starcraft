@@ -96,10 +96,10 @@ function searchBJ(){
 		input_search.value = '';
 		var div_search = document.getElementById('div_search');	
 		div_search.innerHTML = '';
-						
+		
 		for(var k in ck_tier){
-			for(var bj in ck_tier[k]){
-				if(bj[0].includes(name)){
+			for(var bj of ck_tier[k]){
+				if(bj[0].includes(name)){					
 					if( ! names.includes(bj[0])){
 						names.push(bj[0]);
 						aids.push(bj[2]);
