@@ -112,7 +112,7 @@ function searchBJ(){
 			names.push(name);
 		}else */{
 			for(var bj of bj_list){
-				if(bj[0].includes(name) && record_list.hasOwnProperty(bj[0]) && c !== ''){
+				if(bj[0].includes(name) && record_list.hasOwnProperty(bj[0]) && record_list[bj[0]][0][9] !== ''){
 					if( ! names.includes(bj[0])){
 						names.push(bj[0]);
 						aids.push(record_list[bj[0]][0][9]);
