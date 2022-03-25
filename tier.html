@@ -9,24 +9,37 @@
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="bootstrap-icons.css" rel="stylesheet">
   <link href="css/style.css?ver=0.0.10" rel="stylesheet">
+  <link rel="stylesheet" href="css/menu.css?ver=0.0.1">
 <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn-fill" viewBox="0 0 16 16">
-  <path d="M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm6.79-6.907A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
-</svg>
   <!-- ======= Header ======= -->
-  <header id="header" class="header-top">
-    <div class="container">
-    </div>
+  <header id="header" class="header">
+   <nav class="sub-menu white">
+		<ul>
+			<li><a href="fav.html">즐겨찾기</a></li>
+			<li class="active"><a href="tier.html">티어표</a></li>
+			<li><a href="#" onclick="return false;">FA(작업중)</a></li>
+			<li><a href="cswu.html">캄성</a></li>
+			<li><a href="ukkz.html">우끼끼즈</a></li>
+			<li><a href="hakvard.html">학버드</a></li>
+			<li><a href="midas.html">미다스</a></li>
+			<li><a href="ysu.html">염석대</a></li>
+			<li><a href="cp.html">CP</a></li>
+			<li><a href="pist.html">파이스트</a></li>
+			<li><a href="cgj.html">철기중대</a></li>
+			<li><a href="nsu.html">NSU</a></li>
+			<li><a href="jsa.html">JSA</a></li>
+			<li><a href="mcu.html">무친대</a></li>
+		</ul>
+	</nav>
   </header><!-- End Header -->
   
   <div id="tier_list" class="container">
 	
 	<div class="title" style="z-index:1;">
 		<img src="img/ci_white01.png" style="position:absolute;left:20px;top:10px;z-index:2;">
-		<img src="img/VARC6659NX9U1562608189511.jpg" style="position:absolute;left:0;width:100%;object-fit: cover;z-index:1;visibility: visible;">
+		<!-- <img src="img/VARC6659NX9U1562608189511.jpg" style="position:absolute;left:0;width:100%;object-fit: cover;z-index:1;visibility: visible;"> -->
 		<div style="margin-top:50px;z-index:2;">
 			<a href="http://www.aengji.com/" target="_blank" style="font-family:Jua;text-decoration: none;"><span style="font-size:3.2em;color:#FCC9FD;"><strong>앵</strong></span><span style="font-size:3em;color:white;">게임넷</span></a>
 			<h1 id="title">아프리카TV</h1>
@@ -58,7 +71,8 @@ var ck_tier = {"title":"아프리카TV CK 티어표","ver":"2.70 (2022-03-23)","
   <script src="js/data.js?ver=0.0.3"></script>
   <script src="js/util.js?ver=0.0.10"></script>
   <!-- <script src="js/tier_maker.js?ver=0.0.1"></script> -->
-  <script src="https://test.aengji.com/afreecatv/tier_list.min.js?ver=0.0.9"></script>
+  <script src="js/tier_list.js?ver=0.0.1"></script>
+  <!-- <script src="https://test.aengji.com/afreecatv/tier_list.min.js?ver=0.0.9"></script> -->
 <script>
 popup2("방송중인 BJ 사진 위에 커서를 올리면 메뉴가 나타납니다. (전적, 방송보기, ELO)\n전체 카테고리 대상 (19금 연령제한 제외, 2분 간격으로 갱신)");
 pageview();
