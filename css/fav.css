@@ -1,0 +1,95 @@
+
+.topbanner {
+  width: 100%;
+  height: 70px;
+  /* background-image: linear-gradient(#9c27b0, #9c27b0); */
+  background-color: #1c46ae;
+  color: white;
+  display: flex;
+  /* z-index: 9999; */
+  white-space: nowrap;
+  flex-direction:row;  
+  justify-content: center;
+}
+
+.topbanner h1 {
+  font-size: 4em;
+  /* line-height: 140px; */
+  /* z-index: 9999; */
+  display: inline-block;
+  vertical-align: middle;
+  margin: auto;
+}
+
+.bbmasc {
+  line-height: 140px;
+  display: inline-block;
+  vertical-align: middle;
+  /* z-index: 9999; */
+  margin-top: -20px;
+  /* margin-left: 50px;
+  margin-right: 134px; */
+}
+
+
+.wrapper {
+  width: 100%;
+  /* padding: 0 2rem; */
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: -40px; */
+}
+
+.item {
+  width: 15%;
+  height: 15%;
+  display: inline-block;
+  margin-top: 1rem;
+  filter: grayscale(100%) brightness(1);
+}
+.item:hover {
+  width: 15%;
+  height: 15%;
+  transform: scale(1.05, 1.05) rotate(1deg) translate(0px, -15px); !important;
+  transition: all 0.35s;
+  z-index: 2;
+  filter: grayscale(0%) brightness(1);
+}
+.item-onair:hover {
+  width: 23%;
+  height: 15%;
+  transform: scale(1, 1) !important;
+  transition: all 1s;
+}
+
+.polaroid {
+  background: #fff;
+  padding: 0.5rem;
+  /* box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);   */
+  box-shadow: 0 0.2rem 1.2rem rgba(255,255,255,0.2);  
+  margin:0.5rem;
+}
+.polaroid > img{
+  width: 100%;
+  object-fit: cover;
+  object-position: 100% 0%;
+}
+.caption {
+  font-size: 1.8rem;
+  text-align: center;
+  /* line-height: 2em; */
+}
+.caption:after {
+  content: attr(data-src);
+  overflow:hidden;
+  white-space:nowrap;
+}
+.item:hover .caption:after {
+  content: attr(data-hover);
+}
+.item-onair:hover .caption:after {
+  content: attr(data-hover); 
+  font-size: 1.2rem;
+}
+
