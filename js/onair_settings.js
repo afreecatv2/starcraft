@@ -77,6 +77,9 @@ function closeModal(modal){
 	}	
 }
 
+var names = [];
+var aids = [];
+
 function searchBJ(){
 	if (event.keyCode === 13) {
 		event.preventDefault();
@@ -87,34 +90,53 @@ function searchBJ(){
 			return;
 		}
 		
+		names = [];
+		aids = [];
+		
 		input_search.value = '';
 		var div_search = document.getElementById('div_search');	
 		div_search.innerHTML = '';
-		var names = [];
+						
+		for(var k in ck_tier){
+			for(var bj in ck_tier[k]){
+				if(bj[0].includes(name)){
+					if( ! names.includes(bj[0])){
+						names.push(bj[0]);
+						aids.push(bj[2]);
+					}
+				}
+			}			
+		}		
+		
 		/* if(record_list.hasOwnProperty(name)){
 			names.push(name);
 		}else */{
 			for(var bj of bj_list){
-				if(bj[0].includes(name) && record_list.hasOwnProperty(bj[0]) && record_list[bj[0]][0][9] !== ''){
+				if(bj[0].includes(name) && record_list.hasOwnProperty(bj[0]) && c !== ''){
 					if( ! names.includes(bj[0])){
 						names.push(bj[0]);
+						aids.push(record_list[bj[0]][0][9]);
 					}
 				}
 			}
 		}
 		if(names.length == 1){
-			insertBJ(names[0]);
+			insertBJ2(names[0], aids[0]);
 		}else if(names.length > 1){
 			var nav = ce(div_search, 'nav', {'class':'modal-menu'});
 			var ul = ce(nav, 'ul');
 			
+			var i = 0;
 			for(bj of names){
 				var li = ce(ul, 'li');
 				var a = cetn(li, 'a', bj, {'href':'#'});
 				a.name = bj;
+				a.setAttribute('aid', aids[i]);
 				a.onclick = function(){
-					insertBJ(event.target.getAttribute('name'));
+					insertBJ2(event.target.getAttribute('name'), event.target.getAttribute('aid'));
 				};
+				
+				i++;
 			}
 		}else{
 			var aid = prompt("검색 결과가 없습니다.\n수동 입력을 하시려면 BJ의 아프리카 아이디를 입력하세요.", "");
