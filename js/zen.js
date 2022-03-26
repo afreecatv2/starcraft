@@ -31,14 +31,9 @@ $(document).ready(function(){
 	// init
 	
 	var vol = 0.1;
-	if(aengji_settings && aengji_settings['aenggae_volume']){
-		vol = (aengji_settings['aenggae_volume'] / 100);
-	}
-	vol = 0.1;
 	
 	player.jPlayer({
 		ready: function () {
-			// $(this).jPlayer("volume", aengji_settings['aenggae_volume'] /100);
       		$(this).jPlayer("setMedia", playlist[selected_playlist][play_index]);
     	},
     	swfPath: "",
