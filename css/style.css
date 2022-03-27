@@ -172,8 +172,8 @@ html, body{
 } */
 .star-tier-image{
 	display:block;
-	height:100px;
-	width:100px;
+	height:96px;
+	width:96px;
 	/* border-radius:0.2em; */
 	/* pointer-events: none; */
 	color: var(--color, #ffffff);
