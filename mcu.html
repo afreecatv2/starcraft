@@ -35,6 +35,9 @@
 		</div>
     <div style="min-width:1920px;display:flex;justify-content:center;align-items: center;margin: 0 auto;">
 	<div style="position:relative;width:1920px;height:1080px;background-image:url(img/mcu/bg_mcu.jpg);z-index:2;">
+		<img id="msuk2017" src="img/mcu/꿀몬.png" class="off_image" style="top:512px;left:942px;">
+		<!-- <img id="" src="img/mcu/성균.png" class="" style="position:absolute;top:260px;left:1012px;"> -->
+		<!-- <img id="" src="img/mcu/별비.png" class="" style="position:absolute;top:273px;left:922px;"> -->
 		<img id="moonwol0614" src="img/mcu/문월.png" class="off_image" style="top:317px;left:544px;">
 		<img id="dudadi770" src="img/mcu/듀단.png" class="off_image" style="top:376px;left:615px;">
 		<img id="kmj05317" src="img/mcu/리밍.png" class="off_image" style="top:376px;left:652px;">
@@ -60,7 +63,6 @@
 		<img id="ghkdud1617" src="img/mcu/히리.png" class="off_image" style="top:332px;left:1261px;">
 		<img id="yyh3397" src="img/mcu/레미.png" class="off_image" style="top:427px;left:1279px;">
 		<img id="momo130" src="img/mcu/정우.png" class="off_image" style="top:520px;left:1274px;">
-		<img id="msuk2017" src="img/mcu/정우.png" class="off_image" style="top:520px;left:1274px;display:none;">
 	</div>
 	</div>
 	<div id="thumb_container" style="position:absolute;top:0;width:100%;height:100%;display:flex;justify-content:center;align-items: center;margin: 0 auto;">
@@ -83,6 +85,33 @@
   </script>
   <script src="js/util.js?ver=0.0.2"></script>
   <!-- <script src="js/univ_cctv_m.js?ver=0.0.2"></script> -->
-  <script src="https://test.aengji.com/afreecatv/univ/univ_cctv_m.min.js?ver=0.0.13"></script>
+  <!-- <script src="https://test.aengji.com/afreecatv/univ/univ_cctv_m.min.js?ver=0.0.13"></script> -->
+  
+  <script>	
+	(function() {
+		document.onmousemove = handleMouseMove;
+		function handleMouseMove(event) {
+			var eventDoc, doc, body;
+
+			event = event || window.event; // IE-ism
+
+			if (event.pageX == null && event.clientX != null) {
+				eventDoc = (event.target && event.target.ownerDocument) || document;
+				doc = eventDoc.documentElement;
+				body = eventDoc.body;
+
+				event.pageX = event.clientX +
+				  (doc && doc.scrollLeft || body && body.scrollLeft || 0) -
+				  (doc && doc.clientLeft || body && body.clientLeft || 0);
+				event.pageY = event.clientY +
+				  (doc && doc.scrollTop  || body && body.scrollTop  || 0) -
+				  (doc && doc.clientTop  || body && body.clientTop  || 0 );
+			}
+
+			console.log('x: ' + event.pageX + ', y: ' + event.pageY);
+		}
+	})();	
+  </script>
+  
 </body>
 </html>
