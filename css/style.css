@@ -332,3 +332,13 @@ html, body{
 	display: inline-block;
 	z-index:99;
 }
+.birthday{
+	width:82px;
+	height:38px;
+	position:absolute;
+	top:65px;
+	left:9px;
+	cursor:pointer;
+	pointer-events:none;
+	z-index:99;
+}
