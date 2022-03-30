@@ -185,18 +185,21 @@ html, body{
 	cursor:pointer;
 }
 .span-button{
-	z-index: 3;
+	margin-top:10px;
 	cursor: pointer;
+	text-shadow: 2px 2px #000000;
+	z-index: 103;
 }
 .span-button2{
 	display: none;
 	position:absolute; 
-	top:6px;
+	top:16px;
 	left:32px;
 	font-size: 20px;
 	pointer-events: none;
 	cursor: pointer;
-	z-index: 3;
+	text-shadow: 2px 2px #000000;
+	z-index: 103;
 }
 
 .broad-title{
