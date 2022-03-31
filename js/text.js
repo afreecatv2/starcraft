@@ -1,10 +1,10 @@
 function initparticles() {
-   // bubbles();
+   bubbles();
    hearts();
-   // lines();
+   lines();
    confetti();
-   // fire();
-   // sunbeams();
+   fire();
+   sunbeams();
 }
 
 /*The measurements are ... whack (so to say), for more general text usage I would generate different sized particles for the size of text; consider this pen a POC*/
@@ -22,7 +22,9 @@ function bubbles() {
 	for(var t of ts){
 		var bubblecount = (t.offsetWidth / 50) * 10;
 		for (var i = 0; i <= bubblecount; i++) {
-			var size = (rnd(40,80)/10);
+			// var size = (rnd(40,80)/10);
+			// ce(t, 'span',{'class':'particle','style':'top:' + rnd(20, 80) + '%; left:' + rnd(0, 95) + '%;width:' + size + 'px; height:' + size + 'px;animation-delay: ' + (rnd(0, 30) / 10) + 's;'});
+			var size = (rnd(40,80)/5);
 			ce(t, 'span',{'class':'particle','style':'top:' + rnd(20, 80) + '%; left:' + rnd(0, 95) + '%;width:' + size + 'px; height:' + size + 'px;animation-delay: ' + (rnd(0, 30) / 10) + 's;'});
 		}
 	}
@@ -112,7 +114,7 @@ function sunbeams() {
 		var linecount = (t.offsetWidth / 50) * 10;
 		for (var i = 0; i <= linecount; i++) {
 			var size = (rnd(40,80)/10);
-			ce(t, 'span',{'class':'particle','style':'top:' + rnd(-50,0) + '%; left:' + rnd(0,100) + '%;width:' + $.rnd(1,3) + 'px; height:' + rnd(80,160) + '%;animation-delay: -' + (rnd(0,30)/10) + 's;'});
+			ce(t, 'span',{'class':'particle','style':'top:' + rnd(-50,0) + '%; left:' + rnd(0,100) + '%;width:' + rnd(1,3) + 'px; height:' + rnd(80,160) + '%;animation-delay: -' + (rnd(0,30)/10) + 's;'});
 		}
 	}
 }
