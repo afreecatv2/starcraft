@@ -90,6 +90,7 @@ body .particletext.sunbeams > .particle {
           animation: sunbeams 3s linear infinite;
 }
 
+
 @-webkit-keyframes bubbles {
   0% {
     opacity: 0;
@@ -276,4 +277,14 @@ body .particletext.sunbeams > .particle {
   6%, 15%, 24%, 28%, 48%, 55%, 78%, 82%, 99% {
     opacity: 1;
   }
+}
+
+.heart2{
+	position:absolute;
+	padding:40px 0;
+	top:-94px;
+	right:-30px;
+	color:#0000;
+	pointer-events:none;
+	z-index:990;
 }
