@@ -32,7 +32,7 @@ body {
 }
 
 .sub-menu li {
-  height: 32px;
+  height: 24px;
   float: left;
   margin-right: 0px;
   border-right: 1px solid #aaa;
@@ -224,4 +224,8 @@ input[type="radio"]:checked+label span {
 	-o-transition: background-color 0.24s linear;
 	-moz-transition: background-color 0.24s linear;
 	transition: background-color 0.24s linear;
+}
+
+input[type="checkbox"]:disabled+label {
+	color:#ccc;
 }
