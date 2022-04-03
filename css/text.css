@@ -323,3 +323,12 @@ body .particletext.sunbeams > .particle {
 	pointer-events:none;
 	z-index:990;
 }
+.icon2{
+	position:absolute;
+	padding:40px 0;
+	top:-94px;
+	right:-20px;
+	color:#0000;
+	pointer-events:none;
+	z-index:990;
+}
