@@ -42,7 +42,7 @@ Share your love with the rest of the CSS community by contributing to Style Stag
 }
 .sticker::before {
   -webkit-text-stroke: 0.21em white;
-  background: no-repeat linear-gradient(white, white) 15% 50%/85% 60%;
+  /* background: no-repeat linear-gradient(white, white) 15% 50%/85% 60%; */
 }
 .sticker::after {
   text-shadow: 0.07em 0.08em 0.05em rgba(0, 0, 0, 0.75), -0.07em -0.05em 0.05em rgba(0, 0, 0, 0.75);
