@@ -359,3 +359,66 @@ html, body{
 	transition: width 1s, height 1s, top 1s, left 1s;
 	z-index:999;
 }
+
+.status{
+	width:82px;
+	height:38px;
+	position:absolute;
+	top:65px;
+	left:9px;
+	font-size:24px;
+	cursor:pointer;
+	pointer-events:none;
+	font-weight:800;
+	z-index:99;
+}
+.star-tier-item:hover .status{
+	width:164px;
+	height:76px;
+	top:-80px;
+	left:-32px;
+	font-size:48px;
+	transition: width 1s, height 1s, top 1s, left 1s;
+	z-index:999;
+}
+.styled-table{
+	border-collapse:collapse;
+	font-size:.9em;
+	min-width:200px;
+	box-shadow:0 0 20px rgba(0,0,0,.15);
+}
+.styled-table thead tr{
+	background-color:#009879;
+	color:#fff;
+	text-align:left
+}
+.styled-table td,.styled-table th{
+	padding:8px 5px;
+	text-align:center;
+}
+tr th:first-child,tr td:first-child{
+	text-align:left;
+}
+tr th:nth-child(2),tr td:nth-child(2){
+	
+}
+tr th:nth-child(3),tr td:nth-child(3){
+	color:blue;
+	padding-right:4rem;
+}
+tr th:nth-child(14),tr td:nth-child(14){
+	color:red;
+}
+.styled-table tbody tr{
+	border-bottom:1px solid #ddd
+}
+.styled-table tbody tr:nth-of-type(even){
+	background-color:#f3f3f3
+}
+.styled-table tbody tr:last-of-type{
+	border-bottom:2px solid #009879;
+}
+.styled-table tbody tr.active-row{
+	font-weight:700;
+	color:#009879;
+}
