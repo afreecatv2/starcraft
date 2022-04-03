@@ -17,7 +17,8 @@ Share your love with the rest of the CSS community by contributing to Style Stag
   display: inline-grid;
   grid-template-areas: "text";
   place-items: center;
-  font-family: "Alegreya Sans SC", sans-serif;
+  /* font-family: "Alegreya Sans SC", sans-serif; */
+  font-family: 'Jua', sans-serif;
   font-weight: 900;
   font-style: italic;
   font-size: clamp(3rem, 15vw, 10rem);
@@ -41,7 +42,8 @@ Share your love with the rest of the CSS community by contributing to Style Stag
   color: #fff;
 }
 .sticker::before {
-  -webkit-text-stroke: 0.21em white;
+  /* -webkit-text-stroke: 0.21em white; */
+  -webkit-text-stroke: 0.21em #eee;
   /* background: no-repeat linear-gradient(white, white) 15% 50%/85% 60%; */
 }
 .sticker::after {
