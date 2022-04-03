@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap'); */
 
 
 html, body{
@@ -122,6 +122,7 @@ html, body{
 .star-tier-item{
     position: relative;
 	display:inline-block;
+	height:152px;
 	/* background-color:#cccccc10; */
 	margin-right:10px;
 	margin-bottom:10px;
