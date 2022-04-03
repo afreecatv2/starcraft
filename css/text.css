@@ -20,6 +20,14 @@ body .particletext.bubbles > .particle {
           animation: bubbles 3s ease-in infinite;
   border-radius: 100%;
 }
+body .particletext.icons > .particle {
+  opacity: 1;
+  position: absolute;
+  /* background-image: url(sin.png); */
+  background-size: cover;
+  -webkit-animation: icons 3s ease-in infinite;
+          animation: icons 3s ease-in infinite;
+}
 body .particletext.hearts > .particle {
   opacity: 0;
   position: absolute;
@@ -116,6 +124,33 @@ body .particletext.sunbeams > .particle {
   100% {
     opacity: 0;
     transform: translate(0, -1000%);
+  }
+}
+
+@-webkit-keyframes icons {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+    transform: translate(0, -20%);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(0, -300%);
+  }
+}
+@keyframes icons {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+    transform: translate(0, -20%);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(0, -300%);
   }
 }
 @-webkit-keyframes hearts {
