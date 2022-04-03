@@ -17,10 +17,9 @@ Share your love with the rest of the CSS community by contributing to Style Stag
   display: inline-grid;
   grid-template-areas: "text";
   place-items: center;
-  /* font-family: "Alegreya Sans SC", sans-serif; */
-  font-family: 'Jua', sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   font-weight: 900;
-  font-style: italic;
+  /* font-style: italic; */
   font-size: clamp(3rem, 15vw, 10rem);
   text-transform: uppercase;
   color: var(--c5);
