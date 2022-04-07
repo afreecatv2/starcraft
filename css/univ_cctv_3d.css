@@ -65,3 +65,9 @@
           box-shadow: 0 0 8px #fff;
   -webkit-box-reflect: below 10px linear-gradient(transparent, transparent, #0005);
 }
+
+.list-image.onair{
+  -webkit-box-shadow: 0 0 12px #f00;
+          box-shadow: 0 0 12px #f00;
+  -webkit-box-reflect: below 10px linear-gradient(transparent, transparent, #0005);
+}
