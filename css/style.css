@@ -63,12 +63,14 @@ html, body{
 	margin-left:5%;
 	justify-content: center;
 	z-index:20;
+	cursor: pointer;
 }
 
 .span-button{
 	display: none;
 	position:absolute; 
 	width:128px;
+	height:54px;
 	text-align:center;
 	top:56px;
 	font-size: 24px;
@@ -326,7 +328,7 @@ tr th:nth-child(14),tr td:nth-child(14){
 	top:24px;
 	height:24px;
 	font-size:24px;
-  position:absolute;
+	position:absolute;
 	pointer-events:none;
 }
 .star-tier-container:after{
@@ -348,6 +350,7 @@ tr th:nth-child(14),tr td:nth-child(14){
 .tier-image{
 	width:128px;
 	height:123px;
+	/* border:5px solid #aaaaaa; */
 	border:5px solid #000000;
 	border-radius:10px 10px 0 0;
 }
@@ -379,6 +382,27 @@ tr th:nth-child(14),tr td:nth-child(14){
 	/* box-shadow: 0 3px 10px white; */
 	box-shadow: 0 3px 8px #cccccc;
 	cursor:pointer;
+}
+
+.tier-live{
+	content: "live";
+	position:absolute;
+	width:128px;
+	height:28px;
+	top:90px;
+	left:0;
+	background-color:red;
+	text-align:center;
+	line-height: 28px;
+	font-family: Jua;
+	font-size: 24px;
+	border-right:5px solid #ffffff;
+	border-left:5px solid #ffffff;
+	border-top:5px solid #ffffff;
+	border-radius:10px 10px 0px 0px;
+	/* box-shadow: 0 3px 10px white; */
+	box-shadow: 0 3px 8px #cccccc;
+	pointer-events:none;
 }
 
 .tier-thumb{
