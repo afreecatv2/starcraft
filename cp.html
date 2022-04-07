@@ -7,11 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CCTV - CPU</title>
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link href="css/univ_cctv_light.css?ver=0.0.4" rel="stylesheet">
+  <link href="css/univ_cctv_3d.css?ver=0.0.1" rel="stylesheet">	
   <link rel="stylesheet" href="css/menu.css?ver=0.0.3">
-	
+  <link rel="stylesheet" href="css/3d_carousel.css?ver=0.0.1">
 </head>
-<body>
+<body style="background-color:#000;">
 		<div class="header">
 			<nav class="sub-menu white">
 				<ul>
@@ -34,25 +34,58 @@
 				</ul>
 			</nav>
 		</div>
-    <div style="min-width:1280px;display:flex;flex-direction:column;justify-content:center;align-items: center;margin: 60px auto;">
-		<div style="display:flex;justify-content:center;margin-bottom:40px;">
-			<img src="img/cp.png" width=100>
-			<span style="margin-left:10px;text-align:center;font-size:72px;">CP Univ.</span>
+    <div style="width:100%;display:flex;justify-content:center;align-items:center;flex-direction:column;margin-top:100px;z-index:2;">
+		<div style="width:1280px;text-align:center;">
+		<img name="yunheehoho" src="img/cp/서운.png" class="list-image" style="background-color:#;" alt="">
+		<img name="rlekfu6" src="img/cp/박재혁.png" class="list-image" style="background-color:#;" alt="">
+		<img name="lanchia" src="img/cp/임성춘.png" class="list-image" style="background-color:#;" alt="">
+		<img name="neverdieyj" src="img/cp/정영재.png" class="list-image" style="background-color:#;" alt="">
+		<img name="ghtjs3833" src="img/cp/최호선.png" class="list-image" style="background-color:#;" alt="">
+		<img name="gnsl418" src="img/cp/이예훈.png" class="list-image" style="background-color:#;" alt="">
+		<img name="thetis" src="img/cp/세나.png" class="list-image" style="background-color:#;" alt="">
+		<img name="xogy0400" src="img/cp/벤츠.png" class="list-image" style="background-color:#;" alt="">
+		<img name="dree2044" src="img/cp/원이삭.png" class="list-image" style="background-color:#;" alt="">
+		<img name="tjaudtn123" src="img/cp/서도일.png" class="list-image" style="background-color:#;" alt="">
+		<img name="dudwn4974" src="img/cp/안아.png" class="list-image" style="background-color:#;" alt="">
+		<img name="jieun3297" src="img/cp/다예.png" class="list-image" style="background-color:#;" alt="">
+		<img name="yoonji787" src="img/cp/콧등콧등.png" class="list-image" style="background-color:#;" alt="">
+		<img name="hy4985" src="img/cp/옆집뽀누나.png" class="list-image" style="background-color:#;" alt="">
+		<img name="ka9rapang" src="img/cp/연둥바둥.png" class="list-image" style="background-color:#;" alt="">
+		<img name="parkle1006" src="img/cp/박듀듀.png" class="list-image" style="background-color:#;" alt="">
+		<img name="qkzlqjffo" src="img/cp/강콩.png" class="list-image" style="background-color:#;" alt="">
+		
 		</div>
-		<div id="univ_container" style="width:90%;z-index:2">
-			
+		<span style="color:#ffffff;">생방송 목록. 화면을 드래그 하세요.</span>
+		<div id="drag-container" style="z-index:99999;">
+			<div id="spin-container">
+			</div>
+			<div id="ground"></div>
 		</div>
+	
 	</div>
-	<div id="thumb_container" style="position:absolute;top:0;width:100%;height:100%;display:flex;justify-content:center;align-items: center;margin: 0 auto;">	
+	
+	
+	
+	
+	<div id="thumb_container" style="position:absolute;top:0;width:100%;height:100%;display:flex;justify-content:center;align-items: center;margin: 0 auto;background-color:#000;">
 	</div>
-      
+	
+  <div style="position:absolute;top:0;width:1280px;z-index:999999;left: 50%;transform: translateX(-50%);">
+	<div style="position:relative;width:1280px;">
+		  
+		  <div style="position:absolute;top:40px;left:10px;font-size:32px;color:#fff;font-family:Jua;text-shadow: 2px 2px 2px #000000;z-index:3">
+			<a href="cp_list.html" style="color:#fff">리스트 CCTV</a>
+		  </div>
+	  </div>
+    </div>
   <script>
 	var url = 'https://test.aengji.com/afreecatv/afreecatv_onair_select_cp.php';
-	var univ_list = ["yunheehoho","rlekfu6","lanchia","neverdieyj","ghtjs3833","gnsl418","thetis","xogy0400","dree2044","tjaudtn123","dudwn4974","jieun3297","yoonji787","hy4985","ka9rapang","sanhayyam","parkle1006","qkzlqjffo"];
-	var univ_map = {"yunheehoho":["7티어","이사장","서윤","Zerg"],"rlekfu6":["Jack","총장","박재혁","Zerg"],"lanchia":["Commentator","명예교수","임성춘","Protoss"],"neverdieyj":["God","교수","정영재","Terran"],"ghtjs3833":["King","교수","최호선","Terran"],"gnsl418":["King","교수","이예훈","Zerg"],"thetis":["2티어","조교","세나","Zerg"],"xogy0400":["3티어","조교","벤츠","Zerg"],"dree2044":["0티어","","원이삭","Protoss"],"tjaudtn123":["2티어","","서도일","Zerg"],"dudwn4974":["2티어","","안아","Protoss"],"jieun3297":["4티어","","다예","Zerg"],"yoonji787":["4티어","","콧등콧등","Zerg"],"hy4985":["5티어","","옆집뽀누나","Terran"],"ka9rapang":["5티어","","연둥바둥","Protoss"],"sanhayyam":["6티어","","캐찹이","Zerg"],"parkle1006":["6티어","","박듀듀","Protoss"],"qkzlqjffo":["7티어","","강콩","Protoss"]};
+	var univ_list = ["yunheehoho","rlekfu6","lanchia","neverdieyj","ghtjs3833","gnsl418","thetis","xogy0400","dree2044","tjaudtn123","dudwn4974","jieun3297","yoonji787","hy4985","ka9rapang","parkle1006","qkzlqjffo"];
+	var univ_map = {"yunheehoho":["7티어","이사장","서윤","Zerg"],"rlekfu6":["Jack","총장","박재혁","Zerg"],"lanchia":["Commentator","명예교수","임성춘","Protoss"],"neverdieyj":["God","교수","정영재","Terran"],"ghtjs3833":["King","교수","최호선","Terran"],"gnsl418":["King","교수","이예훈","Zerg"],"thetis":["2티어","조교","세나","Zerg"],"xogy0400":["3티어","조교","벤츠","Zerg"],"dree2044":["0티어","","원이삭","Protoss"],"tjaudtn123":["2티어","","서도일","Zerg"],"dudwn4974":["2티어","","안아","Protoss"],"jieun3297":["4티어","","다예","Zerg"],"yoonji787":["4티어","","콧등콧등","Zerg"],"hy4985":["5티어","","옆집뽀누나","Terran"],"ka9rapang":["5티어","","연둥바둥","Protoss"],"parkle1006":["6티어","","박듀듀","Protoss"],"qkzlqjffo":["7티어","","강콩","Protoss"]};
   </script>
   <script src="js/util.js?ver=0.0.2"></script>
-  <script src="https://test.aengji.com/afreecatv/univ/univ_cctv_light.min.js?ver=0.0.14"></script>
+  <script src="js/3d_carousel.js?ver=0.0.1"></script>
+  <!-- <script src="js/univ_cctv_3d.js?ver=0.0.1"></script> -->
+  <script src="https://test.aengji.com/afreecatv/univ/univ_cctv_3d.min.js?ver=0.0.1"></script>
 </body>
-
 </html>
