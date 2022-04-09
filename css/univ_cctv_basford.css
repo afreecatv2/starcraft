@@ -493,7 +493,7 @@ h2 {
 }
 .card-tier {
 	position: absolute;
-	top: 0px;
+	top: 4px;
 	left: 4px;
 	font-size: 32px;
 	font-weight:800;
