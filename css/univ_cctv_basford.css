@@ -94,6 +94,7 @@ in-height: 300px;
   z-index: 12;  
   border: 2px solid #000;
   cursor: pointer;
+  
 }
 .card00 {
   /* background: url("704642_415839_2333 (1).jpg") center center no-repeat; */
@@ -111,17 +112,19 @@ in-height: 300px;
 .card0 {
   background: url("../img/basford/감스트.png") left center no-repeat;
   background-size: 300px;
-  filter: grayscale(1)  brightness(1.5);
+  filter: grayscale(1) brightness(1.5);  
 }
 .card0:hover {
   background: url("../img/basford/감스트.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card0.onair {
   background: url("../img/basford/감스트.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 
 
@@ -170,11 +173,13 @@ h2 {
   background: url("../img/basford/도재욱.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card1.onair {
   background: url("../img/basford/도재욱.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card2 {
   background: url("../img/basford/이제동.png") left center no-repeat;
@@ -185,11 +190,13 @@ h2 {
   background: url("../img/basford/이제동.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card2.onair {
   background: url("../img/basford/이제동.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card3 {
   background: url("../img/basford/짭제.png") left center no-repeat;
@@ -200,11 +207,13 @@ h2 {
   background: url("../img/basford/짭제.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card3.onair {
   background: url("../img/basford/짭제.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card4 {
   background: url("../img/basford/임진묵.png") left center no-repeat;
@@ -215,11 +224,13 @@ h2 {
   background: url("../img/basford/임진묵.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card4.onair {
   background: url("../img/basford/임진묵.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card5 {
   background: url("../img/basford/진영화.png") left center no-repeat;
@@ -230,11 +241,13 @@ h2 {
   background: url("../img/basford/진영화.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card5.onair {
   background: url("../img/basford/진영화.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card6 {
   background: url("../img/basford/배병우.png") left center no-repeat;
@@ -245,11 +258,13 @@ h2 {
   background: url("../img/basford/배병우.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card6.onair {
   background: url("../img/basford/배병우.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card7 {
   background: url("../img/basford/하얀눈길.png") left center no-repeat;
@@ -260,11 +275,13 @@ h2 {
   background: url("../img/basford/하얀눈길.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card7.onair {
   background: url("../img/basford/하얀눈길.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card8 {
   background: url("../img/basford/랜딩.png") left center no-repeat;
@@ -275,11 +292,13 @@ h2 {
   background: url("../img/basford/랜딩.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card8.onair {
   background: url("../img/basford/랜딩.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card9 {
   background: url("../img/basford/강만식.png") left center no-repeat;
@@ -290,11 +309,13 @@ h2 {
   background: url("../img/basford/강만식.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card9.onair {
   background: url("../img/basford/강만식.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card10 {
   background: url("../img/basford/이뀨.png") left center no-repeat;
@@ -305,11 +326,13 @@ h2 {
   background: url("../img/basford/이뀨.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card10.onair {
   background: url("../img/basford/이뀨.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card11 {
   background: url("../img/basford/오리.png") left center no-repeat;
@@ -320,11 +343,13 @@ h2 {
   background: url("../img/basford/오리.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card11.onair {
   background: url("../img/basford/오리.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card12 {
   background: url("../img/basford/오뀨.png") left center no-repeat;
@@ -335,11 +360,13 @@ h2 {
   background: url("../img/basford/오뀨.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card12.onair {
   background: url("../img/basford/오뀨.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card13 {
   background: url("../img/basford/에스카.png") left center no-repeat;
@@ -350,11 +377,13 @@ h2 {
   background: url("../img/basford/에스카.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card13.onair {
   background: url("../img/basford/에스카.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card14 {
   background: url("../img/basford/유복실.png") left center no-repeat;
@@ -365,11 +394,13 @@ h2 {
   background: url("../img/basford/유복실.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card14.onair {
   background: url("../img/basford/유복실.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card15 {
   background: url("../img/basford/무찌.png") left center no-repeat;
@@ -380,11 +411,13 @@ h2 {
   background: url("../img/basford/무찌.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card15.onair {
   background: url("../img/basford/무찌.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card16 {
   background: url("../img/basford/요닝.png") left center no-repeat;
@@ -395,11 +428,13 @@ h2 {
   background: url("../img/basford/요닝.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card16.onair {
   background: url("../img/basford/요닝.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card17 {
   background: url("../img/basford/구래햇살아.png") left center no-repeat;
@@ -410,11 +445,13 @@ h2 {
   background: url("../img/basford/구래햇살아.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card17.onair {
   background: url("../img/basford/구래햇살아.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card18 {
   background: url("../img/basford/양양.png") left center no-repeat;
@@ -425,11 +462,13 @@ h2 {
   background: url("../img/basford/양양.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card18.onair {
   background: url("../img/basford/양양.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card19 {
   background: url("../img/basford/라미.png") left center no-repeat;
@@ -440,11 +479,13 @@ h2 {
   background: url("../img/basford/라미.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card19.onair {
   background: url("../img/basford/라미.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card20 {
   background: url("../img/basford/김하율.png") left center no-repeat;
@@ -455,11 +496,13 @@ h2 {
   background: url("../img/basford/김하율.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card20.onair {
   background: url("../img/basford/김하율.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card21 {
   background: url("../img/basford/토끼예나.png") left center no-repeat;
@@ -470,11 +513,13 @@ h2 {
   background: url("../img/basford/토끼예나.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card21.onair {
   background: url("../img/basford/토끼예나.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card22 {
   background: url("../img/basford/명탐정맑음.png") left center no-repeat;
@@ -485,11 +530,13 @@ h2 {
   background: url("../img/basford/명탐정맑음.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card22.onair {
   background: url("../img/basford/명탐정맑음.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
 }
 .card-tier {
 	position: absolute;
