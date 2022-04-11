@@ -20,8 +20,8 @@ html, body{
 	justify-content: center;
 	text-align:center;
 	flex-direction: column;
-	background: url("../img/VARC6659NX9U1562608189511.jpg") top right no-repeat;
-	background-size: cover;
+	/* background: url("../img/VARC6659NX9U1562608189511.jpg") top right no-repeat; */
+	/* background-size: cover; */
 }
 .title div{
 	
