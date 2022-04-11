@@ -112,7 +112,8 @@ in-height: 300px;
 .card0 {
   background: url("../img/basford/감스트.png") left center no-repeat;
   background-size: 300px;
-  filter: grayscale(1) brightness(1.5);  
+  filter: grayscale(1) brightness(1.5);
+  transition-property: background, filter, -webkit-filter;
 }
 .card0:hover {
   background: url("../img/basford/감스트.png") center center no-repeat;
@@ -168,6 +169,7 @@ h2 {
   background: url("../img/basford/도재욱.png") left center no-repeat;
   background-size: 300px;
   filter: grayscale(1)  brightness(1.5);
+  transition-property: background, filter, -webkit-filter;
 }
 .card1:hover {
   background: url("../img/basford/도재욱.png") center center no-repeat;
@@ -185,6 +187,7 @@ h2 {
   background: url("../img/basford/이제동.png") left center no-repeat;
   background-size: 300px;
   filter: grayscale(1)  brightness(1.5);
+  transition-property: background, filter, -webkit-filter;
 }
 .card2:hover {
   background: url("../img/basford/이제동.png") center center no-repeat;
@@ -202,6 +205,7 @@ h2 {
   background: url("../img/basford/짭제.png") left center no-repeat;
   background-size: 300px;
   filter: grayscale(1)  brightness(1.5);
+  transition-property: background, filter, -webkit-filter;
 }
 .card3:hover {
   background: url("../img/basford/짭제.png") center center no-repeat;
@@ -219,6 +223,7 @@ h2 {
   background: url("../img/basford/임진묵.png") left center no-repeat;
   background-size: 300px;
   filter: grayscale(1)  brightness(1.5);
+  transition-property: background, filter, -webkit-filter;
 }
 .card4:hover {
   background: url("../img/basford/임진묵.png") center center no-repeat;
@@ -236,6 +241,7 @@ h2 {
   background: url("../img/basford/진영화.png") left center no-repeat;
   background-size: 300px;
   filter: grayscale(1)  brightness(1.5);
+  transition-property: background, filter, -webkit-filter;
 }
 .card5:hover {
   background: url("../img/basford/진영화.png") center center no-repeat;
@@ -253,6 +259,7 @@ h2 {
   background: url("../img/basford/배병우.png") left center no-repeat;
   background-size: 300px;
   filter: grayscale(1)  brightness(1.5);
+  transition-property: background, filter, -webkit-filter;
 }
 .card6:hover {
   background: url("../img/basford/배병우.png") center center no-repeat;
@@ -270,6 +277,7 @@ h2 {
   background: url("../img/basford/하얀눈길.png") left center no-repeat;
   background-size: 300px;
   filter: grayscale(1)  brightness(1.5);
+  transition-property: background, filter, -webkit-filter;
 }
 .card7:hover {
   background: url("../img/basford/하얀눈길.png") center center no-repeat;
@@ -287,6 +295,7 @@ h2 {
   background: url("../img/basford/랜딩.png") left center no-repeat;
   background-size: 300px;
   filter: grayscale(1)  brightness(1.5);
+  transition-property: background, filter, -webkit-filter;
 }
 .card8:hover {
   background: url("../img/basford/랜딩.png") center center no-repeat;
@@ -304,6 +313,7 @@ h2 {
   background: url("../img/basford/강만식.png") left center no-repeat;
   background-size: 300px;
   filter: grayscale(1)  brightness(1.5);
+  transition-property: background, filter, -webkit-filter;
 }
 .card9:hover {
   background: url("../img/basford/강만식.png") center center no-repeat;
@@ -321,6 +331,7 @@ h2 {
   background: url("../img/basford/이뀨.png") left center no-repeat;
   background-size: 300px;
   filter: grayscale(1)  brightness(1.5);
+  transition-property: background, filter, -webkit-filter;
 }
 .card10:hover {
   background: url("../img/basford/이뀨.png") center center no-repeat;
@@ -338,6 +349,7 @@ h2 {
   background: url("../img/basford/오리.png") left center no-repeat;
   background-size: 300px;
   filter: grayscale(1)  brightness(1.5);
+  transition-property: background, filter, -webkit-filter;
 }
 .card11:hover {
   background: url("../img/basford/오리.png") center center no-repeat;
@@ -355,6 +367,7 @@ h2 {
   background: url("../img/basford/오뀨.png") left center no-repeat;
   background-size: 300px;
   filter: grayscale(1)  brightness(1.5);
+  transition-property: background, filter, -webkit-filter;
 }
 .card12:hover {
   background: url("../img/basford/오뀨.png") center center no-repeat;
@@ -372,6 +385,7 @@ h2 {
   background: url("../img/basford/에스카.png") left center no-repeat;
   background-size: 300px;
   filter: grayscale(1)  brightness(1.5);
+  transition-property: background, filter, -webkit-filter;
 }
 .card13:hover {
   background: url("../img/basford/에스카.png") center center no-repeat;
@@ -389,6 +403,7 @@ h2 {
   background: url("../img/basford/유복실.png") left center no-repeat;
   background-size: 300px;
   filter: grayscale(1)  brightness(1.5);
+  transition-property: background, filter, -webkit-filter;
 }
 .card14:hover {
   background: url("../img/basford/유복실.png") center center no-repeat;
@@ -406,6 +421,7 @@ h2 {
   background: url("../img/basford/무찌.png") left center no-repeat;
   background-size: 300px;
   filter: grayscale(1)  brightness(1.5);
+  transition-property: background, filter, -webkit-filter;
 }
 .card15:hover {
   background: url("../img/basford/무찌.png") center center no-repeat;
@@ -423,6 +439,7 @@ h2 {
   background: url("../img/basford/요닝.png") left center no-repeat;
   background-size: 300px;
   filter: grayscale(1)  brightness(1.5);
+  transition-property: background, filter, -webkit-filter;
 }
 .card16:hover {
   background: url("../img/basford/요닝.png") center center no-repeat;
@@ -440,6 +457,7 @@ h2 {
   background: url("../img/basford/구래햇살아.png") left center no-repeat;
   background-size: 300px;
   filter: grayscale(1)  brightness(1.5);
+  transition-property: background, filter, -webkit-filter;
 }
 .card17:hover {
   background: url("../img/basford/구래햇살아.png") center center no-repeat;
@@ -457,6 +475,7 @@ h2 {
   background: url("../img/basford/양양.png") left center no-repeat;
   background-size: 300px;
   filter: grayscale(1)  brightness(1.5);
+  transition-property: background, filter, -webkit-filter;
 }
 .card18:hover {
   background: url("../img/basford/양양.png") center center no-repeat;
@@ -474,6 +493,7 @@ h2 {
   background: url("../img/basford/라미.png") left center no-repeat;
   background-size: 300px;
   filter: grayscale(1)  brightness(1.5);
+  transition-property: background, filter, -webkit-filter;
 }
 .card19:hover {
   background: url("../img/basford/라미.png") center center no-repeat;
@@ -491,6 +511,7 @@ h2 {
   background: url("../img/basford/김하율.png") left center no-repeat;
   background-size: 300px;
   filter: grayscale(1)  brightness(1.5);
+  transition-property: background, filter, -webkit-filter;
 }
 .card20:hover {
   background: url("../img/basford/김하율.png") center center no-repeat;
@@ -508,6 +529,7 @@ h2 {
   background: url("../img/basford/토끼예나.png") left center no-repeat;
   background-size: 300px;
   filter: grayscale(1)  brightness(1.5);
+  transition-property: background, filter, -webkit-filter;
 }
 .card21:hover {
   background: url("../img/basford/토끼예나.png") center center no-repeat;
@@ -525,6 +547,7 @@ h2 {
   background: url("../img/basford/명탐정맑음.png") left center no-repeat;
   background-size: 300px;
   filter: grayscale(1)  brightness(1.5);
+  transition-property: background, filter, -webkit-filter;
 }
 .card22:hover {
   background: url("../img/basford/명탐정맑음.png") center center no-repeat;
