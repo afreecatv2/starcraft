@@ -422,3 +422,31 @@ tr th:nth-child(14),tr td:nth-child(14){
 .live{	
 	background-color: #ff0000;
 }
+
+.speech-bubble.remark {
+	display: none;
+	position:absolute;
+	top:-98px;
+	right:-46px;
+	width:200px;
+	white-space: pre;
+	font-size:24px;
+	line-height: 40px;
+	background: #484ee2;
+	color: #fff;
+	z-index:999;
+}
+.speech-bubble.remark:after {
+	border-top-color: #484ee2;
+}
+
+.icon-remark{
+	position:absolute;
+	top:-18px;
+	right:4px;
+	z-index:99;
+}
+
+.tier-frame:hover .speech-bubble.remark{
+	display: inline-block;
+}
