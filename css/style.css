@@ -423,6 +423,51 @@ tr th:nth-child(14),tr td:nth-child(14){
 	background-color: #ff0000;
 }
 
+
+.speech-bubble {
+  background: #cc39d8;
+  color: #fff;
+  display: inline-block;
+	font-size: 14px;
+  line-height: 4em;
+  margin-bottom: 1em;
+	padding: 0 1em;
+	position: relative;
+	text-align: center;
+	vertical-align: top;
+		min-width: 7em;
+    margin: 30px 10px;
+}
+.speech-bubble:after {
+	border: 1em solid transparent;
+	border-top-color: #cc39d8;
+	content: '';
+	margin-left: -1em;
+	position: absolute;
+		top: 100%;
+		left: 50%;
+	width: 0;
+	height: 0;
+}
+
+.speech-bubble.large {
+	font-size: 2em;
+	padding: 0 1em;
+		min-width: 4em;
+}
+
+.speech-bubble.rounded {
+	border-radius: .4em;
+}
+
+.speech-bubble.blue {
+	background: #484ee2;
+	color: #fff;
+}
+.speech-bubble.blue:after {
+	border-top-color: #484ee2;
+}
+
 .speech-bubble.remark {
 	display: none;
 	position:absolute;
