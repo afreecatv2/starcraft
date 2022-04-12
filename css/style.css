@@ -477,12 +477,12 @@ tr th:nth-child(14),tr td:nth-child(14){
 	white-space: pre;
 	font-size:24px;
 	line-height: 40px;
-	background: #484ee2;
+	background: #3698ee;
 	color: #fff;
 	z-index:999;
 }
 .speech-bubble.remark:after {
-	border-top-color: #484ee2;
+	border-top-color: #3698ee;
 }
 
 .icon-remark{
