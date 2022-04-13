@@ -360,11 +360,16 @@ var entry2 = [["수수한세리","T"],["강덕구","T"],["새별","T"],["구래�
 <script type="text/javascript" src="js/tournament.js?ver=0.0.1"></script>
 <!-- <script src="https://test.aengji.com/afreecatv/temp/tournament.min.js?ver=0.0.1"></script> -->
 <script>
-pageview("lsl");
 popup2("확정 대진 아님!!!\n\n대회 시작 시간: 4월 13일 오후 7시.\n대진 추첨은 5시 30분~6시 사이 예정입니다.");
-var agn = document.querySelector(".aenggamenet");
-agn.innerHTML = "";
-ce(agn, "img", {"src":"img/ci_blue03.png"});
+setTimeout(() => {
+	var agn = document.querySelector(".aenggamenet");
+	if(agn){
+		agn.innerHTML = "";
+		ce(agn, "img", {"src":"img/ci_blue03.png"});
+	}
+}, 500);
+
+pageview("lsl");
 </script>
 </body>
 </html
