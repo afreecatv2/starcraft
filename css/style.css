@@ -238,22 +238,22 @@ html, body{
 	z-index:99;
 }
 .birthday{
-	width:82px;
-	height:38px;
+	/* width:82px;
+	height:38px; */
+	width:96px;
 	position:absolute;
-	top:65px;
-	left:9px;
+	top:78px;
+	left:16px;
 	cursor:pointer;
 	pointer-events:none;
-	z-index:99;
+	z-index:1002;
 }
 .tier-frame:hover .birthday{
-	width:164px;
-	height:76px;
-	top:-80px;
+	width:196px;
+	top:-94px;
 	left:-32px;
 	transition: width 1s, height 1s, top 1s, left 1s;
-	z-index:999;
+	z-index:1002;
 }
 
 .status{	
