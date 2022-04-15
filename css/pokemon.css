@@ -1,0 +1,519 @@
+:root {
+  --color1: rgb(0, 231, 255);
+  --color2: rgb(255, 0, 231);
+  --back: url(https://cdn2.bulbagarden.net/upload/1/17/Cardback.jpg);
+  --charizard1: #fac;
+  --charizard2: #ddccaa;
+  --charizardfront: url(https://assets.codepen.io/13471/charizard-gx.webp);
+  --pika1: #54a29e;
+  --pika2: #a79d66;
+  --pikafront: url(bg2.png);
+  --eevee1: #efb2fb;
+  --eevee2: #acc6f8;
+  --eeveefront: url(data:image/jpeg;base64,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);
+  --mewtwo1: #efb2fb;
+  --mewtwo2: #acc6f8;
+  --mewtwofront: url(https://assets.codepen.io/13471/mewtwo-gx.webp);
+}
+
+.card {
+  /* width: 71.5vw;
+  height: 100vw; */
+  width: 120px;
+  height: 160px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  margin: 20px;
+  overflow: hidden;
+  z-index: 10;
+  touch-action: none;
+  border-radius: 5%/3.5%;
+  box-shadow: -5px -5px 5px -5px var(--color1), 5px 5px 5px -5px var(--color2), -7px -7px 10px -5px transparent, 7px 7px 10px -5px transparent, 0 0 5px 0px rgba(255, 255, 255, 0), 0 55px 35px -20px rgba(0, 0, 0, 0.5);
+  transition: transform 0.5s ease, box-shadow 0.2s ease;
+  will-change: transform, filter;
+  background-color: #040712;
+  background-image: var(--front);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  transform-origin: center;
+}
+/* @media screen and (min-width: 600px) {
+  .card {
+    width: clamp(12.9vw, 61vh, 18vw);
+    height: clamp(18vw, 85vh, 25.2vw);
+  }
+} */
+
+.card:hover {
+  box-shadow: -20px -20px 30px -25px var(--color1), 20px 20px 30px -25px var(--color2), -7px -7px 10px -5px var(--color1), 7px 7px 10px -5px var(--color2), 0 0 13px 4px rgba(255, 255, 255, 0.3), 0 55px 35px -20px rgba(0, 0, 0, 0.5);
+}
+
+.card.charizard {
+  --color1: var(--charizard1);
+  --color2: var(--charizard2);
+  --front: var(--charizardfront);
+}
+
+.card.pika {
+  --color1: var(--pika1);
+  --color2: var(--pika2);
+  /* --front: var(--pikafront); */
+  --front: url(../img/ukkz/한유주.jpg);
+}
+.card.pika:after {	
+  --front: var(--bi);
+}
+
+.card.mewtwo {
+  --color1: var(--mewtwo1);
+  --color2: var(--mewtwo2);
+  --front: var(--mewtwofront);
+}
+
+.card.eevee {
+  --color1: #ec9bb6;
+  --color2: #ccac6f;
+  --color3: #69e4a5;
+  --color4: #8ec5d6;
+  --color5: #b98cce;
+  --front: var(--eeveefront);
+}
+
+.card:before,
+.card:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  mix-blend-mode: color-dodge;
+  transition: all 0.33s ease;
+}
+
+.card:before {
+  background-position: 50% 50%;
+  background-size: 300% 300%;
+  background-image: linear-gradient(115deg, transparent 0%, var(--color1) 25%, transparent 47%, transparent 53%, var(--color2) 75%, transparent 100%);
+  opacity: 0.5;
+  filter: brightness(0.5) contrast(1);
+  z-index: 1;
+}
+
+.card:after {
+  opacity: 1;
+  /* background-image: url("https://assets.codepen.io/13471/sparkles.gif"), url(https://assets.codepen.io/13471/holo.png), linear-gradient(125deg, #ff008450 15%, #fca40040 30%, #ffff0030 40%, #00ff8a20 60%, #00cfff40 70%, #cc4cfa50 85%); */
+  background-image: url("https://assets.codepen.io/13471/sparkles.gif")	;
+  background-position: 50% 50%;
+  background-size: 160%;
+  background-blend-mode: overlay;
+  z-index: 2;
+  filter: brightness(1) contrast(1);
+  transition: all 0.33s ease;
+  mix-blend-mode: color-dodge;
+  opacity: 0.75;
+}
+
+.card.active:after,
+.card:hover:after {
+  filter: brightness(1) contrast(1);
+  opacity: 1;
+}
+
+.card.active,
+.card:hover {
+  -webkit-animation: none;
+          animation: none;
+  transition: box-shadow 0.1s ease-out;
+}
+
+.card.active:before,
+.card:hover:before {
+  -webkit-animation: none;
+          animation: none;
+  background-image: linear-gradient(110deg, transparent 25%, var(--color1) 48%, var(--color2) 52%, transparent 75%);
+  background-position: 50% 50%;
+  background-size: 250% 250%;
+  opacity: 0.88;
+  filter: brightness(0.66) contrast(1.33);
+  transition: none;
+}
+
+.card.active:before,
+.card:hover:before,
+.card.active:after,
+.card:hover:after {
+  -webkit-animation: none;
+          animation: none;
+  transition: none;
+}
+
+.card.animated {
+  transition: none;
+  -webkit-animation: holoCard 12s ease 0s 1;
+          animation: holoCard 12s ease 0s 1;
+}
+.card.animated:before {
+  transition: none;
+  -webkit-animation: holoGradient 12s ease 0s 1;
+          animation: holoGradient 12s ease 0s 1;
+}
+.card.animated:after {
+  transition: none;
+  -webkit-animation: holoSparkle 12s ease 0s 1;
+          animation: holoSparkle 12s ease 0s 1;
+}
+
+@-webkit-keyframes holoSparkle {
+  0%, 100% {
+    opacity: 0.75;
+    background-position: 50% 50%;
+    filter: brightness(1.2) contrast(1.25);
+  }
+  5%, 8% {
+    opacity: 1;
+    background-position: 40% 40%;
+    filter: brightness(0.8) contrast(1.2);
+  }
+  13%, 16% {
+    opacity: 0.5;
+    background-position: 50% 50%;
+    filter: brightness(1.2) contrast(0.8);
+  }
+  35%, 38% {
+    opacity: 1;
+    background-position: 60% 60%;
+    filter: brightness(1) contrast(1);
+  }
+  55% {
+    opacity: 0.33;
+    background-position: 45% 45%;
+    filter: brightness(1.2) contrast(1.25);
+  }
+}
+
+@keyframes holoSparkle {
+  0%, 100% {
+    opacity: 0.75;
+    background-position: 50% 50%;
+    filter: brightness(1.2) contrast(1.25);
+  }
+  5%, 8% {
+    opacity: 1;
+    background-position: 40% 40%;
+    filter: brightness(0.8) contrast(1.2);
+  }
+  13%, 16% {
+    opacity: 0.5;
+    background-position: 50% 50%;
+    filter: brightness(1.2) contrast(0.8);
+  }
+  35%, 38% {
+    opacity: 1;
+    background-position: 60% 60%;
+    filter: brightness(1) contrast(1);
+  }
+  55% {
+    opacity: 0.33;
+    background-position: 45% 45%;
+    filter: brightness(1.2) contrast(1.25);
+  }
+}
+@-webkit-keyframes holoGradient {
+  0%, 100% {
+    opacity: 0.5;
+    background-position: 50% 50%;
+    filter: brightness(0.5) contrast(1);
+  }
+  5%, 9% {
+    background-position: 100% 100%;
+    opacity: 1;
+    filter: brightness(0.75) contrast(1.25);
+  }
+  13%, 17% {
+    background-position: 0% 0%;
+    opacity: 0.88;
+  }
+  35%, 39% {
+    background-position: 100% 100%;
+    opacity: 1;
+    filter: brightness(0.5) contrast(1);
+  }
+  55% {
+    background-position: 0% 0%;
+    opacity: 1;
+    filter: brightness(0.75) contrast(1.25);
+  }
+}
+@keyframes holoGradient {
+  0%, 100% {
+    opacity: 0.5;
+    background-position: 50% 50%;
+    filter: brightness(0.5) contrast(1);
+  }
+  5%, 9% {
+    background-position: 100% 100%;
+    opacity: 1;
+    filter: brightness(0.75) contrast(1.25);
+  }
+  13%, 17% {
+    background-position: 0% 0%;
+    opacity: 0.88;
+  }
+  35%, 39% {
+    background-position: 100% 100%;
+    opacity: 1;
+    filter: brightness(0.5) contrast(1);
+  }
+  55% {
+    background-position: 0% 0%;
+    opacity: 1;
+    filter: brightness(0.75) contrast(1.25);
+  }
+}
+@-webkit-keyframes holoCard {
+  0%, 100% {
+    transform: rotateZ(0deg) rotateX(0deg) rotateY(0deg);
+  }
+  5%, 8% {
+    transform: rotateZ(0deg) rotateX(6deg) rotateY(-20deg);
+  }
+  13%, 16% {
+    transform: rotateZ(0deg) rotateX(-9deg) rotateY(32deg);
+  }
+  35%, 38% {
+    transform: rotateZ(3deg) rotateX(12deg) rotateY(20deg);
+  }
+  55% {
+    transform: rotateZ(-3deg) rotateX(-12deg) rotateY(-27deg);
+  }
+}
+@keyframes holoCard {
+  0%, 100% {
+    transform: rotateZ(0deg) rotateX(0deg) rotateY(0deg);
+  }
+  5%, 8% {
+    transform: rotateZ(0deg) rotateX(6deg) rotateY(-20deg);
+  }
+  13%, 16% {
+    transform: rotateZ(0deg) rotateX(-9deg) rotateY(32deg);
+  }
+  35%, 38% {
+    transform: rotateZ(3deg) rotateX(12deg) rotateY(20deg);
+  }
+  55% {
+    transform: rotateZ(-3deg) rotateX(-12deg) rotateY(-27deg);
+  }
+}
+.card.eevee:hover {
+  box-shadow: 0 0 30px -5px white, 0 0 10px -2px white, 0 55px 35px -20px rgba(0, 0, 0, 0.5);
+}
+
+.card.eevee:hover:before,
+.card.eevee.active:before {
+  background-image: linear-gradient(115deg, transparent 20%, var(--color1) 36%, var(--color2) 43%, var(--color3) 50%, var(--color4) 57%, var(--color5) 64%, transparent 80%);
+}
+
+.demo .card {
+  background-image: var(--back);
+  font-size: 2vh;
+}
+
+.demo .card > span {
+  position: relative;
+  top: 45%;
+}
+
+.demo .card:nth-of-type(1),
+.demo .card:nth-of-type(2),
+.demo .card:nth-of-type(3) {
+  width: 20vh;
+  height: 27.5vh;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4), 0 25px 15px -10px rgba(0, 0, 0, 0.5);
+  -webkit-animation: none;
+          animation: none;
+}
+
+.demo .card:nth-of-type(1):before, .demo .card:nth-of-type(1):after,
+.demo .card:nth-of-type(2):before,
+.demo .card:nth-of-type(2):after,
+.demo .card:nth-of-type(3):before,
+.demo .card:nth-of-type(3):after {
+  -webkit-animation: none;
+          animation: none;
+}
+
+.demo .card:nth-of-type(1):before, .demo .card:nth-of-type(1):after {
+  display: none;
+}
+
+.demo .card:nth-of-type(2) {
+  background: none;
+}
+.demo .card:nth-of-type(2):before {
+  display: none;
+}
+
+.demo .card:nth-of-type(3) {
+  background: none;
+}
+.demo .card:nth-of-type(3):after {
+  display: none;
+}
+
+.operator {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 6vh;
+}
+
+.demo,
+.cards {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly; */
+  perspective: 2000px;
+  position: relative;
+  z-index: 1;
+  transform: translate3d(0.1px, 0.1px, 0.1px);
+}
+
+.demo {
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media screen and (min-width: 600px) {
+  .cards {
+    flex-direction: row;
+  }
+}
+.cards .card:nth-child(2), .cards .card:nth-child(2):before, .cards .card:nth-child(2):after {
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+}
+.cards .card:nth-child(3), .cards .card:nth-child(3):before, .cards .card:nth-child(3):after {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+.cards .card:nth-child(4), .cards .card:nth-child(4):before, .cards .card:nth-child(4):after {
+  -webkit-animation-delay: 0.75s;
+          animation-delay: 0.75s;
+}
+
+
+.card-tier {
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	font-size: 32px;
+	font-weight:800;
+	color: #fff;
+	/* -webkit-text-stroke: 1px #ffffff; */
+	text-shadow: 0px 0px 4px #000;
+}
+.card-title {
+	position: absolute;
+	top: 114px;
+	left: 4px;
+	font-size: 16px;
+	font-weight:400;
+	color: #fff;
+	/* -webkit-text-stroke: 1px #ffffff; */	
+	text-shadow: 0px 0px 4px #000;
+}
+.card-name {
+	position: absolute;
+	top: 132px;
+	left: 4px;
+	font-size: 24px;
+	font-weight:600;
+	color: #fff;
+	/* -webkit-text-stroke: 1px #ffffff; */
+	text-shadow: 0px 0px 6px #000;
+}
+.card.card1 {
+  --color1: var(--pika1);
+  --color2: var(--pika2);
+  --front: url(../img/ukkz/이윤열.jpg);
+}
+.card.card2 {
+  --color1: var(--pika1);
+  --color2: var(--pika2);
+  --front: url(../img/ukkz/신상문.jpg);
+}
+.card.card3 {
+  --color1: var(--pika1);
+  --color2: var(--pika2);
+  --front: url(../img/ukkz/김성현.jpg);
+}
+.card.card4 {
+  --color1: var(--pika1);
+  --color2: var(--pika2);
+  --front: url(../img/ukkz/지동원.jpg);
+}
+.card.card5 {
+  --color1: var(--pika1);
+  --color2: var(--pika2);
+  --front: url(../img/ukkz/정경두.jpg);
+}
+.card.card6 {
+  --color1: var(--pika1);
+  --color2: var(--pika2);
+  --front: url(../img/ukkz/김병수.jpg);
+}
+.card.card7 {
+  --color1: var(--pika1);
+  --color2: var(--pika2);
+  --front: url(../img/ukkz/유민.jpg);
+}
+.card.card8 {
+  --color1: var(--pika1);
+  --color2: var(--pika2);
+  --front: url(../img/ukkz/미키.jpg);
+}
+.card.card9 {
+  --color1: var(--pika1);
+  --color2: var(--pika2);
+  --front: url(../img/ukkz/유혜미.jpg);
+}
+.card.card10 {
+  --color1: var(--pika1);
+  --color2: var(--pika2);
+  --front: url(../img/ukkz/추르미.jpg);
+}
+.card.card11 {
+  --color1: var(--pika1);
+  --color2: var(--pika2);
+  --front: url(../img/ukkz/김요요.jpg);
+}
+.card.card12 {
+  --color1: var(--pika1);
+  --color2: var(--pika2);
+  --front: url(../img/ukkz/홍이랑.jpg);
+}
+.card.card13 {
+  --color1: var(--pika1);
+  --color2: var(--pika2);
+  --front: url(../img/ukkz/두치와뿌꾸.jpg);
+}
+.card.card14 {
+  --color1: var(--pika1);
+  --color2: var(--pika2);
+  --front: url(../img/ukkz/만다.jpg);
+}
+.card.card15 {
+  --color1: var(--pika1);
+  --color2: var(--pika2);
+  --front: url(../img/ukkz/김세아.jpg);
+}
+.card.card16 {
+  --color1: var(--pika1);
+  --color2: var(--pika2);
+  --front: url(../img/ukkz/한유주.jpg);
+}
