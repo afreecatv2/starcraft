@@ -33,11 +33,14 @@
   transition: transform 0.5s ease, box-shadow 0.2s ease;
   will-change: transform, filter;
   background-color: #040712;
-  background-image: var(--front);
+  /* background-image: var(--front); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   transform-origin: center;
+}
+.card.onair{ 
+  background-image: var(--front);
 }
 /* @media screen and (min-width: 600px) {
   .card {
@@ -508,11 +511,6 @@
   --front: url(../img/ukkz/만다.jpg);
 }
 .card.card15 {
-  --color1: var(--pika1);
-  --color2: var(--pika2);
-  --front: url(../img/ukkz/김세아.jpg);
-}
-.card.card16 {
   --color1: var(--pika1);
   --color2: var(--pika2);
   --front: url(../img/ukkz/한유주.jpg);
