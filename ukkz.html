@@ -55,7 +55,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 				<span class="card-title">이사장</span>
 				<span class="card-name">이윤열</span>
 			</div>
-			<div id="palko1" class="card animated  card2">
+			<div id="palko1" class="card card2">
 				<span class="card-tier">J</span>
 				<span class="card-title">총장</span>
 				<span class="card-name">신상문</span>
@@ -90,7 +90,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 				<span class="card-title"></span>
 				<span class="card-name">미키</span>
 			</div>
-			<div id="love1uu" class="card animated  card9">
+			<div id="love1uu" class="card card9">
 				<span class="card-tier">3</span>
 				<span class="card-title"></span>
 				<span class="card-name">유혜미</span>
@@ -125,7 +125,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 				<span class="card-title"></span>
 				<span class="card-name">만다</span>
 			</div>
-			<div id="mercia" class="card animated  card15">
+			<div id="mercia" class="card card15">
 				<span class="card-tier">8</span>
 				<span class="card-title">주전</span>
 				<span class="card-name">한유주</span>
@@ -156,10 +156,26 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 	var univ_map = {"nada11200":["Joker","이사장","이윤열","Terran"],"palko1":["Jack","총장","신상문","Terran"],"rlatjdgus228":["N","교수","김성현","Terran"],"rondobba":["Jack","교수","지동원","Terran"],"paralyze92":["Jack","교수","정경두","Terran"],"dgh9641":["Joker","교수","김병수","Zerg"],"minyoo3972":["0","조교","유민","Protoss"],"sdd7707":["2티어","","미키","Terran"],"love1uu":["3티어","","유혜미","Terran"],"dksldi1010":["3티어","","추르미","Terran"],"imheeyaaa":["4티어","","김요요","Terran"],"ghdguswo":["5티어","","홍이랑","Protoss"],"saaaaa1212":["N","","농떼르만","Terran"],"galsa":["7티어","","두치와뿌꾸","Protoss"],"kangjikk":["7티어","","만다","Terran"],"mercia":["8티어","주전","한유주","Protoss"]};
   </script>
   <script src="js/util.js?ver=0.0.2"></script>
-  <!-- <script src="js/univ_cctv_ukkz.js?ver=0.0.1"></script> -->
-  <script src="https://test.aengji.com/afreecatv/univ/univ_cctv_ukkz.min.js?ver=0.0.1"></script>
-  
+  <script src="js/univ_cctv_ukkz.js?ver=0.0.1"></script>
+  <!-- <script src="https://test.aengji.com/afreecatv/univ/univ_cctv_ukkz.min.js?ver=0.0.1"></script> -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
   <script  src="js/pokemon.js"></script>
+	<script>
+	setTimeout(function(){
+		var cnt = 0;
+		var onairs = document.querySelectorAll(".onair");
+		cnt = onairs.length;
+		if(cnt > 0){
+			for(var onair of onairs){
+				onair.classList.add("animated");
+			}
+		} else {
+			document.getElementById("palko1").classList.add("animated");
+			document.getElementById("love1uu").classList.add("animated");
+			document.getElementById("mercia").classList.add("animated");
+		}
+	}, 1000);
+  </script>  
+  
 </body>
 </html>
