@@ -38,6 +38,7 @@
   background-repeat: no-repeat;
   background-position: 50% 50%;
   transform-origin: center;
+  cursor: pointer;
 }
 .card.onair{ 
   background-image: var(--front);
