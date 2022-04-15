@@ -522,3 +522,8 @@
   --color2: var(--pika2);
   --front: url(../img/ukkz/농떼르만.jpg);
 }
+.card.card17 {
+  --color1: var(--pika1);
+  --color2: var(--pika2);
+  --front: url(../img/ukkz/경식.jpg);
+}
