@@ -561,3 +561,8 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   --color2: var(--pika2);
   --front: url(../img/ukkz/박영덕.jpg);
 }
+.card.card19 {
+  --color1: var(--pika1);
+  --color2: var(--pika2);
+  --front: url(../img/ukkz/보고니.jpg);
+}
