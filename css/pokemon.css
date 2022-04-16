@@ -1,3 +1,33 @@
+
+.bg-texture {
+	background-color: #333;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23ffffff' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+.bg-banana {
+  background: radial-gradient(circle closest-side at 66px 32px, #B5563B 3px, transparent 0), radial-gradient(circle closest-side at 28px 58px, #B5563B 3px, transparent 0), radial-gradient(circle closest-side at 40px 35px, #E3F9D4 25px, transparent 0), radial-gradient(circle closest-side at 50px 50px, #F9A734 25px, transparent 0), radial-gradient(circle closest-side at 52px 55px, #FB8B24 25px, transparent 0), radial-gradient(circle closest-side at 166px 122px, #B5563B 3px, transparent 0), radial-gradient(circle closest-side at 128px 148px, #B5563B 3px, transparent 0), radial-gradient(circle closest-side at 140px 125px, #E3F9D4 25px, transparent 0), radial-gradient(circle closest-side at 150px 140px, #F9A734 25px, transparent 0), radial-gradient(circle closest-side at 152px 145px, #FB8B24 25px, transparent 0);
+  background-color: #E3F9D4;
+  background-size: 180px 210px;
+  -webkit-animation: animatedBackground 0.5s cubic-bezier(0.61, -0.64, 0.58, 1.46) forwards;
+          animation: animatedBackground 0.5s cubic-bezier(0.61, -0.64, 0.58, 1.46) forwards;
+}
+/* Animation */
+@-webkit-keyframes animatedBackground {
+  from {
+    background-position: -10% 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+@keyframes animatedBackground {
+  from {
+    background-position: -10% 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+
 :root {
   --color1: rgb(0, 231, 255);
   --color2: rgb(255, 0, 231);
@@ -526,32 +556,8 @@
   --color2: var(--pika2);
   --front: url(../img/ukkz/경식.jpg);
 }
-
-.bg-texture {
-	background-color: #333;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23ffffff' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
-}
-.bg-banana {
-  background: radial-gradient(circle closest-side at 66px 32px, #B5563B 3px, transparent 0), radial-gradient(circle closest-side at 28px 58px, #B5563B 3px, transparent 0), radial-gradient(circle closest-side at 40px 35px, #E3F9D4 25px, transparent 0), radial-gradient(circle closest-side at 50px 50px, #F9A734 25px, transparent 0), radial-gradient(circle closest-side at 52px 55px, #FB8B24 25px, transparent 0), radial-gradient(circle closest-side at 166px 122px, #B5563B 3px, transparent 0), radial-gradient(circle closest-side at 128px 148px, #B5563B 3px, transparent 0), radial-gradient(circle closest-side at 140px 125px, #E3F9D4 25px, transparent 0), radial-gradient(circle closest-side at 150px 140px, #F9A734 25px, transparent 0), radial-gradient(circle closest-side at 152px 145px, #FB8B24 25px, transparent 0);
-  background-color: #E3F9D4;
-  background-size: 180px 210px;
-  -webkit-animation: animatedBackground 0.5s cubic-bezier(0.61, -0.64, 0.58, 1.46) forwards;
-          animation: animatedBackground 0.5s cubic-bezier(0.61, -0.64, 0.58, 1.46) forwards;
-}
-/* Animation */
-@-webkit-keyframes animatedBackground {
-  from {
-    background-position: -10% 0;
-  }
-  to {
-    background-position: 0 0;
-  }
-}
-@keyframes animatedBackground {
-  from {
-    background-position: -10% 0;
-  }
-  to {
-    background-position: 0 0;
-  }
+.card.card18 {
+  --color1: var(--pika1);
+  --color2: var(--pika2);
+  --front: url(../img/ukkz/박영덕.jpg);
 }
