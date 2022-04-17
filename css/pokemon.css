@@ -566,3 +566,21 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   --color2: var(--pika2);
   --front: url(../img/ukkz/보고니.jpg);
 }
+
+.card.card20 {
+  --color1: var(--pika1);
+  --color2: var(--pika2);
+  --front: url(../img/ukkz/방개.jpg);
+}
+
+.card.card21 {
+  --color1: var(--pika1);
+  --color2: var(--pika2);
+  --front: url(../img/ukkz/꿀떡이찰떡이.jpg);
+}
+
+.card.card22 {
+  --color1: var(--pika1);
+  --color2: var(--pika2);
+  --front: url(../img/ukkz/뿌하.jpg);
+}
