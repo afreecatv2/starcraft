@@ -88,9 +88,6 @@
 	pointer-events: none;
 	transition: opacity 0.6s;
 }
-.box:hover .box-bg{
-	opacity: 1;
-}
 .box.onair .box-bg{
 	opacity: 1;
 }
@@ -99,6 +96,9 @@
 }
 .box.offline .box-bg{
 	opacity: 0;
+}
+.box.offline:hover .box-bg{
+	opacity: 1;
 }
 
 .box .card-tier {
