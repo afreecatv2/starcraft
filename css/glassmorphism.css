@@ -85,7 +85,6 @@
 	 width:140px;
     height:200px;
     border-radius:15px;
-	opacity: 0;
 	pointer-events: none;
 	transition: opacity 0.6s;
 }
@@ -98,7 +97,9 @@
 .box.onair:hover .box-bg{
 	background: #f7371850;
 }
-
+.box.offline .box-bg{
+	opacity: 0;
+}
 
 .box .card-tier {
 	position: absolute;
