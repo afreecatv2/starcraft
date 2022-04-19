@@ -7,9 +7,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CCTV - JSA</title>
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link href="css/univ_cctv_light.css?ver=0.0.4" rel="stylesheet">
   <link rel="stylesheet" href="css/menu.css?ver=0.0.3">
-
+  <link href="css/image_roll.css?ver=0.0.1" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+  
+  <style>
+  body {
+	background: #42278e;
+	background-image:url(img/jsa/bg_jsa.jpg);
+	background-repeat: repeat;
+  }
+  </style>
 </head>
 <body>
 		<div class="header">
@@ -34,29 +42,237 @@
 				</ul>
 			</nav>
 		</div>
-    <div style="min-width:1280px;display:flex;flex-direction:column;justify-content:center;align-items: center;margin: 60px auto;">
-		<div style="display:flex;justify-content:center;margin-bottom:40px;">
-			<img src="img/jsa.png" width=100>
-			<span style="margin-left:10px;text-align:center;font-size:72px;">JSA Univ.</span>
-		</div>
-		<div id="univ_container" style="width:90%;z-index:2">
+	
+	<div id="thumb_container" style="position:absolute;top:0;width:100%;height:100%;display:flex;justify-content:center;align-items: center;margin: 0 auto;z-index:999;pointer-events: none;">
+	</div>
+    <div style="width:100%;display:flex;justify-content:center;align-items:center;flex-direction:column;margin-top:100px;z-index:2;">
+		<!-- <div style="height:64px;margin-top:-30px;margin-bottom:-60px;z-index:99999;display:flex;flex-direction:row;">
+			<img src="img/jsa/logo_jsa.png" style="height:64px;">
+			<div style="vertical-align: middle;margin-top:8px;color:#000;font-family:Jua;font-size:48px;font-weight:800;" class="neon"text>jsa
+			</div>
+		</div> -->
+		<div style="width:1520px;margin-top:0px;text-align:center;">
 			
+			<figure id="superbsw123" class="imageRoll offline">
+				<i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i>
+				</i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i>
+				<figcaption><span class="card-offline">OFFLINE</span><br>이사장<br>4티어<strong>시조새</strong></figcaption>
+				<span class="card-tier">4</span>
+				<span class="card-title">이사장</span>
+				<span class="card-name">시조새</span>
+				<img src="img/live.png" class="icon-live">
+			</figure>
+			<figure id="scv6256" class="imageRoll offline">
+				<i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i>
+				</i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i>
+				<figcaption><span class="card-offline">OFFLINE</span><br>총장<br>갓티어<strong>이재호</strong></figcaption>
+				<span class="card-tier">G</span>
+				<span class="card-title">총장</span>
+				<span class="card-name">이재호</span>
+				<img src="img/live.png" class="icon-live">
+			</figure>
+			<figure id="rfvtgb778" class="imageRoll offline">
+				<i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i>
+				</i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i>
+				<figcaption><span class="card-offline">OFFLINE</span><br>교수<br>킹티어<strong>이영웅</strong></figcaption>
+				<span class="card-tier">K</span>
+				<span class="card-title">교수</span>
+				<span class="card-name">이영웅</span>
+				<img src="img/live.png" class="icon-live">
+			</figure>
+			<figure id="rjsrkdgkwk12" class="imageRoll offline">
+				<i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i>
+				</i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i>
+				<figcaption><span class="card-offline">OFFLINE</span><br>교수<br>킹티어<strong>유진우</strong></figcaption>
+				<span class="card-tier">K</span>
+				<span class="card-title">교수</span>
+				<span class="card-name">유진우</span>
+				<img src="img/live.png" class="icon-live">
+			</figure>
+			<figure id="bumsoo552" class="imageRoll offline">
+				<i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i>
+				</i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i>
+				<figcaption><span class="card-offline">OFFLINE</span><br>교수<br>잭티어<strong>김범수</strong></figcaption>
+				<span class="card-tier">J</span>
+				<span class="card-title">교수</span>
+				<span class="card-name">김범수</span>
+				<img src="img/live.png" class="icon-live">
+			</figure>
+			<figure id="mwhdgus" class="imageRoll offline">
+				<i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i>
+				</i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i>
+				<figcaption><span class="card-offline">OFFLINE</span><br>교수<br>잭티어<strong>윤진규</strong></figcaption>
+				<span class="card-tier">J</span>
+				<span class="card-title">교수</span>
+				<span class="card-name">윤진규</span>
+				<img src="img/live.png" class="icon-live">
+			</figure>
+			<figure id="h78ert" class="imageRoll offline">
+				<i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i>
+				</i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i>
+				<figcaption><span class="card-offline">OFFLINE</span><br>교수<br>잭티어<strong>박준오</strong></figcaption>
+				<span class="card-tier">J</span>
+				<span class="card-title">교수</span>
+				<span class="card-name">박준오</span>
+				<img src="img/live.png" class="icon-live">
+			</figure>
+			<figure id="zx2362" class="imageRoll offline">
+				<i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i>
+				</i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i>
+				<figcaption><span class="card-offline">OFFLINE</span><br>교수<br>티어없음<strong>김유진</strong></figcaption>
+				<span class="card-tier">N</span>
+				<span class="card-title">교수</span>
+				<span class="card-name">김유진</span>
+				<img src="img/live.png" class="icon-live">
+			</figure>
+			<figure id="askl021" class="imageRoll offline">
+				<i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i>
+				</i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i>
+				<figcaption><span class="card-offline">OFFLINE</span><br>조교<br>조커티어<strong>빡죠스</strong></figcaption>
+				<span class="card-tier">R</span>
+				<span class="card-title">조교</span>
+				<span class="card-name">빡죠스</span>
+				<img src="img/live.png" class="icon-live">
+			</figure>
+			<figure id="ywww123" class="imageRoll offline">
+				<i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i>
+				</i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i>
+				<figcaption><span class="card-offline">OFFLINE</span><br>조교<br>1티어<strong>트슈</strong></figcaption>
+				<span class="card-tier">1</span>
+				<span class="card-title">조교</span>
+				<span class="card-name">트슈</span>
+				<img src="img/live.png" class="icon-live">
+			</figure>
+			<figure id="chs9011" class="imageRoll offline">
+				<i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i>
+				</i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i>
+				<figcaption><span class="card-offline">OFFLINE</span><br><br>2티어<strong>모토케이</strong></figcaption>
+				<span class="card-tier">2</span>
+				<span class="card-title"></span>
+				<span class="card-name">모토케이</span>
+				<img src="img/live.png" class="icon-live">
+			</figure>
+			<figure id="gom29a" class="imageRoll offline">
+				<i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i>
+				</i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i>
+				<figcaption><span class="card-offline">OFFLINE</span><br><br>3티어<strong>알밤소녀</strong></figcaption>
+				<span class="card-tier">3</span>
+				<span class="card-title"></span>
+				<span class="card-name">알밤소녀</span>
+				<img src="img/live.png" class="icon-live">
+			</figure>
+			<figure id="kitty1029" class="imageRoll offline">
+				<i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i>
+				</i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i>
+				<figcaption><span class="card-offline">OFFLINE</span><br><br>4티어<strong>꼬니부깅</strong></figcaption>
+				<span class="card-tier">4</span>
+				<span class="card-title"></span>
+				<span class="card-name">꼬니부깅</span>
+				<img src="img/live.png" class="icon-live">
+			</figure>
+			<figure id="rlsk0705" class="imageRoll offline">
+				<i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i>
+				</i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i>
+				<figcaption><span class="card-offline">OFFLINE</span><br><br>4티어<strong>기나</strong></figcaption>
+				<span class="card-tier">4</span>
+				<span class="card-title"></span>
+				<span class="card-name">기나</span>
+				<img src="img/live.png" class="icon-live">
+			</figure>
+			<figure id="dpfkd99" class="imageRoll offline">
+				<i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i>
+				</i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i>
+				<figcaption><span class="card-offline">OFFLINE</span><br><br>4티어<strong>성예랑</strong></figcaption>
+				<span class="card-tier">4</span>
+				<span class="card-title"></span>
+				<span class="card-name">성예랑</span>
+				<img src="img/live.png" class="icon-live">
+			</figure>
+			<figure id="phh95426" class="imageRoll offline">
+				<i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i>
+				</i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i>
+				<figcaption><span class="card-offline">OFFLINE</span><br>학생회장<br>5티어<strong>소심</strong></figcaption>
+				<span class="card-tier">5</span>
+				<span class="card-title">학생회장</span>
+				<span class="card-name">소심</span>
+				<img src="img/live.png" class="icon-live">
+			</figure>
+			<figure id="gkdud8463" class="imageRoll offline">
+				<i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i>
+				</i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i>
+				<figcaption><span class="card-offline">OFFLINE</span><br><br>6티어<strong>하부기</strong></figcaption>
+				<span class="card-tier">6</span>
+				<span class="card-title"></span>
+				<span class="card-name">하부기</span>
+				<img src="img/live.png" class="icon-live">
+			</figure>
+			<figure id="sbpark0120" class="imageRoll offline">
+				<i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i>
+				</i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i>
+				<figcaption><span class="card-offline">OFFLINE</span><br><br>6티어<strong>박새별</strong></figcaption>
+				<span class="card-tier">6</span>
+				<span class="card-title"></span>
+				<span class="card-name">박새별</span>
+				<img src="img/live.png" class="icon-live">
+			</figure>
+			<figure id="bbbaesiii" class="imageRoll offline">
+				<i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i>
+				</i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i>
+				<figcaption><span class="card-offline">OFFLINE</span><br><br>7티어<strong>강새이</strong></figcaption>
+				<span class="card-tier">7</span>
+				<span class="card-title"></span>
+				<span class="card-name">강새이</span>
+				<img src="img/live.png" class="icon-live">
+			</figure>
+			<figure id="judy0848" class="imageRoll offline">
+				<i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i>
+				</i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i>
+				<figcaption><span class="card-offline">OFFLINE</span><br><br>8티어<strong>이루리</strong></figcaption>
+				<span class="card-tier">8</span>
+				<span class="card-title"></span>
+				<span class="card-name">이루리</span>
+				<img src="img/live.png" class="icon-live">
+			</figure>
+			<figure id="tv112" class="imageRoll offline">
+				<i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i>
+				</i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i>
+				<figcaption><span class="card-offline">OFFLINE</span><br><br>8티어<strong>수핸</strong></figcaption>
+				<span class="card-tier">8</span>
+				<span class="card-title"></span>
+				<span class="card-name">수핸</span>
+				<img src="img/live.png" class="icon-live">
+			</figure>
+			<figure id="qkrgkdms01" class="imageRoll offline">
+				<i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i>
+				</i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i>
+				<figcaption><span class="card-offline">OFFLINE</span><br><br>8티어<strong>박하악</strong></figcaption>
+				<span class="card-tier">8</span>
+				<span class="card-title"></span>
+				<span class="card-name">박하악</span>
+				<img src="img/live.png" class="icon-live">
+			</figure>
+						
+			
+			
+				
+
 		</div>
+		
+	</div>	
+	
+	<div style="position:absolute;top:60px;left:40px;font-size:32px;color:#fff;font-family:Jua;text-shadow: 2px 2px 2px #000000;z-index:3">
+		<a href="jsa_list.html" style="color:#fff">리스트 CCTV</a>
 	</div>
-	<div id="thumb_container" style="position:absolute;top:0;width:100%;height:100%;display:flex;justify-content:center;align-items: center;margin: 0 auto;">	
-	</div>
-	  
-  <!-- <div style="position:absolute;top:40px;left:10px;font-size:32px;color:#000;font-family:Jua;text-shadow: 2px 2px 2px #ffffff;">
-	<a href="jsa.html">배경화면 CCTV</a>
-  </div> -->
-      
+	
+		
   <script>
+  
 	var url = 'https://test.aengji.com/afreecatv/afreecatv_onair_select_jsa.php';
 	var univ_list = ["superbsw123","scv6256","rfvtgb778","rjsrkdgkwk12","bumsoo552","mwhdgus","h78ert","zx2362","askl021","ywww123","chs9011","gom29a","kitty1029","rlsk0705","dpfkd99","phh95426","gkdud8463","sbpark0120","bbbaesiii","judy0848","tv112","qkrgkdms01"];
-	var univ_map = {"superbsw123":["4티어","이사장","시조새","Protoss"],"scv6256":["God","총장","이재호","Terran"],"rfvtgb778":["King","부총장","이영웅","Terran"],"rjsrkdgkwk12":["King","","유진우","Zerg"],"bumsoo552":["Jack","교수","김범수","Protoss"],"mwhdgus":["Jack","교수","윤진규","Zerg"],"h78ert":["Jack","교수","박준오","Zerg"],"zx2362":["N","교수","김유진","Protoss"],"askl021":["Joker","조교","빡죠스","Protoss"],"ywww123":["1티어","조교","트슈","Protoss"],"chs9011":["2티어","","모토케이","Terran"],"gom29a":["3티어","","알밤소녀","Zerg"],"kitty1029":["4티어","","꼬니부깅","Protoss"],"rlsk0705":["4티어","","기나","Protoss"],"dpfkd99":["4티어","","성예랑","Protoss"],"phh95426":["5티어","학생회장","소심","Terran"],"gkdud8463":["6티어","","하부기","Protoss"],"sbpark0120":["6티어","","박새별","Terran"],"bbbaesiii":["7티어","","강새이","Terran"],"judy0848":["8티어","","이루리","Protoss"],"tv112":["8티어","","수핸","Zerg"],"qkrgkdms01":["8티어","","박하악","Zerg"]};
   </script>
   <script src="js/util.js?ver=0.0.2"></script>
-  <script src="https://test.aengji.com/afreecatv/univ/univ_cctv_light.min.js?ver=0.0.14"></script>
+  <!-- <script src="js/univ_cctv_jsa.js?ver=0.0.1"></script> -->
+  <script src="https://test.aengji.com/afreecatv/univ/univ_cctv_jsa.min.js?ver=0.0.2"></script>
+  
 </body>
-
 </html>
