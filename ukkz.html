@@ -11,9 +11,33 @@
   <link rel="stylesheet" href="css/menu.css?ver=0.0.3">
   <link rel="stylesheet" href="css/pokemon.css?ver=0.0.9">
   <style>
-.neon {
-	color: #fff;
-	text-shadow:0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ff, 0 0 80px #0ff, 0 0 90px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
+.banana {
+  color: #F7CA05;
+  text-shadow: 0 6px 4px rgba(0,0,0,0.4),0 -6px 1px #fff;
+}
+.bg-banana {  
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="40px" height="40px"><text x="10" y="10" font-family="FontAwesome" font-size="8px">🍌</text><text x="30" y="30" font-family="FontAwesome" font-size="8px">🐒</text></svg>');
+  background-color: #E3F9D4;
+  background-size: 180px 210px;
+  -webkit-animation: animatedBackground 0.5s cubic-bezier(0.61, -0.64, 0.58, 1.46) forwards;
+          animation: animatedBackground 0.5s cubic-bezier(0.61, -0.64, 0.58, 1.46) forwards;
+}
+/* Animation */
+@-webkit-keyframes animatedBackground {
+  from {
+    background-position: -10% 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+@keyframes animatedBackground {
+  from {
+    background-position: -10% 0;
+  }
+  to {
+    background-position: 0 0;
+  }
 }
   </style>
 </head>
@@ -43,8 +67,8 @@
 	
     <div style="width:100%;display:flex;justify-content:center;align-items:center;flex-direction:column;margin-top:100px;z-index:2;">
 			<div style="height:64px;margin-top:-30px;margin-bottom:-60px;z-index:99999;display:flex;flex-direction:row;">
-				<img src="img/ukkz/logo_ukkz.png" style="height:64px;">
-				<div style="vertical-align: middle;margin-top:8px;color:#000;font-family:Jua;font-size:48px;font-weight:800;" class="neon"text>우끼끼즈</div>
+				<img src="img/ukkz/logo_ukkz.png" style="height:96px;">
+				<div style="vertical-align: middle;margin-left:8px;font-family:Jua;font-size:64px;font-weight:800;" class="banana"text>우끼끼즈 🍌</div>
 			</div>
 		<div style="width:1320px;margin-top:80px;text-align:center;" class="cards">
 		
@@ -174,7 +198,7 @@
 	
   <div style="position:absolute;top:0;width:1280px;z-index:999999;left: 50%;transform: translateX(-50%);">
 	<div style="position:relative;width:1280px;">		  
-		  <div style="position:absolute;top:50px;left:0px;font-size:32px;color:#fff;font-family:Jua;text-shadow: 2px 2px 2px #000000;z-index:3">
+		  <div style="position:absolute;top:50px;left:0px;font-size:32px;font-family:Jua;text-shadow: 2px 2px 2px #000000;z-index:3">
 			<a href="ukkz_list.html" style="color:#fff">리스트 CCTV</a>
 		  </div>
 	  </div>
