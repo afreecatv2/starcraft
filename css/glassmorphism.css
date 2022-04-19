@@ -82,7 +82,8 @@
 	cursor: pointer;
 }
 .box .box-bg{
-	 width:140px;
+	position:absolute;
+	width:140px;
     height:200px;
     border-radius:15px;
 	pointer-events: none;
@@ -133,4 +134,20 @@
 	color: #fff;
 	text-shadow: 0px 0px 4px #000;
 	pointer-events: none;
+}
+.box.onair .box-fire {
+	position:absolute;
+	width:140px;
+    height:200px;
+    border-radius:15px;
+	pointer-events: none;
+	background: url(../img/cgj/fire_200.gif);
+	animation: 5s fadeOut;
+	animation-fill-mode: forwards;  
+}
+
+@keyframes fadeOut {
+  100% {
+    visibility: hidden;
+  }
 }
