@@ -90,15 +90,21 @@
 	transition: opacity 0.6s;
 }
 .box.onair .box-bg{
+	border: 4px solid #00fa;
+	filter: brightness(1.2);
 	opacity: 1;
 }
 .box.onair:hover .box-bg{
-	background: #f7371850;
+	border: 4px solid #00fa;
+	filter: contrast(2) grayscale(1);
+	opacity: 0.4;
 }
 .box.offline .box-bg{
-	opacity: 0;
+	filter: contrast(2) grayscale(1);
+	opacity: 0.5;
 }
 .box.offline:hover .box-bg{
+	filter: brightness(1.2);
 	opacity: 1;
 }
 
