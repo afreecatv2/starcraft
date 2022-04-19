@@ -142,7 +142,7 @@
     border-radius:15px;
 	pointer-events: none;
 	background: url(../img/cgj/fire_200.gif);
-	animation: 5s fadeOut;
+	animation: 10s fadeOut;
 	animation-fill-mode: forwards;  
 }
 
