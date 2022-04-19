@@ -91,17 +91,19 @@
 	transition-property: opacity, filter, -webkit-filter;
 }
 .box.onair .box-bg{
-	border: 4px solid #00fa;
+	outline: 6px solid #00fa;
+    outline-offset: -6px;
 	filter: none;
 	opacity: 1;
 }
 .box.onair:hover .box-bg{
-	border: 4px solid #00fa;
 	filter: contrast(2) grayscale(1);
-	opacity: 0.4;
+	opacity: 1;
+	outline: 6px solid #00f;
+    outline-offset: -6px;
 }
 .box.offline .box-bg{
-	filter: contrast(2) grayscale(1));
+	filter: contrast(2) grayscale(1);
 	opacity: 0.5;
 }
 .box.offline:hover .box-bg{
