@@ -92,7 +92,7 @@
 }
 .box.onair .box-bg{
 	border: 4px solid #00fa;
-	filter: brightness(1.2);
+	filter: none;
 	opacity: 1;
 }
 .box.onair:hover .box-bg{
@@ -101,11 +101,11 @@
 	opacity: 0.4;
 }
 .box.offline .box-bg{
-	filter: contrast(2) grayscale(1);
+	filter: contrast(2) grayscale(1));
 	opacity: 0.5;
 }
 .box.offline:hover .box-bg{
-	filter: brightness(1.2);
+	filter: none;
 	opacity: 1;
 }
 
