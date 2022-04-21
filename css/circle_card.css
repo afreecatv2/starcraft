@@ -153,9 +153,8 @@ filter: blur(4px);
 } */
 .snip1566 figcaption {
   position: absolute;
-  top: 165px;
   background-color: #6154ee;
-  top:78%;
+  top:82%;
   left: 50%;
   padding-left: 5px;
   padding-right: 5px;
@@ -217,4 +216,14 @@ filter: blur(4px);
 .snip1566.onair:hover:after {
 	border-color: transparent #f00;
   border-width: 8px;
+}
+
+.circle-text { width: 100%; }
+.circle-text textPath { 
+  font-size: 63px;
+	font-family:  sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 20px;
+	fill: #111;
+  background: #333;
 }
