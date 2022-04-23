@@ -8,12 +8,15 @@
   <title>CCTV - 파이스트</title>
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="stylesheet" href="css/menu.css?ver=0.0.3">
-  <link href="css/card_flip.css?ver=0.0.2" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
-
+  <link rel="stylesheet" href="css/tilt.css?ver=0.0.1">
+  <link rel="stylesheet" href="css/fifa_card_pist.css?ver=0.0.1">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,700i'> -->
+  <link href="https://fonts.googleapis.com/css2?family=Jua&family=Roboto+Condensed:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
   <style>
 body {
   background: #1976D2;
+  background-image: url(https://user-images.githubusercontent.com/22690563/67150939-14a0b180-f2c7-11e9-8016-a993a397e1c5.jpg);
 }
 .shadow{
   font-family:Mr Dafoe, sans-serif;
@@ -54,832 +57,565 @@ body {
 	<div id="thumb_container" style="position:absolute;top:0;width:100%;height:100%;display:flex;justify-content:center;align-items: center;margin: 0 auto;">
 	</div>
     <div style="width:100%;display:flex;justify-content:center;align-items:center;flex-direction:column;margin-top:100px;z-index:2;">
-		<div style="height:64px;margin-top:-30px;margin-bottom:-60px;z-index:99999;display:flex;flex-direction:row;">
-			<img src="img/pist/logo_pist.png" style="width:80px;height:80px;">
-			<div style="vertical-align: middle;margin-left:4px;color:#fff;font-family:Jua;font-size:72px;font-weight:800;" class="shadow"text>파이스트
-			</div>
-		</div>
-		<div style="width:1280px;margin-top:100px;text-align:center;">
+		<!-- <div style="height:64px;margin-top:-30px;margin-bottom:-60px;z-index:99999;display:flex;flex-direction:row;">
+			<img src="img/pist_c/logo_pist.png" style="width:80px;height:80px;">
+			<div style="vertical-align: middle;margin-left:4px;color:#fff;font-family:Jua;font-size:72px;font-weight:800;" class="shadow"text>파이스트</div>
+		</div> -->
+		<div style="width:1320px;margin-top:-20px;text-align:center;">
+
 			
-			<div id="pi0314" class="wrapper onair">
-			  <div class="flip-container">
-				<div class="flip flip-left">
-				  <div class="front front-left">
-					  <!-- <div class="circle"></div> -->
-					  <div class="logo-left"></div>
-						<span class="card-tier">6</span>
-						<span class="card-title">이사장</span>
-						<span class="card-name">파이</span>
-				  </div>
-				  <div class="back back-left">
-					<img src="img/pist/파이.jpg" />
-						<span class="card-tier">6</span>
-						<span class="card-title">이사장</span>
-						<span class="card-name">파이</span>
-				  </div>
+			<div id="pi0314" class="fut-player-card tilt onair">
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating">6<span></span></div>
+						<div class="player-position">Z<span></span></div>
+						<div class="player-nation"></div>
+						<div class="player-club"></div>
+					</div>
 				</div>
-			  </div><div class="flip-container">
-				<div class="flip flip-right">
-				  <div class="front front-right">
-					  <!-- <div class="circle"></div> -->
-					  <div class="logo-right"></div>
-				  </div>
-				  <div class="back back-right">
-					<img src="img/pist/파이.jpg" />
-				  </div>
+				<div class="player-picture">
+					<img src="img/pist_c/파이.png"/>
+					<div class="player-extra"><span>이사장</span></div>
 				</div>
-			  </div>			  
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>파이</span></div>
+					</div>
+				</div>
 			</div>
-			<div id="cztaemin" class="wrapper onair">
-			  <div class="flip-container">
-				<div class="flip flip-left">
-				  <div class="front front-left">
-					  <div class="logo-left"></div>
-						<span class="card-tier">J</span>
-						<span class="card-title">총장</span>
-						<span class="card-name">박태민</span>
-				  </div>
-				  <div class="back back-left">
-					<img src="img/pist/박태민.jpg" />
-						<span class="card-tier">J</span>
-						<span class="card-title">총장</span>
-						<span class="card-name">박태민</span>
-				  </div>
+			<div id="cztaemin" class="fut-player-card tilt onair">
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating"><span>J</span></div>
+						<div class="player-position"><span>Z</span></div>
+						<div class="player-nation"></div>
+						<div class="player-club"></div>
+					</div>
 				</div>
-			  </div><div class="flip-container">
-				<div class="flip flip-right">
-				  <div class="front front-right">
-					  <div class="logo-right"></div>
-				  </div>
-				  <div class="back back-right">
-					<img src="img/pist/박태민.jpg" />
-				  </div>
+				<div class="player-picture">
+					<img src="img/pist_c/박태민.png"/>
+					<div class="player-extra"><span>총장</span></div>
 				</div>
-			  </div>			  
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>박태민</span></div>
+					</div>
+				</div>
 			</div>
-			<div id="zpdl1313" class="wrapper onair">
-			  <div class="flip-container">
-				<div class="flip flip-left">
-				  <div class="front front-left">
-					  <div class="logo-left"></div>
-						<span class="card-tier">8</span>
-						<span class="card-title">인사과장</span>
-						<span class="card-name">케이</span>
-				  </div>
-				  <div class="back back-left">
-					<img src="img/pist/케이.jpg" />
-						<span class="card-tier">8</span>
-						<span class="card-title">인사과장</span>
-						<span class="card-name">케이</span>
-				  </div>
+			<div id="zpdl1313" class="fut-player-card tilt onair">
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating"><span>8</span></div>
+						<div class="player-position"><span>P</span></div>
+						<div class="player-nation"></div>
+						<div class="player-club"></div>
+					</div>
 				</div>
-			  </div><div class="flip-container">
-				<div class="flip flip-right">
-				  <div class="front front-right">
-					  <div class="logo-right"></div>
-				  </div>
-				  <div class="back back-right">
-					<img src="img/pist/케이.jpg" />
-				  </div>
+				<div class="player-picture">
+					<img src="img/pist_c/케이.png"/>
+					<div class="player-extra"><span>인사과장</span></div>
 				</div>
-			  </div>			  
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>케이</span></div>
+					</div>
+				</div>
 			</div>
-			
-			<div id="wjdalsrl95" class="wrapper onair">
-			  <div class="flip-container">
-				<div class="flip flip-left">
-				  <div class="front front-left">
-					  <div class="logo-left"></div>
-						<span class="card-tier">J</span>
-						<span class="card-title">교수</span>
-						<span class="card-name">정민기</span>
-				  </div>
-				  <div class="back back-left">
-					<img src="img/pist/정민기.jpg" />
-						<span class="card-tier">J</span>
-						<span class="card-title">교수</span>
-						<span class="card-name">정민기</span>
-				  </div>
+			<div id="wjdalsrl95" class="fut-player-card tilt onair">
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating">J<span></span></div>
+						<div class="player-position">T<span></span></div>
+						<div class="player-nation"></div>
+						<div class="player-club"></div>
+					</div>
 				</div>
-			  </div><div class="flip-container">
-				<div class="flip flip-right">
-				  <div class="front front-right">
-					  <div class="logo-right"></div>
-				  </div>
-				  <div class="back back-right">
-					<img src="img/pist/정민기.jpg" />
-				  </div>
+				<div class="player-picture">
+					<img src="img/pist_c/정민기.png"/>
+					<div class="player-extra"><span>교수</span></div>
 				</div>
-			  </div>			  
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>정민기</span></div>
+					</div>
+				</div>
 			</div>
-			
-			<div id="goodzerg" class="wrapper onair">
-			  <div class="flip-container">
-				<div class="flip flip-left">
-				  <div class="front front-left">
-					  <div class="logo-left"></div>
-						<span class="card-tier">J</span>
-						<span class="card-title">교수</span>
-						<span class="card-name">배성흠</span>
-				  </div>
-				  <div class="back back-left">
-					<img src="img/pist/배성흠.jpg" />
-						<span class="card-tier">J</span>
-						<span class="card-title">교수</span>
-						<span class="card-name">배성흠</span>
-				  </div>
+			<div id="goodzerg" class="fut-player-card tilt onair">
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating">J<span></span></div>
+						<div class="player-position">Z<span></span></div>
+						<div class="player-nation">배성흠</div>
+						<div class="player-club"></div>
+					</div>
 				</div>
-			  </div><div class="flip-container">
-				<div class="flip flip-right">
-				  <div class="front front-right">
-					  <div class="logo-right"></div>
-				  </div>
-				  <div class="back back-right">
-					<img src="img/pist/배성흠.jpg" />
-				  </div>
+				<div class="player-picture">
+					<img src="img/pist_c/배성흠.png"/>
+					<div class="player-extra"><span>교수</span></div>
 				</div>
-			  </div>			  
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>배성흠</span></div>
+					</div>
+				</div>
 			</div>
-			
-			<div id="jh3697" class="wrapper onair">
-			  <div class="flip-container">
-				<div class="flip flip-left">
-				  <div class="front front-left">
-					  <div class="logo-left"></div>
-						<span class="card-tier">J</span>
-						<span class="card-title">교수</span>
-						<span class="card-name">서문지훈</span>
-				  </div>
-				  <div class="back back-left">
-					<img src="img/pist/서문지훈.jpg" />
-						<span class="card-tier">J</span>
-						<span class="card-title">교수</span>
-						<span class="card-name">서문지훈</span>
-				  </div>
+			<div id="jh3697" class="fut-player-card tilt onair">
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating">J<span></span></div>
+						<div class="player-position">Z<span></span></div>
+						<div class="player-nation"></div>
+						<div class="player-club"></div>
+					</div>
 				</div>
-			  </div><div class="flip-container">
-				<div class="flip flip-right">
-				  <div class="front front-right">
-					  <div class="logo-right"></div>
-				  </div>
-				  <div class="back back-right">
-					<img src="img/pist/서문지훈.jpg" />
-				  </div>
+				<div class="player-picture">
+					<img src="img/pist_c/서문지훈.png"/>
+					<div class="player-extra"><span></span>교수</div>
 				</div>
-			  </div>			  
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>서문지훈</span></div>
+					</div>
+				</div>
 			</div>
-			
-			<div id="dbrbals" class="wrapper onair">
-			  <div class="flip-container">
-				<div class="flip flip-left">
-				  <div class="front front-left">
-					  <div class="logo-left"></div>
-						<span class="card-tier">R</span>
-						<span class="card-title">조교</span>
-						<span class="card-name">초난강</span>
-				  </div>
-				  <div class="back back-left">
-					<img src="img/pist/초난강.jpg" />
-						<span class="card-tier">R</span>
-						<span class="card-title">조교</span>
-						<span class="card-name">초난강</span>
-				  </div>
+			<div id="dbrbals" class="fut-player-card tilt onair">
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating"><span>R</span></div>
+						<div class="player-position"><span>T</span></div>
+						<div class="player-nation"></div>
+						<div class="player-club"></div>
+					</div>
 				</div>
-			  </div><div class="flip-container">
-				<div class="flip flip-right">
-				  <div class="front front-right">
-					  <div class="logo-right"></div>
-				  </div>
-				  <div class="back back-right">
-					<img src="img/pist/초난강.jpg" />
-				  </div>
+				<div class="player-picture">
+					<img src="img/pist_c/초난강.png"/>
+					<div class="player-extra"><span>조교</span></div>
 				</div>
-			  </div>			  
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>초난강</span></div>
+					</div>
+				</div>
 			</div>
-			
-			<div id="kalmian" class="wrapper onair">
-			  <div class="flip-container">
-				<div class="flip flip-left">
-				  <div class="front front-left">
-					  <div class="logo-left"></div>
-						<span class="card-tier">1</span>
-						<span class="card-title">조교</span>
-						<span class="card-name">토스봇</span>
-				  </div>
-				  <div class="back back-left">
-					<img src="img/pist/토스봇.jpg" />
-						<span class="card-tier">1</span>
-						<span class="card-title">조교</span>
-						<span class="card-name">토스봇</span>
-				  </div>
+			<div id="kalmian" class="fut-player-card tilt onair">
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating"><span>1</span></div>
+						<div class="player-position"><span>P</span></div>
+						<div class="player-nation"></div>
+						<div class="player-club"></div>
+					</div>
 				</div>
-			  </div><div class="flip-container">
-				<div class="flip flip-right">
-				  <div class="front front-right">
-					  <div class="logo-right"></div>
-				  </div>
-				  <div class="back back-right">
-					<img src="img/pist/토스봇.jpg" />
-				  </div>
+				<div class="player-picture">
+					<img src="img/pist_c/토스봇.png"/>
+					<div class="player-extra"><span>조교</span></div>
 				</div>
-			  </div>			  
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>토스봇</span></div>
+					</div>
+				</div>
 			</div>
-			
-			<div id="jg9147zx" class="wrapper onair">
-			  <div class="flip-container">
-				<div class="flip flip-left">
-				  <div class="front front-left">
-					  <div class="logo-left"></div>
-						<span class="card-tier">1</span>
-						<span class="card-title">조교</span>
-						<span class="card-name">서현</span>
-				  </div>
-				  <div class="back back-left">
-					<img src="img/pist/서현.jpg" />
-						<span class="card-tier">1</span>
-						<span class="card-title">조교</span>
-						<span class="card-name">서현</span>
-				  </div>
+			<div id="jg9147zx" class="fut-player-card tilt onair">
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating"><span>1</span></div>
+						<div class="player-position"><span>P</span></div>
+						<div class="player-nation"></div>
+						<div class="player-club"></div>
+					</div>
 				</div>
-			  </div><div class="flip-container">
-				<div class="flip flip-right">
-				  <div class="front front-right">
-					  <div class="logo-right"></div>
-				  </div>
-				  <div class="back back-right">
-					<img src="img/pist/서현.jpg" />
-				  </div>
+				<div class="player-picture">
+					<img src="img/pist_c/서현.png"/>
+					<div class="player-extra"><span>조교</span></div>
 				</div>
-			  </div>			  
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>서현</span></div>
+					</div>
+				</div>
 			</div>
-			
-			<div id="jth970" class="wrapper onair">
-			  <div class="flip-container">
-				<div class="flip flip-left">
-				  <div class="front front-left">
-					  <div class="logo-left"></div>
-						<span class="card-tier">2</span>
-						<span class="card-title"></span>
-						<span class="card-name">빈스</span>
-				  </div>
-				  <div class="back back-left">
-					<img src="img/pist/빈스.jpg" />
-						<span class="card-tier">2</span>
-						<span class="card-title"></span>
-						<span class="card-name">빈스</span>
-				  </div>
+			<div id="jth970" class="fut-player-card tilt onair">
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating"><span>2</span></div>
+						<div class="player-position"><span>Z</span></div>
+						<div class="player-nation"></div>
+						<div class="player-club"></div>
+					</div>
 				</div>
-			  </div><div class="flip-container">
-				<div class="flip flip-right">
-				  <div class="front front-right">
-					  <div class="logo-right"></div>
-				  </div>
-				  <div class="back back-right">
-					<img src="img/pist/빈스.jpg" />
-				  </div>
+				<div class="player-picture">
+					<img src="img/pist_c/빈스.png"/>
+					<div class="player-extra"><span></span></div>
 				</div>
-			  </div>			  
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>빈스</span></div>
+					</div>
+				</div>
 			</div>
-			
-			<div id="giltae1124" class="wrapper onair">
-			  <div class="flip-container">
-				<div class="flip flip-left">
-				  <div class="front front-left">
-					  <div class="logo-left"></div>
-						<span class="card-tier">3</span>
-						<span class="card-title"></span>
-						<span class="card-name">갱제</span>
-				  </div>
-				  <div class="back back-left">
-					<img src="img/pist/갱제.jpg" />
-						<span class="card-tier">3</span>
-						<span class="card-title"></span>
-						<span class="card-name">갱제</span>
-				  </div>
+			<div id="giltae1124" class="fut-player-card tilt onair">
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating"><span>3</span></div>
+						<div class="player-position"><span>Z</span></div>
+						<div class="player-nation"></div>
+						<div class="player-club"></div>
+					</div>
 				</div>
-			  </div><div class="flip-container">
-				<div class="flip flip-right">
-				  <div class="front front-right">
-					  <div class="logo-right"></div>
-				  </div>
-				  <div class="back back-right">
-					<img src="img/pist/갱제.jpg" />
-				  </div>
+				<div class="player-picture">
+					<img src="img/pist_c/갱제.png"/>
+					<div class="player-extra"><span></span></div>
 				</div>
-			  </div>			  
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>갱제</span></div>
+					</div>
+				</div>
 			</div>
-			
-			<div id="tjfwkdgks" class="wrapper onair">
-			  <div class="flip-container">
-				<div class="flip flip-left">
-				  <div class="front front-left">
-					  <div class="logo-left"></div>
-						<span class="card-tier">4</span>
-						<span class="card-title"></span>
-						<span class="card-name">라코</span>
-				  </div>
-				  <div class="back back-left">
-					<img src="img/pist/라코.jpg" />
-						<span class="card-tier">4</span>
-						<span class="card-title"></span>
-						<span class="card-name">라코</span>
-				  </div>
+			<div id="tjfwkdgks" class="fut-player-card tilt onair">
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating"><span>4</span></div>
+						<div class="player-position"><span>P</span></div>
+						<div class="player-nation"></div>
+						<div class="player-club"></div>
+					</div>
 				</div>
-			  </div><div class="flip-container">
-				<div class="flip flip-right">
-				  <div class="front front-right">
-					  <div class="logo-right"></div>
-				  </div>
-				  <div class="back back-right">
-					<img src="img/pist/라코.jpg" />
-				  </div>
+				<div class="player-picture">
+					<img src="img/pist_c/라코.png"/>
+					<div class="player-extra"><span></span></div>
 				</div>
-			  </div>			  
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>라코</span></div>
+					</div>
+				</div>
 			</div>
-			
-			<div id="blackchu" class="wrapper onair">
-			  <div class="flip-container">
-				<div class="flip flip-left">
-				  <div class="front front-left">
-					  <div class="logo-left"></div>
-						<span class="card-tier">5</span>
-						<span class="card-title"></span>
-						<span class="card-name">김난초</span>
-				  </div>
-				  <div class="back back-left">
-					<img src="img/pist/김난초.jpg" />
-						<span class="card-tier">5</span>
-						<span class="card-title"></span>
-						<span class="card-name">김난초</span>
-				  </div>
+			<div id="blackchu" class="fut-player-card tilt onair">
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating"><span>5</span></div>
+						<div class="player-position"><span>T</span></div>
+						<div class="player-nation"></div>
+						<div class="player-club"></div>
+					</div>
 				</div>
-			  </div><div class="flip-container">
-				<div class="flip flip-right">
-				  <div class="front front-right">
-					  <div class="logo-right"></div>
-				  </div>
-				  <div class="back back-right">
-					<img src="img/pist/김난초.jpg" />
-				  </div>
+				<div class="player-picture">
+					<img src="img/pist_c/김난초.png"/>
+					<div class="player-extra"><span></span></div>
 				</div>
-			  </div>			  
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>난초</span></div>
+					</div>
+				</div>
 			</div>
-			
-			<div id="dkssudzz11" class="wrapper onair">
-			  <div class="flip-container">
-				<div class="flip flip-left">
-				  <div class="front front-left">
-					  <div class="logo-left"></div>
-						<span class="card-tier">5</span>
-						<span class="card-title"></span>
-						<span class="card-name">미니쉘</span>
-				  </div>
-				  <div class="back back-left">
-					<img src="img/pist/미니쉘.jpg" />
-						<span class="card-tier">5</span>
-						<span class="card-title"></span>
-						<span class="card-name">미니쉘</span>
-				  </div>
+			<div id="dkssudzz11" class="fut-player-card tilt onair">
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating"><span>5</span></div>
+						<div class="player-position"><span>P</span></div>
+						<div class="player-nation"></div>
+						<div class="player-club"></div>
+					</div>
 				</div>
-			  </div><div class="flip-container">
-				<div class="flip flip-right">
-				  <div class="front front-right">
-					  <div class="logo-right"></div>
-				  </div>
-				  <div class="back back-right">
-					<img src="img/pist/미니쉘.jpg" />
-				  </div>
+				<div class="player-picture">
+					<img src="img/pist_c/미니쉘.png"/>
+					<div class="player-extra"><span></span></div>
 				</div>
-			  </div>			  
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>미니쉘</span></div>
+					</div>
+				</div>
 			</div>
-			
-			<div id="qwe97888" class="wrapper onair">
-			  <div class="flip-container">
-				<div class="flip flip-left">
-				  <div class="front front-left">
-					  <div class="logo-left"></div>
-						<span class="card-tier">5</span>
-						<span class="card-title"></span>
-						<span class="card-name">도꿍</span>
-				  </div>
-				  <div class="back back-left">
-					<img src="img/pist/도꿍.jpg" />
-						<span class="card-tier">5</span>
-						<span class="card-title"></span>
-						<span class="card-name">도꿍</span>
-				  </div>
+			<div id="qwe97888" class="fut-player-card tilt onair">
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating"><span>5</span></div>
+						<div class="player-position"><span>P</span></div>
+						<div class="player-nation"></div>
+						<div class="player-club"></div>
+					</div>
 				</div>
-			  </div><div class="flip-container">
-				<div class="flip flip-right">
-				  <div class="front front-right">
-					  <div class="logo-right"></div>
-				  </div>
-				  <div class="back back-right">
-					<img src="img/pist/도꿍.jpg" />
-				  </div>
+				<div class="player-picture">
+					<img src="img/pist_c/도꿍.png"/>
+					<div class="player-extra"><span></span></div>
 				</div>
-			  </div>			  
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>도꿍</span></div>
+					</div>
+				</div>
 			</div>
-			
-			<div id="wnstn0905" class="wrapper onair">
-			  <div class="flip-container">
-				<div class="flip flip-left">
-				  <div class="front front-left">
-					  <div class="logo-left"></div>
-						<span class="card-tier">5</span>
-						<span class="card-title">학생회장</span>
-						<span class="card-name">박사장</span>
-				  </div>
-				  <div class="back back-left">
-					<img src="img/pist/박사장.jpg" />
-						<span class="card-tier">5</span>
-						<span class="card-title">학생회장</span>
-						<span class="card-name">박사장</span>
-				  </div>
+			<div id="wnstn0905" class="fut-player-card tilt onair">
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating"><span>5</span></div>
+						<div class="player-position"><span>Z</span></div>
+						<div class="player-nation"></div>
+						<div class="player-club"></div>
+					</div>
 				</div>
-			  </div><div class="flip-container">
-				<div class="flip flip-right">
-				  <div class="front front-right">
-					  <div class="logo-right"></div>
-				  </div>
-				  <div class="back back-right">
-					<img src="img/pist/박사장.jpg" />
-				  </div>
+				<div class="player-picture">
+					<img src="img/pist_c/박사장.png"/>
+					<div class="player-extra"><span></span></div>
 				</div>
-			  </div>			  
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>박사장</span></div>
+					</div>
+				</div>
 			</div>
-			
-			<div id="bora99" class="wrapper onair">
-			  <div class="flip-container">
-				<div class="flip flip-left">
-				  <div class="front front-left">
-					  <div class="logo-left"></div>
-						<span class="card-tier">5</span>
-						<span class="card-title"></span>
-						<span class="card-name">구보라</span>
-				  </div>
-				  <div class="back back-left">
-					<img src="img/pist/구보라.jpg" />
-						<span class="card-tier">5</span>
-						<span class="card-title"></span>
-						<span class="card-name">구보라</span>
-				  </div>
+			<div id="bora99" class="fut-player-card tilt onair">
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating"><span>5</span></div>
+						<div class="player-position"><span>P</span></div>
+						<div class="player-nation"></div>
+						<div class="player-club"></div>
+					</div>
 				</div>
-			  </div><div class="flip-container">
-				<div class="flip flip-right">
-				  <div class="front front-right">
-					  <div class="logo-right"></div>
-				  </div>
-				  <div class="back back-right">
-					<img src="img/pist/구보라.jpg" />
-				  </div>
+				<div class="player-picture">
+					<img src="img/pist_c/구보라.png"/>
+					<div class="player-extra"><span></span></div>
 				</div>
-			  </div>			  
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>구보라</span></div>
+					</div>
+				</div>
 			</div>
-			
-			<div id="heesunn" class="wrapper onair">
-			  <div class="flip-container">
-				<div class="flip flip-left">
-				  <div class="front front-left">
-					  <div class="logo-left"></div>
-						<span class="card-tier">6</span>
-						<span class="card-title"></span>
-						<span class="card-name">써니</span>
-				  </div>
-				  <div class="back back-left">
-					<img src="img/pist/써니.jpg" />
-						<span class="card-tier">6</span>
-						<span class="card-title"></span>
-						<span class="card-name">써니</span>
-				  </div>
+			<div id="heesunn" class="fut-player-card tilt onair">
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating"><span>6</span></div>
+						<div class="player-position"><span>P</span></div>
+						<div class="player-nation"></div>
+						<div class="player-club"></div>
+					</div>
 				</div>
-			  </div><div class="flip-container">
-				<div class="flip flip-right">
-				  <div class="front front-right">
-					  <div class="logo-right"></div>
-				  </div>
-				  <div class="back back-right">
-					<img src="img/pist/써니.jpg" />
-				  </div>
+				<div class="player-picture">
+					<img src="img/pist_c/써니.png"/>
+					<div class="player-extra"><span></span></div>
 				</div>
-			  </div>			  
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>써니</span></div>
+					</div>
+				</div>
 			</div>
-			
-			<div id="dodenvoa" class="wrapper onair">
-			  <div class="flip-container">
-				<div class="flip flip-left">
-				  <div class="front front-left">
-					  <div class="logo-left"></div>
-						<span class="card-tier">6</span>
-						<span class="card-title"></span>
-						<span class="card-name">마꼬</span>
-				  </div>
-				  <div class="back back-left">
-					<img src="img/pist/마꼬.jpg" />
-						<span class="card-tier">6</span>
-						<span class="card-title"></span>
-						<span class="card-name">마꼬</span>
-				  </div>
+			<div id="dodenvoa" class="fut-player-card tilt onair">
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating"><span>6</span></div>
+						<div class="player-position"><span>P</span></div>
+						<div class="player-nation"></div>
+						<div class="player-club"></div>
+					</div>
 				</div>
-			  </div><div class="flip-container">
-				<div class="flip flip-right">
-				  <div class="front front-right">
-					  <div class="logo-right"></div>
-				  </div>
-				  <div class="back back-right">
-					<img src="img/pist/마꼬.jpg" />
-				  </div>
+				<div class="player-picture">
+					<img src="img/pist_c/마꼬.png"/>
+					<div class="player-extra"><span></span></div>
 				</div>
-			  </div>			  
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>마꼬</span></div>
+					</div>
+				</div>
 			</div>
-			
-			<div id="tjsrhr123" class="wrapper onair">
-			  <div class="flip-container">
-				<div class="flip flip-left">
-				  <div class="front front-left">
-					  <div class="logo-left"></div>
-						<span class="card-tier">6</span>
-						<span class="card-title"></span>
-						<span class="card-name">이톨</span>
-				  </div>
-				  <div class="back back-left">
-					<img src="img/pist/이톨.jpg" />
-						<span class="card-tier">6</span>
-						<span class="card-title"></span>
-						<span class="card-name">이톨</span>
-				  </div>
+			<div id="tjsrhr123" class="fut-player-card tilt onair">
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating"><span>6</span></div>
+						<div class="player-position"><span>Z</span></div>
+						<div class="player-nation"></div>
+						<div class="player-club"></div>
+					</div>
 				</div>
-			  </div><div class="flip-container">
-				<div class="flip flip-right">
-				  <div class="front front-right">
-					  <div class="logo-right"></div>
-				  </div>
-				  <div class="back back-right">
-					<img src="img/pist/이톨.jpg" />
-				  </div>
+				<div class="player-picture">
+					<img src="img/pist_c/이톨.png"/>
+					<div class="player-extra"><span></span></div>
 				</div>
-			  </div>			  
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>이톨</span></div>
+					</div>
+				</div>
+			</div>
+			<div id="hyeree1230" class="fut-player-card tilt onair">
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating"><span>7</span></div>
+						<div class="player-position"><span>Z</span></div>
+						<div class="player-nation"></div>
+						<div class="player-club"></div>
+					</div>
+				</div>
+				<div class="player-picture">
+					<img src="img/pist_c/홍혜리.png"/>
+					<div class="player-extra"><span></span></div>
+				</div>
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>홍혜리</span></div>
+					</div>
+				</div>
+			</div>
+			<div id="nodubu" class="fut-player-card tilt onair">
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating"><span>7</span></div>
+						<div class="player-position"><span>P</span></div>
+						<div class="player-nation"></div>
+						<div class="player-club"></div>
+					</div>
+				</div>
+				<div class="player-picture">
+					<img src="img/pist_c/묘아.png"/>
+					<div class="player-extra"><span></span></div>
+				</div>
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>묘아</span></div>
+					</div>
+				</div>
+			</div>
+			<div id="unitelshaki" class="fut-player-card tilt onair">
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating"><span>8</span></div>
+						<div class="player-position"><span>Z</span></div>
+						<div class="player-nation"></div>
+						<div class="player-club"></div>
+					</div>
+				</div>
+				<div class="player-picture">
+					<img src="img/pist_c/섭이.png"/>
+					<div class="player-extra"><span></span></div>
+				</div>
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>섭이</span></div>
+					</div>
+				</div>
+			</div>
+			<div id="duswn8243" class="fut-player-card tilt onair">
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating"><span>8</span></div>
+						<div class="player-position"><span>P</span></div>
+						<div class="player-nation"></div>
+						<div class="player-club"></div>
+					</div>
+				</div>
+				<div class="player-picture">
+					<img src="img/pist_c/쭈디.png"/>
+					<div class="player-extra"><span></span></div>
+				</div>
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>쭈디</span></div>
+					</div>
+				</div>
+			</div>
+			<div id="mingee1030" class="fut-player-card tilt onair">
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating"><span>8</span></div>
+						<div class="player-position"><span>T</span></div>
+						<div class="player-nation"></div>
+						<div class="player-club"></div>
+					</div>
+				</div>
+				<div class="player-picture">
+					<img src="img/pist_c/야옹민지.png"/>
+					<div class="player-extra"><span>유스</span></div>
+				</div>
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>야옹민지</span></div>
+					</div>
+				</div>
+			</div>
+			<div id="dudtjs5546" class="fut-player-card tilt onair">
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating"><span>8</span></div>
+						<div class="player-position"><span>Z</span></div>
+						<div class="player-nation"></div>
+						<div class="player-club"></div>
+					</div>
+				</div>
+				<div class="player-picture">
+					<img src="img/pist_c/화선.png"/>
+					<div class="player-extra"><span>유스</span></div>
+				</div>
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>화선</span></div>
+					</div>
+				</div>
+			</div>
+			<div id="soojin3190" class="fut-player-card tilt onair">
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating"><span>8</span></div>
+						<div class="player-position"><span>Z</span></div>
+						<div class="player-nation"></div>
+						<div class="player-club"></div>
+					</div>
+				</div>
+				<div class="player-picture">
+					<img src="img/pist_c/덕순이.png"/>
+					<div class="player-extra"><span>유스</span></div>
+				</div>
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>덕순이</span></div>
+					</div>
+				</div>
+			</div>
+			<div id="dpdms158" class="fut-player-card tilt onair">
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating"><span>B</span></div>
+						<div class="player-position"><span>Z</span></div>
+						<div class="player-nation"></div>
+						<div class="player-club"></div>
+					</div>
+				</div>
+				<div class="player-picture">
+					<img src="img/pist_c/롤링.png"/>
+					<div class="player-extra"><span>유스</span></div>
+				</div>
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>롤링</span></div>
+					</div>
+				</div>
+			</div>
+			<div id="hm05082" class="fut-player-card tilt onair">
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating"><span>B</span></div>
+						<div class="player-position"><span>T</span></div>
+						<div class="player-nation"></div>
+						<div class="player-club"></div>
+					</div>
+				</div>
+				<div class="player-picture">
+					<img src="img/pist_c/임유진.png"/>
+					<div class="player-extra"><span>유스</span></div>
+				</div>
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>임유진</span></div>
+					</div>
+				</div>
 			</div>
 			
-			<div id="hyeree1230" class="wrapper onair">
-			  <div class="flip-container">
-				<div class="flip flip-left">
-				  <div class="front front-left">
-					  <div class="logo-left"></div>
-						<span class="card-tier">7</span>
-						<span class="card-title"></span>
-						<span class="card-name">홍혜리</span>
-				  </div>
-				  <div class="back back-left">
-					<img src="img/pist/홍혜리.jpg" />
-						<span class="card-tier">7</span>
-						<span class="card-title"></span>
-						<span class="card-name">홍혜리</span>
-				  </div>
-				</div>
-			  </div><div class="flip-container">
-				<div class="flip flip-right">
-				  <div class="front front-right">
-					  <div class="logo-right"></div>
-				  </div>
-				  <div class="back back-right">
-					<img src="img/pist/홍혜리.jpg" />
-				  </div>
-				</div>
-			  </div>			  
-			</div>
-			
-			<div id="nodubu" class="wrapper onair">
-			  <div class="flip-container">
-				<div class="flip flip-left">
-				  <div class="front front-left">
-					  <div class="logo-left"></div>
-						<span class="card-tier">7</span>
-						<span class="card-title"></span>
-						<span class="card-name">묘아</span>
-				  </div>
-				  <div class="back back-left">
-					<img src="img/pist/묘아.jpg" />
-						<span class="card-tier">7</span>
-						<span class="card-title"></span>
-						<span class="card-name">묘아</span>
-				  </div>
-				</div>
-			  </div><div class="flip-container">
-				<div class="flip flip-right">
-				  <div class="front front-right">
-					  <div class="logo-right"></div>
-				  </div>
-				  <div class="back back-right">
-					<img src="img/pist/묘아.jpg" />
-				  </div>
-				</div>
-			  </div>			  
-			</div>
-			
-			<div id="unitelshaki" class="wrapper onair">
-			  <div class="flip-container">
-				<div class="flip flip-left">
-				  <div class="front front-left">
-					  <div class="logo-left"></div>
-						<span class="card-tier">8</span>
-						<span class="card-title">선도부장</span>
-						<span class="card-name">섭이</span>
-				  </div>
-				  <div class="back back-left">
-					<img src="img/pist/섭이.jpg" />
-						<span class="card-tier">8</span>
-						<span class="card-title">선도부장</span>
-						<span class="card-name">섭이</span>
-				  </div>
-				</div>
-			  </div><div class="flip-container">
-				<div class="flip flip-right">
-				  <div class="front front-right">
-					  <div class="logo-right"></div>
-				  </div>
-				  <div class="back back-right">
-					<img src="img/pist/섭이.jpg" />
-				  </div>
-				</div>
-			  </div>			  
-			</div>
-			
-			<div id="duswn8243" class="wrapper onair">
-			  <div class="flip-container">
-				<div class="flip flip-left">
-				  <div class="front front-left">
-					  <div class="logo-left"></div>
-						<span class="card-tier">8</span>
-						<span class="card-title">홍보모델</span>
-						<span class="card-name">쭈디</span>
-				  </div>
-				  <div class="back back-left">
-					<img src="img/pist/쭈디.jpg" />
-						<span class="card-tier">8</span>
-						<span class="card-title">홍보모델</span>
-						<span class="card-name">쭈디</span>
-				  </div>
-				</div>
-			  </div><div class="flip-container">
-				<div class="flip flip-right">
-				  <div class="front front-right">
-					  <div class="logo-right"></div>
-				  </div>
-				  <div class="back back-right">
-					<img src="img/pist/쭈디.jpg" />
-				  </div>
-				</div>
-			  </div>			  
-			</div>
-			
-			<div id="mingee1030" class="wrapper onair">
-			  <div class="flip-container">
-				<div class="flip flip-left">
-				  <div class="front front-left">
-					  <div class="logo-left"></div>
-						<span class="card-tier">8</span>
-						<span class="card-title">유스</span>
-						<span class="card-name">야옹민지</span>
-				  </div>
-				  <div class="back back-left">
-					<img src="img/pist/야옹민지.jpg" />
-						<span class="card-tier">8</span>
-						<span class="card-title">유스</span>
-						<span class="card-name">야옹민지</span>
-				  </div>
-				</div>
-			  </div><div class="flip-container">
-				<div class="flip flip-right">
-				  <div class="front front-right">
-					  <div class="logo-right"></div>
-				  </div>
-				  <div class="back back-right">
-					<img src="img/pist/야옹민지.jpg" />
-				  </div>
-				</div>
-			  </div>			  
-			</div>
-			
-			<div id="dudtjs5546" class="wrapper onair">
-			  <div class="flip-container">
-				<div class="flip flip-left">
-				  <div class="front front-left">
-					  <div class="logo-left"></div>
-						<span class="card-tier">8</span>
-						<span class="card-title">유스</span>
-						<span class="card-name">화선e</span>
-				  </div>
-				  <div class="back back-left">
-					<img src="img/pist/화선.jpg" />
-						<span class="card-tier">8</span>
-						<span class="card-title">유스</span>
-						<span class="card-name">화선e</span>	
-				  </div>
-				</div>
-			  </div><div class="flip-container">
-				<div class="flip flip-right">
-				  <div class="front front-right">
-					  <div class="logo-right"></div>
-				  </div>
-				  <div class="back back-right">
-					<img src="img/pist/화선.jpg" />
-				  </div>
-				</div>
-			  </div>			  
-			</div>
-			
-			<div id="soojin3190" class="wrapper onair">
-			  <div class="flip-container">
-				<div class="flip flip-left">
-				  <div class="front front-left">
-					  <div class="logo-left"></div>
-						<span class="card-tier">8</span>
-						<span class="card-title">유스</span>
-						<span class="card-name">덕순이</span>
-				  </div>
-				  <div class="back back-left">
-					<img src="img/pist/덕순이.jpg" />
-						<span class="card-tier">8</span>
-						<span class="card-title">유스</span>
-						<span class="card-name">덕순이</span>
-				  </div>
-				</div>
-			  </div><div class="flip-container">
-				<div class="flip flip-right">
-				  <div class="front front-right">
-					  <div class="logo-right"></div>
-				  </div>
-				  <div class="back back-right">
-					<img src="img/pist/덕순이.jpg" />
-				  </div>
-				</div>
-			  </div>			  
-			</div>
-			
-			<div id="dpdms158" class="wrapper onair">
-			  <div class="flip-container">
-				<div class="flip flip-left">
-				  <div class="front front-left">
-					  <div class="logo-left"></div>
-						<span class="card-tier">B</span>
-						<span class="card-title">유스</span>
-						<span class="card-name">롤링</span>
-				  </div>
-				  <div class="back back-left">
-					<img src="img/pist/롤링.jpg" />
-						<span class="card-tier">B</span>
-						<span class="card-title">유스</span>
-						<span class="card-name">롤링</span>
-				  </div>
-				</div>
-			  </div><div class="flip-container">
-				<div class="flip flip-right">
-				  <div class="front front-right">
-					  <div class="logo-right"></div>
-				  </div>
-				  <div class="back back-right">
-					<img src="img/pist/롤링.jpg" />
-				  </div>
-				</div>
-			  </div>			  
-			</div>
-			
-			<div id="hm05082" class="wrapper onair">
-			  <div class="flip-container">
-				<div class="flip flip-left">
-				  <div class="front front-left">
-					  <div class="logo-left"></div>
-						<span class="card-tier">B</span>
-						<span class="card-title">유스</span>
-						<span class="card-name">임유진</span>
-				  </div>
-				  <div class="back back-left">
-					<img src="img/pist/임유진.jpg" />
-						<span class="card-tier">B</span>
-						<span class="card-title">유스</span>
-						<span class="card-name">임유진</span>
-				  </div>
-				</div>
-			  </div><div class="flip-container">
-				<div class="flip flip-right">
-				  <div class="front front-right">
-					  <div class="logo-right"></div>
-				  </div>
-				  <div class="back back-right">
-					<img src="img/pist/임유진.jpg" />
-				  </div>
-				</div>
-			  </div>			  
-			</div>
-			<div id="" class="wrapper onair">
-			  <div class="flip-container" style="pointer-events:auto;">
-				<a href="http://fifa.aengji.com" target="_blank">
-					<img src="img/pist/logo_fifa.png">
-				</a>
-			  </div><div class="flip-container">
-			  </div>			  
-			</div>
 			
 			
 		</div>
@@ -889,7 +625,10 @@ body {
 	<!-- <div style="position:absolute;top:80px;left:40px;font-size:32px;color:#fff;font-family:Jua;text-shadow: 2px 2px 2px #000000;z-index:3">
 			<a href="pist_a.html" style="color:#fff">배경화면 CCTV</a>
 	</div> -->
-	<div style="position:absolute;top:80px;left:40px;font-size:32px;color:#fff;font-family:Jua;text-shadow: 2px 2px 2px #000000;z-index:3">
+	<div style="position:absolute;top:50px;left:40px;font-size:24px;color:#fff;font-family:Jua;text-shadow: 2px 2px 2px #000000;z-index:3">
+		<a href="http://fifa.aengji.com" target="_blank" style="color:#fff">BJ 피파 전적</a>
+	</div>
+	<div style="position:absolute;top:80px;left:40px;font-size:24px;color:#fff;font-family:Jua;text-shadow: 2px 2px 2px #000000;z-index:3">
 		<a href="pist_list.html" style="color:#fff">리스트 CCTV</a>
 	</div>
 	
@@ -901,6 +640,15 @@ body {
   <script src="js/util.js?ver=0.0.2"></script>
   <!-- <script src="js/univ_cctv_pist.js?ver=0.0.1"></script> -->
   <script src="https://test.aengji.com/afreecatv/univ/univ_cctv_pist.min.js?ver=0.0.1"></script>
-  
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js'></script>  
+  <script>
+  const tilt = document.querySelectorAll(".tilt");
+	VanillaTilt.init(tilt, {
+		reverse: true,
+		<!-- max: 15, -->
+		<!-- speed: 400, -->
+		scale: 1.12
+	});
+  </script>
 </body>
 </html>
