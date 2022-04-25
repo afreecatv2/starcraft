@@ -53,6 +53,9 @@ body {
 				</ul>
 			</nav>
 		</div>
+		
+	<img src="img/pist_c/logo_pist_300.png" style="position:absolute;left:0;top:0;bottom:0;margin:auto 0;">
+	<img src="img/pist_c/logo_pist_youth_256.png" style="position:absolute;right:0;top:0;bottom:0;margin:auto 0;">
 	
 	<div id="thumb_container" style="position:absolute;top:0;width:100%;height:100%;display:flex;justify-content:center;align-items: center;margin: 0 auto;">
 	</div>
@@ -643,12 +646,27 @@ body {
   <script src='https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js'></script>  
   <script>
   const tilt = document.querySelectorAll(".tilt");
+	<!-- VanillaTilt.init(tilt, { -->
+		<!-- reverse: true, -->
+		<!-- scale: 1.12 -->
+	<!-- }); -->
 	VanillaTilt.init(tilt, {
-		reverse: true,
-		<!-- max: 15, -->
-		<!-- speed: 400, -->
-		scale: 1.12
-	});
+	reverse: true,
+	max: 15,
+	speed: 400,
+	scale: 1.12,
+	glare: false,
+	reset: true,
+	perspective: 1000,
+	transition: true,
+	"max-glare": 0.75,
+	"glare-prerender": false,
+	gyroscope: true,
+	gyroscopeMinAngleX: -45,
+	gyroscopeMaxAngleX: 45,
+	gyroscopeMinAngleY: -45,
+	gyroscopeMaxAngleY: 45
+});
   </script>
 </body>
 </html>
