@@ -240,7 +240,7 @@ const start = async () => {
 				title: names[number]
 			};
 			if(bj_names.includes(names[number])){
-				document.querySelector('.prize-container .prize img').src = 'http://starcraft.aengji.com/img/bj_high/' + names[number] + '.jpg';
+				document.querySelector('.prize-container .prize img').src = 'img/bj_high/' + names[number] + '.jpg';
 				document.querySelector('.prize-container .prize img').style.display = 'block';
 				document.querySelector('.shadow').style.fontSize = '72px';
 			}else if(names[number].length > 1){
@@ -253,7 +253,7 @@ const start = async () => {
 					}
 				}
 				if(match){
-					document.querySelector('.prize-container .prize img').src = 'http://starcraft.aengji.com/img/bj_high/' + names[number] + '.jpg';
+					document.querySelector('.prize-container .prize img').src = 'img/bj_high/' + names[number] + '.jpg';
 					document.querySelector('.prize-container .prize img').style.display = 'block';
 					document.querySelector('.shadow').style.fontSize = '72px';
 				}
