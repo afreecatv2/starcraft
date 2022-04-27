@@ -128,18 +128,20 @@
   vertical-align: top;
   border-radius: 50%;
   padding: 10px;
-  filter: blur(4px);
 	pointer-events: none;
 }
-.snip1566:hover img {
-	filter: none;
+.snip1566:hover img {	
+  filter: contrast(2) grayscale(1);
 }
 .snip1566.onair img {
 	filter: none;
 }
-.snip1566.onair:hover img {
-filter: blur(4px);
+.snip1566.onair:hover img {	
+  filter: contrast(2) grayscale(1);
 }
+/* .snip1566.onair:hover img {
+filter: contrast(2) grayscale(1);
+} */
 
 /* .snip1566 figcaption {
   position: absolute;
@@ -210,7 +212,7 @@ filter: blur(4px);
 .snip1566.onair:before,
 .snip1566.onair:after {
 	border-color: transparent #f00;
-  border-width: 4px;
+  border-width: 6px;
 }
 .snip1566.onair:hover:before,
 .snip1566.onair:hover:after {
