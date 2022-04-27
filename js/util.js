@@ -55,7 +55,21 @@ function popup2(msg) {
 	  this.remove();
   });  
   
-  myDialog.showModal();  
+  myDialog.showModal();
+}
+function popup3(msg) {
+  var myDialog = document.createElement("dialog");
+  myDialog.style = "white-space: pre;padding:50px 100px 50px 100px;border:0.1em solid white;background-color:#1B0B33;color:white;font-size:1.4em;"
+  document.body.appendChild(myDialog)
+  var text = document.createTextNode(msg);
+  myDialog.appendChild(text);
+  
+  myDialog.addEventListener('click', function (event) {
+	  this.remove();
+  });  
+  
+  myDialog.showModal();
+  return myDialog;
 }
 
 
@@ -112,11 +126,16 @@ function jsonp(url, callback) {
 function bjImgUrl(bj){
 	if(!bj || bj==''){
 		return 'img/bj/noname.png';		
-	}else{		
-		return 'img/bj/' + bj + '.jpg';
+	}else{
+		// return 'img/bj/' + bj + '.jpg';
+		return 'img/bj_png/' + bj + '.png';
 	}
 }
 
-async function pageview() {
-	 await fetch("https://test.aengji.com/etc/pageview.php?url=" + 'sc-' + window.location.pathname);
+async function pageview(page) {
+	if(page){
+		await fetch("https://test.aengji.com/etc/pageview.php?url=" + 'sc-' + page);
+	}else{
+		await fetch("https://test.aengji.com/etc/pageview.php?url=" + 'sc-' + window.location.pathname);
+	}
 }
