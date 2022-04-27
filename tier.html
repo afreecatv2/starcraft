@@ -117,27 +117,12 @@
 				dialog = popup3("방송중인 BJ 사진 위에 커서를 올리면 메뉴가 나타납니다. (전적, 방송보기)\n전체 카테고리 대상 (2분 간격으로 갱신. 낮시간 5분)");
 			}
 			var bg_url = "img/bg_tier.jpg";
-			var r1 = 0;
-			  r1 = Math.floor(Math.random() * Object.keys(ck_tier.tier).length);
-			  var idx = 0;
-			  for(var k in ck_tier.tier){
-				  if(r1 == idx){
-					  r1 = Math.floor(Math.random() * ck_tier.tier[k].length);
-					  var canvas = document.getElementById("js-canvas");
-					  if(canvas){
-						canvas.style.backgroundImage = "url(img/bj_high/" + ck_tier.tier[k][r1][0].split(",")[0] + ".jpg)";
-						document.getElementById("bj_name").textContent = ck_tier.tier[k][r1][0].split(",")[0];
-					  }					  
-					  break;
-				  }
-				  idx++;
-			  }
-			  
+			
 			  setTimeout(() => {
 				dialog.close();
 			  }, 5000);
 		</script>
-  <script  src="js/scratch_card.min.js"></script>
+  <script  src="js/scratch_card.min.js?ver=0.0.1"></script>
 		
 	</body>
 </html>
