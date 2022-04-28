@@ -156,17 +156,17 @@ filter: contrast(2) grayscale(1);
 .snip1566 figcaption {
   position: absolute;
   background-color: #6154ee;
-  top:82%;
+  top:86%;
   left: 50%;
   padding-left: 5px;
   padding-right: 5px;
   transform: translateX(-50%);
   color:#fff;
+  white-space: nowrap;
 }
 .snip1566.onair figcaption {
   background-color: #ee0000;
 }
-
 .snip1566 i {
   position: absolute;
   top: 50%;
