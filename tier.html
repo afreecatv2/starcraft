@@ -65,9 +65,11 @@
 				<h2 id="ver">2.72 (2022-05-03)</h2>
 			</div>
 			<div style="width:100%;margin-top:50px;margin-left:20px;z-index:11;text-align:left;font-family:Jua;pointer-events: none;">
-				<h4 style="z-index:11;">전적 자료의 출처는 <a href="http://eloboard.com" target="_blank">ELOBOARD</a>입니다. </h4>
-				<h4>전적 정보는 실시간 최신 정보가 아닙니다. 보다 자세한 전적 정보는 ELOBOARD에서 확인하세요.</h4>
-				<h4 style="z-index:11;">여기에 대한 자세한 정보는 <a id="tier_link" href="https://www.fmkorea.com/3844139388" target="_blank" style="pointer-events:auto;">이 링크</a>를 참조 하세요.</h4>
+			<br>
+			<br>
+				<h4 style="z-index:11;">티어표에 대한 자세한 정보는 <a id="tier_link" href="https://www.fmkorea.com/3844139388" target="_blank" style="pointer-events:auto;color:#fff;font-weight:800;text-shadow:2px 2px #000;">에펨코리아 스타CK 밸런스 티어표</a>를 참조 하세요.</h4>
+				<h4 style="z-index:11;">전적 자료의 출처는 <a href="http://eloboard.com" target="_blank" style="color:#fff;font-weight:800;text-shadow:2px 2px #000;">ELOBOARD</a>입니다. </h4>
+				<h4>전적 정보는 실시간 최신 정보가 아닙니다. 보다 자세한 전적 정보는 ELOBOARD에서 확인하세요.</h4>				
 				<h4 style="z-index:11;">방송중인 BJ 사진 위에 커서를 올리면 메뉴가 나타납니다. (전적, 방송보기, ELO)
 					<br>전체 카테고리 대상 (2분 간격으로 갱신. 낮시간 5분)
 					<br>방제에 다음 단어들이 포함되어 있을 경우 라이브 표시 옆에 초록색 원이 표시됩니다.
@@ -114,7 +116,7 @@ var ck_tier = {"title":"아프리카TV CK 티어표","ver":"2.72 (2022-05-03)","
 			if(location.hostname.indexOf("netlify") > -1){
 				dialog = popup3("netlify 서버로 접속하셨습니다.\이 서버는 예비용 서버로 속도가 느립니다.\n로딩이 너무 느리신 분들은 구글에서 앵게임넷을 검색하시거나\n starcraft.aengji.com 으로 접속하세요.");
 			}else{
-				dialog = popup3("방송중인 BJ 사진 위에 커서를 올리면 메뉴가 나타납니다. (전적, 방송보기)\n전체 카테고리 대상 (2분 간격으로 갱신. 낮시간 5분)");
+				dialog = popup3("티어 정보는 에펨코리아 [스타CK 밸런스 티어표]를 참조하였습니다.\n(ELO 보드와는 무관합니다.)\n\n방송중인 BJ 사진 위에 커서를 올리면 메뉴가 나타납니다. (전적, 방송보기)\n전체 카테고리 대상 (2분 간격으로 갱신. 낮시간 5분)");
 			}
 			var bg_url = "img/bg_tier.jpg";
 			
