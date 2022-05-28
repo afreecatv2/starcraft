@@ -159,24 +159,27 @@ figure:nth-child(16) {
   --imageUrl: url("../img/jsa/소심.jpg");
 }
 figure:nth-child(17) {
-  --imageUrl: url("../img/jsa/하부기.jpg");
+  --imageUrl: url("../img/jsa/뚜밥.jpg");
 }
 figure:nth-child(18) {
-  --imageUrl: url("../img/jsa/박새별.jpg");
+  --imageUrl: url("../img/jsa/하부기.jpg");
 }
 figure:nth-child(19) {
-  --imageUrl: url("../img/jsa/강새이.jpg");
+  --imageUrl: url("../img/jsa/박새별.jpg");
 }
 figure:nth-child(20) {
-  --imageUrl: url("../img/jsa/단양.jpg");
+  --imageUrl: url("../img/jsa/강새이.jpg");
 }
 figure:nth-child(21) {
-  --imageUrl: url("../img/jsa/이루리.jpg");
+  --imageUrl: url("../img/jsa/단양.jpg");
 }
 figure:nth-child(22) {
-  --imageUrl: url("../img/jsa/수핸.jpg");
+  --imageUrl: url("../img/jsa/이루리.jpg");
 }
 figure:nth-child(23) {
+  --imageUrl: url("../img/jsa/수핸.jpg");
+}
+figure:nth-child(24) {
   --imageUrl: url("../img/jsa/박하악.jpg");
 }
 
