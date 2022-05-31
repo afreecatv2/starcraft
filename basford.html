@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CCTV - 바스포드</title>
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link href="css/univ_cctv_basford.css?ver=0.0.7" rel="stylesheet">	
+  <link href="css/univ_cctv_basford.css?ver=0.0.8" rel="stylesheet">	
   <link rel="stylesheet" href="css/menu.css?ver=0.0.3">
   <style>
   body {
@@ -72,11 +72,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 				<span class="card-title">총장</span>
 				<span class="card-name">도재욱</span>
 			</div>
-			<div id="bwstar" class="card card6">
-				<span class="card-tier">J</span>
-				<span class="card-title">부총장</span>
-				<span class="card-name">배병우</span>
-			</div>
 			<div id="jaedong23" class="card card2">
 				<span class="card-tier">G</span>
 				<span class="card-title">교수(휴)</span>
@@ -96,6 +91,11 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 				<span class="card-tier">J</span>
 				<span class="card-title">교수</span>
 				<span class="card-name">진영화</span>
+			</div>
+			<div id="bwstar" class="card card6">
+				<span class="card-tier">J</span>
+				<span class="card-title">교수</span>
+				<span class="card-name">배병우</span>
 			</div>
 			<div id="starobba" class="card card7">
 				<span class="card-tier">R</span>
@@ -122,15 +122,20 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 				<span class="card-title">테란 조교</span>
 				<span class="card-name">랜딩</span>
 			</div>
+			<div id="ogm0905" class="card card14">
+				<span class="card-tier">3</span>
+				<span class="card-title">학생회장</span>
+				<span class="card-name">오뀨</span>
+			</div>
 			<div id="10041004j" class="card card12">
 				<span class="card-tier">3</span>
 				<span class="card-title">3호님</span>
 				<span class="card-name">이뀨</span>
 			</div>
-			<div id="ogm0905" class="card card14">
+			<div id="sky2713" class="card card26">
 				<span class="card-tier">3</span>
-				<span class="card-title">학생회장</span>
-				<span class="card-name">오뀨</span>
+				<span class="card-title">한전드</span>
+				<span class="card-name">나는상윤</span>
 			</div>
 			<div id="mudorl" class="card card17">
 				<span class="card-tier">4</span>
@@ -156,6 +161,11 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 				<span class="card-tier">7</span>
 				<span class="card-title">라친년</span>
 				<span class="card-name">라미</span>
+			</div>
+			<div id="seul0316" class="card card27">
+				<span class="card-tier">7</span>
+				<span class="card-title"></span>
+				<span class="card-name">슬돌이</span>
 			</div>
 			<div id="yur22222" class="card card22">
 				<span class="card-tier">8</span>
@@ -188,8 +198,8 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 	
   <script>
 	var url = 'https://test.aengji.com/afreecatv/afreecatv_onair_select_basford.php';
-	var univ_list = ["devil0108","wodnrdldia","bwstar","jaedong23","organ333","thakzkf","jyh8610","rladuddo99","tmvpdltmqk12","starobba","qksdy147","guslgood2","10041004j","ogm0905","mudorl","tjgpdus97","95yvely","thelddl","dkfka8945","yur22222","boyun96"];
-	var univ_map = {"devil0108":["7티어","이사장","감스트","Zerg"],"wodnrdldia":["God","총장","도재욱","Protoss"],"bwstar":["Jack","부총장","배병우","Zerg"],"jaedong23":["God","교수(휴)","이제동","Zerg"],"organ333":["Jack","교수","임진묵","Terran"],"thakzkf":["God","교수","박상현","Zerg"],"jyh8610":["Jack","교수","진영화","Protoss"],"rladuddo99":["","코치","구성훈","Terran"],"tmvpdltmqk12":["J","코치","백동준","Protoss"],"starobba":["Joker","코치","이승훈","Zerg"],"qksdy147":["0티어","토스조교","하얀눈길","Protoss"],"guslgood2":["1티어","테란조교","랜딩","Terran"],"10041004j":["3티어","","이뀨","Protoss"],"ogm0905":["3티어","","오뀨","Zerg"],"mudorl":["4티어","","무찌","Terran"],"tjgpdus97":["5티어","","요닝","Zerg"],"95yvely":["5티어","","양양","Zerg"],"thelddl":["6","","구래햇살아","Terran"],"dkfka8945":["7티어","","라미","Zerg"],"yur22222":["8티어","","김하율","Terran"],"boyun96":["8티어","","김뽀뇨","Protoss"]};
+	var univ_list = ["devil0108","wodnrdldia","jaedong23","organ333","thakzkf","jyh8610","bwstar","rladuddo99","tmvpdltmqk12","starobba","qksdy147","guslgood2","ogm0905","10041004j","sky2713","mudorl","tjgpdus97","95yvely","thelddl","dkfka8945","seul0316","yur22222","boyun96"];
+	var univ_map = {"devil0108":["7티어","이사장","감스트","Zerg"],"wodnrdldia":["God","총장","도재욱","Protoss"],"jaedong23":["God","교수(휴)","이제동","Zerg"],"organ333":["Jack","교수","임진묵","Terran"],"thakzkf":["God","교수","박상현","Zerg"],"jyh8610":["Jack","교수","진영화","Protoss"],"bwstar":["Jack","교수","배병우","Zerg"],"rladuddo99":["Jack","코치","구성훈","Terran"],"tmvpdltmqk12":["J","코치","백동준","Protoss"],"starobba":["Joker","코치","이승훈","Zerg"],"qksdy147":["0티어","토스조교","하얀눈길","Protoss"],"guslgood2":["1티어","테란조교","랜딩","Terran"],"ogm0905":["3티어","학생회장","오뀨","Zerg"],"10041004j":["3티어","","이뀨","Protoss"],"sky2713":["3티어","","나는상윤","Protoss"],"mudorl":["4티어","","무찌","Terran"],"tjgpdus97":["5티어","","요닝","Zerg"],"95yvely":["5티어","","양양","Zerg"],"thelddl":["6","","구래햇살아","Terran"],"dkfka8945":["7티어","","라미","Zerg"],"seul0316":["7티어","","슬돌이","Protoss"],"yur22222":["8티어","","김하율","Terran"],"boyun96":["8티어","","김뽀뇨","Protoss"]};
 	var imgSrc = "basford";
 	var univName = "Basford";
   </script>
