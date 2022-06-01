@@ -372,24 +372,6 @@ h2 {
   filter: grayscale(0);
   transition-property: background, filter, -webkit-filter;
 }
-.card11 {
-  background: url("../img/basford/강만식.png") left center no-repeat;
-  background-size: 300px;
-  filter: grayscale(1)  brightness(1.5);
-  transition-property: background, filter, -webkit-filter;
-}
-.card11:hover {
-  background: url("../img/basford/강만식.png") center center no-repeat;
-  background-size: 150px;
-  filter: grayscale(0);
-  transition-property: background, filter, -webkit-filter;
-}
-.card11.onair {
-  background: url("../img/basford/강만식.png") center center no-repeat;
-  background-size: 150px;
-  filter: grayscale(0);
-  transition-property: background, filter, -webkit-filter;
-}
 .card12 {
   background: url("../img/basford/이뀨.png") left center no-repeat;
   background-size: 300px;
@@ -408,24 +390,6 @@ h2 {
   filter: grayscale(0);
   transition-property: background, filter, -webkit-filter;
 }
-.card13 {
-  background: url("../img/basford/오리.png") left center no-repeat;
-  background-size: 300px;
-  filter: grayscale(1)  brightness(1.5);
-  transition-property: background, filter, -webkit-filter;
-}
-.card13:hover {
-  background: url("../img/basford/오리.png") center center no-repeat;
-  background-size: 150px;
-  filter: grayscale(0);
-  transition-property: background, filter, -webkit-filter;
-}
-.card13.onair {
-  background: url("../img/basford/오리.png") center center no-repeat;
-  background-size: 150px;
-  filter: grayscale(0);
-  transition-property: background, filter, -webkit-filter;
-}
 .card14 {
   background: url("../img/basford/오뀨.png") left center no-repeat;
   background-size: 300px;
@@ -440,42 +404,6 @@ h2 {
 }
 .card14.onair {
   background: url("../img/basford/오뀨.png") center center no-repeat;
-  background-size: 150px;
-  filter: grayscale(0);
-  transition-property: background, filter, -webkit-filter;
-}
-.card15 {
-  background: url("../img/basford/에스카.png") left center no-repeat;
-  background-size: 300px;
-  filter: grayscale(1)  brightness(1.5);
-  transition-property: background, filter, -webkit-filter;
-}
-.card15:hover {
-  background: url("../img/basford/에스카.png") center center no-repeat;
-  background-size: 150px;
-  filter: grayscale(0);
-  transition-property: background, filter, -webkit-filter;
-}
-.card15.onair {
-  background: url("../img/basford/에스카.png") center center no-repeat;
-  background-size: 150px;
-  filter: grayscale(0);
-  transition-property: background, filter, -webkit-filter;
-}
-.card16 {
-  background: url("../img/basford/유복실.png") left center no-repeat;
-  background-size: 300px;
-  filter: grayscale(1)  brightness(1.5);
-  transition-property: background, filter, -webkit-filter;
-}
-.card16:hover {
-  background: url("../img/basford/유복실.png") center center no-repeat;
-  background-size: 150px;
-  filter: grayscale(0);
-  transition-property: background, filter, -webkit-filter;
-}
-.card16.onair {
-  background: url("../img/basford/유복실.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
   transition-property: background, filter, -webkit-filter;
@@ -588,24 +516,6 @@ h2 {
   filter: grayscale(0);
   transition-property: background, filter, -webkit-filter;
 }
-.card23 {
-  background: url("../img/basford/토끼예나.png") left center no-repeat;
-  background-size: 300px;
-  filter: grayscale(1)  brightness(1.5);
-  transition-property: background, filter, -webkit-filter;
-}
-.card23:hover {
-  background: url("../img/basford/토끼예나.png") center center no-repeat;
-  background-size: 150px;
-  filter: grayscale(0);
-  transition-property: background, filter, -webkit-filter;
-}
-.card23.onair {
-  background: url("../img/basford/토끼예나.png") center center no-repeat;
-  background-size: 150px;
-  filter: grayscale(0);
-  transition-property: background, filter, -webkit-filter;
-}
 .card24 {
   background: url("../img/basford/구성훈.png") left center no-repeat;
   background-size: 300px;
@@ -674,6 +584,24 @@ h2 {
 }
 .card27.onair {
   background: url("../img/basford/슬돌이.png") center center no-repeat;
+  background-size: 150px;
+  filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
+}
+.card28 {
+  background: url("../img/basford/이경민.png") left center no-repeat;
+  background-size: 300px;
+  filter: grayscale(1)  brightness(1.5);
+  transition-property: background, filter, -webkit-filter;
+}
+.card28:hover {
+  background: url("../img/basford/이경민.png") center center no-repeat;
+  background-size: 150px;
+  filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
+}
+.card28.onair {
+  background: url("../img/basford/이경민.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
   transition-property: background, filter, -webkit-filter;
