@@ -163,32 +163,34 @@
                 clip-path: polygon(0 0, 100% 0, 75% 100%, 0 100%);
       }
 
-.diskette .diskette-top:hover .protector {
+.diskette:hover .diskette-top .protector {
       transform: translate(-24%, -2%);
       position: relative;
       transition: transform 1s;
     }
 
-.diskette .diskette-top:hover .protector .gap::before {
+.diskette:hover .diskette-top .protector .gap::before {
         transform: translate(0, 0);
         transition: transform 1s;
       }
-.diskette .diskette-top.onair .protector {
+.diskette.onair .diskette-top .protector {
       transform: translate(-24%, -2%);
       position: relative;
       transition: transform 1s;
     }
 
-.diskette .diskette-top.onair .protector .gap::before {
+.diskette.onair .diskette-top .protector .gap::before {
         transform: translate(0, 0);
         transition: transform 1s;
       }
-.diskette .diskette-top.onair:hover .protector {
+.diskette.onair:hover .diskette-top .protector {
       transform: none;
+      transition: transform .3s;
     }
 
-.diskette .diskette-top.onair:hover .protector .gap::before {
+.diskette.onair:hover .diskette-top .protector .gap::before {
         transform: translate(-100%);
+		transition: transform .3s;
       }
 
 .diskette .diskette-top .protector {
@@ -300,7 +302,7 @@
         line-height: 480%;
         text-align: center;
       }
-.diskette .diskette-bottom .gap-container .label.onair {
+.diskette.onair .diskette-bottom .gap-container .label {
         background-image: var(--diskette-label-pattern-onair);
       }
 
