@@ -190,7 +190,7 @@
   /* position: relative; */
 }
 .fut-player-card.offline .player-picture img {
-  filter: contrast(2) brightness(2) grayscale(1);
+  filter: contrast(2) brightness(1.5) grayscale(1);
 	transition: filter 1s;
 }
 .fut-player-card.offline:hover .player-picture img {
