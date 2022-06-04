@@ -104,7 +104,6 @@
     4px 4px 1px rgba(0, 0, 0, 0.05) inset;
 	cursor: pointer;
 }
-
 .diskette .diskette-top {
     width: 100%;
     height: 40%;
@@ -547,4 +546,24 @@
 	font-family: "Jua";
 	font-size: 22px;
 	font-weight: 800;
+}
+
+
+.diskette.teran {
+  background: #1a62b7;	
+}
+.diskette.zerg {
+  background: #6d0790;	
+}
+.diskette.protoss {
+  background: #facb2d;	
+}
+.diskette.teran .diskette-top .protector .gap{
+  background: #1a62b7;	
+}
+.diskette.zerg .diskette-top .protector .gap{
+  background: #6d0790;	
+}
+.diskette.protoss .diskette-top .protector .gap{
+  background: #facb2d;	
 }
