@@ -554,3 +554,8 @@
   --color2: var(--pika2);
   --front: url(../img/ukkz/뿌하.jpg);
 }
+.card.card23 {
+  --color1: var(--pika1);
+  --color2: var(--pika2);
+  --front: url(../img/ukkz/인치호.jpg);
+}
