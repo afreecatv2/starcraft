@@ -125,72 +125,75 @@ figure:nth-child(1) {
   --imageUrl: url("../img/jsa/시조새.jpg");
 }
 figure:nth-child(2) {
-  --imageUrl: url("../img/jsa/이재호.jpg");
+  --imageUrl: url("../img/jsa/강민.jpg");
 }
 figure:nth-child(3) {
-  --imageUrl: url("../img/jsa/유진우.jpg");
-}
-figure:nth-child(4) {
-  --imageUrl: url("../img/jsa/김범수.jpg");
-}
-figure:nth-child(5) {
-  --imageUrl: url("../img/jsa/윤진규.jpg");
-}
-figure:nth-child(6) {
   --imageUrl: url("../img/jsa/박준오.jpg");
 }
+figure:nth-child(4) {
+  --imageUrl: url("../img/jsa/이재호.jpg");
+}
+figure:nth-child(5) {
+  --imageUrl: url("../img/jsa/유진우.jpg");
+}
+figure:nth-child(6) {
+  --imageUrl: url("../img/jsa/김범수.jpg");
+}
 figure:nth-child(7) {
-  --imageUrl: url("../img/jsa/유승곤.jpg");
+  --imageUrl: url("../img/jsa/윤진규.jpg");
 }
 figure:nth-child(8) {
-  --imageUrl: url("../img/jsa/정민기.jpg");
+  --imageUrl: url("../img/jsa/유승곤.jpg");
 }
 figure:nth-child(9) {
-  --imageUrl: url("../img/jsa/김유진.jpg");
+  --imageUrl: url("../img/jsa/정민기.jpg");
 }
 figure:nth-child(10) {
-  --imageUrl: url("../img/jsa/빡죠스.jpg");
+  --imageUrl: url("../img/jsa/김유진.jpg");
 }
 figure:nth-child(11) {
-  --imageUrl: url("../img/jsa/트슈.jpg");
+  --imageUrl: url("../img/jsa/빡죠스.jpg");
 }
 figure:nth-child(12) {
-  --imageUrl: url("../img/jsa/모토케이.jpg");
+  --imageUrl: url("../img/jsa/트슈.jpg");
 }
 figure:nth-child(13) {
-  --imageUrl: url("../img/jsa/알밤소녀.jpg");
+  --imageUrl: url("../img/jsa/모토케이.jpg");
 }
 figure:nth-child(14) {
-  --imageUrl: url("../img/jsa/꼬니부깅.jpg");
+  --imageUrl: url("../img/jsa/알밤소녀.jpg");
 }
 figure:nth-child(15) {
-  --imageUrl: url("../img/jsa/성예랑.jpg");
+  --imageUrl: url("../img/jsa/꼬니부깅.jpg");
 }
 figure:nth-child(16) {
-  --imageUrl: url("../img/jsa/소심.jpg");
+  --imageUrl: url("../img/jsa/성예랑.jpg");
 }
 figure:nth-child(17) {
-  --imageUrl: url("../img/jsa/뚜밥.jpg");
+  --imageUrl: url("../img/jsa/소심.jpg");
 }
 figure:nth-child(18) {
-  --imageUrl: url("../img/jsa/구보라.jpg");
+  --imageUrl: url("../img/jsa/뚜밥.jpg");
 }
 figure:nth-child(19) {
-  --imageUrl: url("../img/jsa/박새별.jpg");
+  --imageUrl: url("../img/jsa/구보라.jpg");
 }
 figure:nth-child(20) {
-  --imageUrl: url("../img/jsa/강새이.jpg");
+  --imageUrl: url("../img/jsa/박새별.jpg");
 }
 figure:nth-child(21) {
-  --imageUrl: url("../img/jsa/단양.jpg");
+  --imageUrl: url("../img/jsa/강새이.jpg");
 }
 figure:nth-child(22) {
-  --imageUrl: url("../img/jsa/이루리.jpg");
+  --imageUrl: url("../img/jsa/단양.jpg");
 }
 figure:nth-child(23) {
-  --imageUrl: url("../img/jsa/수핸.jpg");
+  --imageUrl: url("../img/jsa/이루리.jpg");
 }
 figure:nth-child(24) {
+  --imageUrl: url("../img/jsa/수핸.jpg");
+}
+figure:nth-child(25) {
   --imageUrl: url("../img/jsa/림예이.jpg");
 }
 
