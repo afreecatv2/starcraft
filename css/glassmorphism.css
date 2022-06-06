@@ -122,6 +122,17 @@
 	text-shadow: 0px 0px 4px #000;
 	pointer-events: none;
 }
+.box .card-race {
+	position: absolute;
+	top: 32px;
+	left: 6px;
+	font-size: 24px;
+	font-weight:800;
+	/* -webkit-text-stroke: 1px #ffffff; */
+	color: #fff;
+	text-shadow: 0px 0px 4px #000;
+	pointer-events: none;
+}
 .box .card-title {
 	position: absolute;
 	top: 148px;
