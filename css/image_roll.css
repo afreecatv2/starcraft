@@ -268,7 +268,7 @@ figure img {
 	opacity: 0;
 	transition: opacity 1s;
 }
-.imageRoll:hover .card-tier,.imageRoll:hover .card-title,.imageRoll:hover .card-name {
+.imageRoll:hover .card-tier,.imageRoll:hover .card-race,.imageRoll:hover .card-title,.imageRoll:hover .card-name {
 	opacity: 0;
 	transition: opacity 1s;
 }
