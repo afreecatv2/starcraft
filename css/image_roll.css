@@ -260,11 +260,11 @@ figure img {
 .imageRoll:hover .card-offline {
   opacity: 0;
 }
-.imageRoll.onair .card-tier,.imageRoll.onair .card-title,.imageRoll.onair .card-name {
+.imageRoll.onair .card-tier,.imageRoll.onair .card-title,.imageRoll.onair .card-race,.imageRoll.onair .card-name {
 	opacity: 1;
 	transition: opacity 1s;
 }
-.imageRoll.offline .card-tier,.imageRoll.offline .card-title,.imageRoll.offline .card-name {
+.imageRoll.offline .card-tier,.imageRoll.offline .card-title,.imageRoll.onair .card-race,.imageRoll.offline .card-name {
 	opacity: 0;
 	transition: opacity 1s;
 }
