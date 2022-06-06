@@ -11,6 +11,7 @@ Vue.component('card', {
         :style="cardStyle" :id="id">
         <div class="card-bg" :style="[cardBgTransform, cardBgImage]"></div>
         <slot name="tier"></slot>
+        <slot name="race"></slot>
         <slot name="title"></slot>
         <slot name="name"></slot>
       </div>
