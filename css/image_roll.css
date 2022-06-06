@@ -264,7 +264,7 @@ figure img {
 	opacity: 1;
 	transition: opacity 1s;
 }
-.imageRoll.offline .card-tier,.imageRoll.offline .card-title,.imageRoll.onair .card-race,.imageRoll.offline .card-name {
+.imageRoll.offline .card-tier,.imageRoll.offline .card-title,.imageRoll.offline .card-race,.imageRoll.offline .card-name {
 	opacity: 0;
 	transition: opacity 1s;
 }
