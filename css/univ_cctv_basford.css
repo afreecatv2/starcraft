@@ -273,24 +273,6 @@ h2 {
   filter: grayscale(0);
   transition-property: background, filter, -webkit-filter;
 }
-.card6 {
-  background: url("../img/basford/배병우.png") left center no-repeat;
-  background-size: 300px;
-  filter: grayscale(1)  brightness(1.5);
-  transition-property: background, filter, -webkit-filter;
-}
-.card6:hover {
-  background: url("../img/basford/배병우.png") center center no-repeat;
-  background-size: 150px;
-  filter: grayscale(0);
-  transition-property: background, filter, -webkit-filter;
-}
-.card6.onair {
-  background: url("../img/basford/배병우.png") center center no-repeat;
-  background-size: 150px;
-  filter: grayscale(0);
-  transition-property: background, filter, -webkit-filter;
-}
 .card7 {
   background: url("../img/basford/이승훈.png") left center no-repeat;
   background-size: 300px;
@@ -611,6 +593,42 @@ h2 {
 }
 .card29.onair {
   background: url("../img/basford/보라.png") center center no-repeat;
+  background-size: 150px;
+  filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
+}
+.card30 {
+  background: url("../img/basford/기뉴다.png") left center no-repeat;
+  background-size: 300px;
+  filter: grayscale(1)  brightness(1.5);
+  transition-property: background, filter, -webkit-filter;
+}
+.card30:hover {
+  background: url("../img/basford/기뉴다.png") center center no-repeat;
+  background-size: 150px;
+  filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
+}
+.card30.onair {
+  background: url("../img/basford/기뉴다.png") center center no-repeat;
+  background-size: 150px;
+  filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
+}
+.card31 {
+  background: url("../img/basford/소룡.png") left center no-repeat;
+  background-size: 300px;
+  filter: grayscale(1)  brightness(1.5);
+  transition-property: background, filter, -webkit-filter;
+}
+.card31:hover {
+  background: url("../img/basford/소룡.png") center center no-repeat;
+  background-size: 150px;
+  filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
+}
+.card31.onair {
+  background: url("../img/basford/소룡.png") center center no-repeat;
   background-size: 150px;
   filter: grayscale(0);
   transition-property: background, filter, -webkit-filter;
