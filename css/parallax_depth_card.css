@@ -198,6 +198,16 @@ h1 + p, p + p {
 }
 .card span:nth-child(3) {
 	position: absolute;
+	top: 32px;
+	left: 6px;
+	font-size: 24px;
+	font-weight:800;
+	color: #fff;
+	/* -webkit-text-stroke: 1px #ffffff; */
+	text-shadow: 0px 0px 4px #000;
+}
+.card span:nth-child(4) {
+	position: absolute;
 	top: 114px;
 	left: 4px;
 	font-size: 16px;
@@ -206,7 +216,7 @@ h1 + p, p + p {
 	/* -webkit-text-stroke: 1px #ffffff; */	
 	text-shadow: 0px 0px 4px #000;
 }
-.card span:nth-child(4) {
+.card span:nth-child(5) {
 	position: absolute;
 	top: 132px;
 	left: 4px;
