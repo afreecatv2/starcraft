@@ -56,7 +56,7 @@
 		<div class="tier_title" style="z-index:1;">
 			<img src="img/ci_white01.png" style="position:absolute;left:20px;top:10px;z-index:2;">
 			<!-- <img src="img/bg_tier.jpg" style="position:absolute;width:1280px;top:80px;left:50%;margin-left:-640px;z-index:1;visibility: visible;"> -->
-			<canvas class="canvas" id="js-canvas" width="1280" height="618" style="position:absolute;width:1280px;top:80px;left:50%;margin-left:-640px;z-index:1;visibility: visible;background-image:url(img/notice.jpg);"></canvas>
+			<canvas class="canvas" id="js-canvas" width="1280" height="618" style="position:absolute;width:1280px;top:80px;left:50%;margin-left:-640px;z-index:1;visibility: visible;"></canvas>
 			<span id="bj_name" style="color:#82A7C900;position:absolute;left:50%;top:674px;margin-left:590px;z-index:9;"></span>
 			<div style="margin-top:50px;z-index:2;pointer-events: none;">
 				<a href="http://www.aengji.com/" target="_blank" style="font-family:Jua;text-decoration: none;"><span style="font-size:3.2em;color:#FCC9FD;"><strong>앵</strong></span><span style="font-size:3em;color:white;">게임넷</span></a>
@@ -123,6 +123,10 @@ var ck_tier = {"title":"아프리카TV CK 티어표","ver":"2.72 (2022-05-03)","
 				dialog.close();
 			  }, 3000);
 		</script>
-  <script  src="js/scratch_card.min.js?ver=0.0.2"></script>
+	<script  src="js/scratch_card.min.js?ver=0.0.2"></script>
+	<script>
+	  var canvas = document.getElementById('js-canvas');
+	  canvas.style.backgroundImage = "url(img/notice.jpg)";
+	</script>
 	</body>
 </html>
