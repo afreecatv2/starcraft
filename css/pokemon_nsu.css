@@ -23,24 +23,29 @@
   display: inline-block;
   position: relative;
   overflow: hidden;
-  margin: 20px;
+  margin: 20px 10px;
   overflow: hidden;
   z-index: 10;
+  --color1: var(--pika1);
+  --color2: var(--pika2);
   touch-action: none;
   border-radius: 5%/3.5%;
   box-shadow: -5px -5px 5px -5px var(--color1), 5px 5px 5px -5px var(--color2), -7px -7px 10px -5px transparent, 7px 7px 10px -5px transparent, 0 0 5px 0px rgba(255, 255, 255, 0), 0 55px 35px -20px rgba(0, 0, 0, 0.5);
   transition: transform 0.5s ease, box-shadow 0.2s ease;
   will-change: transform, filter;
   background-color: #040712;
-  /* background-image: var(--front); */
+  background-image: var(--front);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   transform-origin: center;
+  /* filter: grayscale(1) contrast(2); */
   cursor: pointer;
 }
 .card.onair{ 
-  background-image: var(--front);
+  /* background-image: var(--front); */
+  box-shadow: inset 0px 0px 4px 4px#f00;
+  filter: none;
 }
 /* @media screen and (min-width: 600px) {
   .card {
@@ -50,8 +55,7 @@
 } */
 
 .card:hover {
-  background-image: var(--front);
-  box-shadow: -20px -20px 30px -25px var(--color1), 20px 20px 30px -25px var(--color2), -7px -7px 10px -5px var(--color1), 7px 7px 10px -5px var(--color2), 0 0 13px 4px rgba(255, 255, 255, 0.3), 0 55px 35px -20px rgba(0, 0, 0, 0.5);
+  filter: none;
 }
 
 .card.charizard {
@@ -124,7 +128,7 @@
 
 .card.active:after,
 .card:hover:after {
-  background-image: url("https://assets.codepen.io/13471/sparkles.gif")	;
+  background-image: url("https://assets.codepen.io/13471/sparkles.gif");
   filter: brightness(1) contrast(1);
   opacity: 1;
 }
@@ -419,8 +423,8 @@
 	font-size: 32px;
 	font-weight:800;
 	color: #fff;
-	/* -webkit-text-stroke: 1px #ffffff; */
-	text-shadow: 0px 0px 4px #000;
+	text-shadow: 1px 1px 1px #000;
+	-webkit-text-stroke: 1px #000;
 }
 .card-race {
 	position: absolute;
@@ -429,8 +433,8 @@
 	font-size: 24px;
 	font-weight:800;
 	color: #fff;
-	/* -webkit-text-stroke: 1px #ffffff; */
-	text-shadow: 0px 0px 4px #000;
+	text-shadow: 1px 1px 1px #000;
+	-webkit-text-stroke: 1px #000;
 }
 .card-title {
 	position: absolute;
@@ -439,8 +443,8 @@
 	font-size: 16px;
 	font-weight:400;
 	color: #fff;
-	/* -webkit-text-stroke: 1px #ffffff; */	
-	text-shadow: 0px 0px 4px #000;
+	text-shadow: 1px 1px 1px #000;
+	-webkit-text-stroke: 1px #000;
 }
 .card-name {
 	position: absolute;
@@ -449,9 +453,14 @@
 	font-size: 24px;
 	font-weight:600;
 	color: #fff;
-	/* -webkit-text-stroke: 1px #ffffff; */
-	text-shadow: 0px 0px 6px #000;
+	text-shadow: 1px 1px 1px #000;
+	-webkit-text-stroke: 1px #000;
 }
+.card.card0 {
+  --color1: var(--pika1);
+  --color2: var(--pika2);
+}
+/* 
 .card.card1 {
   --color1: var(--pika1);
   --color2: var(--pika2);
@@ -552,3 +561,4 @@
   --color2: var(--pika2);
   --front: url(../img/ukkz/인치호.jpg);
 }
+ */
