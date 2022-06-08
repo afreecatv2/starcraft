@@ -348,9 +348,10 @@
 				onair.classList.add("animated");
 			}
 		} else {
-			document.getElementById("palko1").classList.add("animated");
-			document.getElementById("love1uu").classList.add("animated");
-			document.getElementById("mercia").classList.add("animated");
+			onairs = document.querySelectorAll(".card");			
+			for(var i = 0; i< 5; i++){
+				onairs[Math.floor(Math.random() * onairs.length)].classList.add("animated");
+			}
 		}
 	}, 1000);
   </script>  
