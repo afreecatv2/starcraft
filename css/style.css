@@ -12,7 +12,7 @@ html, body{
 .container{
 	color:#fff;
 }
-.title{
+.tier_title{
 	width: 100%;
 	
 	font-family: 'Do Hyeon';
@@ -268,6 +268,7 @@ html, body{
 	z-index:99;
 	background-color:#00000000;
 }
+
 .tier-frame:hover .status{	
 	/* top:-80px;
 	left:-32px;
@@ -279,7 +280,7 @@ html, body{
 	transition: width 1s, height 1s, top 1s, left 1s, transform 1s;
 	background-color:#00000000;
 }
-.styled-table{
+/* .styled-table{
 	border-collapse:collapse;
 	font-size:.9em;
 	min-width:200px;
@@ -319,7 +320,7 @@ tr th:nth-child(14),tr td:nth-child(14){
 .styled-table tbody tr.active-row{
 	font-weight:700;
 	color:#009879;
-}
+} */
 
 
 .star-tier-container{
