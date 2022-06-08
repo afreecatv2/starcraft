@@ -433,3 +433,13 @@
 	}
 }
 
+.card .inner-card.terran {
+	background-color: #0D047B;
+}
+.card .inner-card.zerg {
+	background-color: #860709;
+}
+.card .inner-card.protoss {
+	background-color: #2A7D15;
+}
+
