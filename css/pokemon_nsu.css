@@ -31,6 +31,7 @@
   touch-action: none;
   border-radius: 5%/3.5%;
   box-shadow: -5px -5px 5px -5px var(--color1), 5px 5px 5px -5px var(--color2), -7px -7px 10px -5px transparent, 7px 7px 10px -5px transparent, 0 0 5px 0px rgba(255, 255, 255, 0), 0 55px 35px -20px rgba(0, 0, 0, 0.5);
+  
   transition: transform 0.5s ease, box-shadow 0.2s ease;
   will-change: transform, filter;
   background-color: #040712;
@@ -44,7 +45,7 @@
 }
 .card.onair{ 
   /* background-image: var(--front); */
-  box-shadow: inset 0px 0px 4px 4px#f00;
+  box-shadow: inset 0px 0px 0px 6px #f00c;
   filter: none;
 }
 /* @media screen and (min-width: 600px) {
