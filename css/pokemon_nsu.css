@@ -424,7 +424,7 @@
 	font-weight:800;
 	color: #fff;
 	text-shadow: 1px 1px 1px #000;
-	-webkit-text-stroke: 1px #000;
+	/* -webkit-text-stroke: 1px #000; */
 }
 .card-race {
 	position: absolute;
@@ -434,7 +434,7 @@
 	font-weight:800;
 	color: #fff;
 	text-shadow: 1px 1px 1px #000;
-	-webkit-text-stroke: 1px #000;
+	/* -webkit-text-stroke: 1px #000; */
 }
 .card-title {
 	position: absolute;
@@ -444,7 +444,7 @@
 	font-weight:400;
 	color: #fff;
 	text-shadow: 1px 1px 1px #000;
-	-webkit-text-stroke: 1px #000;
+	/* -webkit-text-stroke: 1px #000; */
 }
 .card-name {
 	position: absolute;
@@ -454,111 +454,5 @@
 	font-weight:600;
 	color: #fff;
 	text-shadow: 1px 1px 1px #000;
-	-webkit-text-stroke: 1px #000;
+	/* -webkit-text-stroke: 1px #000; */
 }
-.card.card0 {
-  --color1: var(--pika1);
-  --color2: var(--pika2);
-}
-/* 
-.card.card1 {
-  --color1: var(--pika1);
-  --color2: var(--pika2);
-  --front: url(../img/ukkz/이윤열.jpg);
-}
-.card.card2 {
-  --color1: var(--pika1);
-  --color2: var(--pika2);
-  --front: url(../img/ukkz/신상문.jpg);
-}
-.card.card4 {
-  --color1: var(--pika1);
-  --color2: var(--pika2);
-  --front: url(../img/ukkz/지동원.jpg);
-}
-.card.card5 {
-  --color1: var(--pika1);
-  --color2: var(--pika2);
-  --front: url(../img/ukkz/정경두.jpg);
-}
-.card.card6 {
-  --color1: var(--pika1);
-  --color2: var(--pika2);
-  --front: url(../img/ukkz/김병수.jpg);
-}
-.card.card7 {
-  --color1: var(--pika1);
-  --color2: var(--pika2);
-  --front: url(../img/ukkz/유민.jpg);
-}
-.card.card8 {
-  --color1: var(--pika1);
-  --color2: var(--pika2);
-  --front: url(../img/ukkz/미키.jpg);
-}
-.card.card9 {
-  --color1: var(--pika1);
-  --color2: var(--pika2);
-  --front: url(../img/ukkz/유혜미.jpg);
-}
-.card.card10 {
-  --color1: var(--pika1);
-  --color2: var(--pika2);
-  --front: url(../img/ukkz/추르미.jpg);
-}
-.card.card11 {
-  --color1: var(--pika1);
-  --color2: var(--pika2);
-  --front: url(../img/ukkz/김요요.jpg);
-}
-.card.card12 {
-  --color1: var(--pika1);
-  --color2: var(--pika2);
-  --front: url(../img/ukkz/홍이랑.jpg);
-}
-.card.card13 {
-  --color1: var(--pika1);
-  --color2: var(--pika2);
-  --front: url(../img/ukkz/두치와뿌꾸.jpg);
-}
-.card.card15 {
-  --color1: var(--pika1);
-  --color2: var(--pika2);
-  --front: url(../img/ukkz/한유주.jpg);
-}
-.card.card16 {
-  --color1: var(--pika1);
-  --color2: var(--pika2);
-  --front: url(../img/ukkz/농떼르만.jpg);
-}
-.card.card17 {
-  --color1: var(--pika1);
-  --color2: var(--pika2);
-  --front: url(../img/ukkz/경식.jpg);
-}
-.card.card18 {
-  --color1: var(--pika1);
-  --color2: var(--pika2);
-  --front: url(../img/ukkz/박영덕.jpg);
-}
-.card.card19 {
-  --color1: var(--pika1);
-  --color2: var(--pika2);
-  --front: url(../img/ukkz/보고니.jpg);
-}
-.card.card21 {
-  --color1: var(--pika1);
-  --color2: var(--pika2);
-  --front: url(../img/ukkz/꿀떡이찰떡이.jpg);
-}
-.card.card22 {
-  --color1: var(--pika1);
-  --color2: var(--pika2);
-  --front: url(../img/ukkz/뿌하.jpg);
-}
-.card.card23 {
-  --color1: var(--pika1);
-  --color2: var(--pika2);
-  --front: url(../img/ukkz/인치호.jpg);
-}
- */
