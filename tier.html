@@ -53,7 +53,7 @@
 			</div>
 		</header>
 		<div id="tier_list" class="container" style="margin-top:50px;">
-		<div class="title" style="z-index:1;">
+		<div class="tier_title" style="z-index:1;">
 			<img src="img/ci_white01.png" style="position:absolute;left:20px;top:10px;z-index:2;">
 			<!-- <img src="img/bg_tier.jpg" style="position:absolute;width:1280px;top:80px;left:50%;margin-left:-640px;z-index:1;visibility: visible;"> -->
 			<canvas class="canvas" id="js-canvas" width="1280" height="618" style="position:absolute;width:1280px;top:80px;left:50%;margin-left:-640px;z-index:1;visibility: visible;"></canvas>
@@ -123,7 +123,10 @@ var ck_tier = {"title":"아프리카TV CK 티어표","ver":"2.72 (2022-05-03)","
 				dialog.close();
 			  }, 3000);
 		</script>
-  <script  src="js/scratch_card.min.js?ver=0.0.1"></script>
-		
+  <script  src="js/scratch_card.min.js?ver=0.0.2"></script>
+  <script>
+  var canvas = document.getElementById('js-canvas');
+  canvas.style.backgroundImage = "url(img/notice.jpg)";
+  </script>
 	</body>
 </html>
