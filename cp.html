@@ -218,7 +218,16 @@ body {
   <!-- <script src="js/univ_cctv_3d.js?ver=0.0.1"></script> -->
   <script src="https://test.aengji.com/afreecatv/univ/univ_cctv_3d.min.js?ver=0.0.3"></script>
   <script>
-  popup3("CP 전원 FA");		
+  var dialog = document.createElement("dialog");
+  dialog.style = "white-space: pre;padding:50px 100px 50px 100px;border:0.1em solid white;background-color:#1B0B33;color:white;font-size:1.4em;margin: auto;"
+  document.body.appendChild(dialog)
+  var text = document.createTextNode("CP 전원 FA");
+  dialog.appendChild(text);  
+  dialog.addEventListener('click', function (event) {
+	  this.remove();
+  });  
+  dialog.showModal();
+  
 	setTimeout(() => {
 		dialog.close();
 	}, 3000);
