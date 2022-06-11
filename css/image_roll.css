@@ -700,7 +700,7 @@ figure:nth-child(20) {
   --imageUrl: url("../img/jsa/박새별.jpg");
 }
 figure:nth-child(21) {
-  --imageUrl: url("../img/bj_png/마꼬.jpg");
+  --imageUrl: url("../img/bj_high/마꼬.jpg");
 }
 figure:nth-child(22) {
   --imageUrl: url("../img/jsa/강새이.jpg");
@@ -715,7 +715,7 @@ figure:nth-child(25) {
   --imageUrl: url("../img/jsa/수핸.jpg");
 }
 figure:nth-child(26) {
-  --imageUrl: url("../img/bj_png/아라미.jpg");
+  --imageUrl: url("../img/bj_high/아라미.jpg");
 }
 figure:nth-child(27) {
   --imageUrl: url("../img/jsa/림예이.jpg");
