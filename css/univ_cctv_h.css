@@ -211,3 +211,55 @@
 	top:110px;
 	color: #ffffff;
 }
+.onair {
+	border: 2px solid #f00; 
+}
+
+.card-tier {
+	position: absolute;
+	top: 0px;
+	left: 106px;
+	font-size: 32px;
+	font-weight:800;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+	/* -webkit-text-stroke: 1px #000; */
+	z-index:99;
+	transform: rotate(-4deg) translateY(4px);
+}
+.card-race {
+	position: absolute;
+	top: 32px;
+	left: 108px;
+	font-size: 24px;
+	font-weight:800;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+	/* -webkit-text-stroke: 1px #000; */
+	z-index:99;
+	transform: rotate(-4deg) translateY(4px);
+}
+.card-title {
+	position: absolute;
+	top: 100px;
+	left: 114px;
+	font-size: 16px;
+	font-weight:400;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+	/* -webkit-text-stroke: 1px #000; */
+	z-index:99;
+	transform: rotate(-4deg) translateY(4px);
+}
+.card-name {
+	position: absolute;
+	top: 120px;
+	left: 114px;
+	font-size: 24px;
+	font-weight:600;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+	/* -webkit-text-stroke: 1px #000; */
+	z-index:99;
+	transform: rotate(-4deg) translateY(4px);	
+}
