@@ -709,13 +709,13 @@ figure:nth-child(23) {
   --imageUrl: url("../img/jsa/단양.jpg");
 }
 figure:nth-child(24) {
-  --imageUrl: url("../img/jsa/이루리.jpg");
+  --imageUrl: url("../img/bj_high/아라미.jpg");
 }
 figure:nth-child(25) {
-  --imageUrl: url("../img/jsa/수핸.jpg");
+  --imageUrl: url("../img/jsa/이루리.jpg");
 }
 figure:nth-child(26) {
-  --imageUrl: url("../img/bj_high/아라미.jpg");
+  --imageUrl: url("../img/jsa/수핸.jpg");
 }
 figure:nth-child(27) {
   --imageUrl: url("../img/jsa/림예이.jpg");
