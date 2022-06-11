@@ -278,6 +278,7 @@
 }
 .images-leaning > div > img.onair {
 	filter: brightness(1) grayscale(0);
+	transition: 1s;
 }
 .images-leaning > div > img.offline {	
 	filter: brightness(1.5) grayscale(1);
@@ -285,6 +286,7 @@
 }
 .images-leaning > div > img.onair:hover {
 	filter: brightness(1.5) grayscale(0);	
+	transition: 1s;
 }
 .images-leaning > div > img.offline:hover {
 	filter: brightness(1) grayscale(0);
