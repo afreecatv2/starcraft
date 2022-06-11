@@ -275,6 +275,7 @@
 }
 .images-leaning > div > img.onair+span{
 	display: block;
+	transition: 1s;
 }
 .images-leaning > div > img.onair {
 	filter: brightness(1) grayscale(0);
