@@ -211,9 +211,6 @@
 	top:110px;
 	color: #ffffff;
 }
-.onair {
-	border: 2px solid #f00; 
-}
 
 .card-tier {
 	position: absolute;
@@ -241,7 +238,7 @@
 }
 .card-title {
 	position: absolute;
-	top: 100px;
+	top: 104px;
 	left: 114px;
 	font-size: 16px;
 	font-weight:400;
@@ -262,4 +259,34 @@
 	/* -webkit-text-stroke: 1px #000; */
 	z-index:99;
 	transform: rotate(-4deg) translateY(4px);	
+}
+.card-onair {
+	display: none;
+	position: absolute;
+	top: 112px;
+	left: 198px;
+	font-size: 24px;
+	font-weight:600;
+	color: #f00;
+	text-shadow: 1px 1px 1px #000;
+	/* -webkit-text-stroke: 1px #000; */
+	z-index:99;
+	transform: rotate(-4deg) translateY(4px);	
+}
+.images-leaning > div > img.onair+span{
+	display: block;
+}
+.images-leaning > div > img.onair {
+	filter: brightness(1) grayscale(0);
+}
+.images-leaning > div > img.offline {	
+	filter: brightness(1.5) grayscale(1);
+	transition: 1s;
+}
+.images-leaning > div > img.onair:hover {
+	filter: brightness(1.5) grayscale(0);	
+}
+.images-leaning > div > img.offline:hover {
+	filter: brightness(1) grayscale(0);
+	transition: 1s;
 }
