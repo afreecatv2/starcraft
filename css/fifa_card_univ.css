@@ -188,6 +188,7 @@
   -o-object-fit: contain;
      object-fit: contain;
   /* position: relative; */
+	transition: filter 1s;
 }
 .fut-player-card.offline .player-picture img {
   filter: contrast(2) brightness(1.5) grayscale(1);
@@ -214,20 +215,20 @@
   -o-object-fit: contain;
      object-fit: contain;
   /* position: relative; */
-	transition: opacity 1s;
+	transition: 1s;
 	pointer-events: none;
 }
 .fut-player-card.offline:hover .player-picture-offline {
 	opacity: 0;
-	transition: opacity 1s;
+	transition: 1s;
 }
 .fut-player-card.onair .player-picture-offline {
 	opacity: 0;
-	transition: opacity 1s;
+	transition: 1s;
 }
 .fut-player-card.offline .player-picture-offline {
 	opacity: 1;
-	transition: opacity 1s;
+	transition: 1s;
 }
 
 
