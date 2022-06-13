@@ -11,7 +11,7 @@
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="bootstrap-icons.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/input.css?ver=0.0.1">
-		<link href="css/style.css?ver=0.0.29" rel="stylesheet">
+		<link href="css/style.css?ver=0.0.30" rel="stylesheet">
 		<link rel="stylesheet" href="css/menu.css?ver=0.0.4">
 		<link rel="stylesheet" href="css/text.css?ver=0.0.6">
 		<link rel="stylesheet" href="css/sticker.css?ver=0.0.6">
@@ -37,7 +37,10 @@
 						<li><a href="nsu.html">NSU</a></li>
 						<li><a href="jsa.html">JSA</a></li>
 						<li><a href="mcu.html">무친대</a></li>
+					<li><a href="amu.html">아마대</a></li>
+					<li><a href="pu.html">츠나대</a></li>
 					<li><a href="bcd.html">방치대</a></li>
+					<li><a href="uhd.html">혼잔대</a></li>
 						<li><a href="https://note.afreecatv.com/app/index.php?page=write&targetUserId=k1111u" target="_blank">오류_신고</a></li>
 					</ul>
 				</nav>
@@ -77,7 +80,6 @@
 			</div>			
 			
 		</div>
-		</div>
 		<!-- <div style="font-family:sans-serif;font-size:48px;font-weight:800;margin-top:-50px;margin-bottom:-60px;color:#000000;z-index:99999;">
 			
 		</div> -->
@@ -109,8 +111,8 @@ var ck_tier = {"title":"아프리카TV CK 티어표","ver":"2.72 (2022-05-03)","
 		<script src="js/util.js?ver=0.0.5"></script>
 		<!-- <script src="js/tier_maker.js?ver=0.0.1"></script> -->
 
-		<!-- <script src="js/tier_list.js?ver=0.0.1"></script> -->
-		<script src="https://test.aengji.com/afreecatv/tier_list.min.js?ver=0.0.58"></script>
+		<script src="js/tier_list.js?ver=0.0.1"></script>
+		<!-- <script src="https://test.aengji.com/afreecatv/tier_list.min.js?ver=0.0.58"></script> -->
 		<script>
 		var dialog;
 			if(location.hostname.indexOf("netlify") > -1){
@@ -122,9 +124,29 @@ var ck_tier = {"title":"아프리카TV CK 티어표","ver":"2.72 (2022-05-03)","
 			
 			  setTimeout(() => {
 				dialog.close();
-			  }, 3000);
+			  }, 2000);
 		</script>
-  <script  src="js/scratch_card2.min.js?ver=0.0.3"></script>
-		
+	<script  src="js/scratch_card.min.js?ver=0.0.2"></script>
+	<script>
+	var canvas = document.getElementById('js-canvas');
+	
+	  <!-- canvas.style.backgroundImage = "url(img/notice.jpg)"; -->
+	  
+	  var r1 = 0;
+	r1 = Math.floor(Math.random() * Object.keys(ck_tier.tier).length);
+	var idx = 0;
+	for(var k in ck_tier.tier){
+		if(r1 == idx){
+			r1 = Math.floor(Math.random() * ck_tier.tier[k].length);
+			var canvas = document.getElementById("js-canvas");
+			if(canvas){
+				canvas.style.backgroundImage = "url(img/bj_high/" + ck_tier.tier[k][r1][0].split(",")[0] + ".jpg)";
+				document.getElementById("bj_name").textContent = ck_tier.tier[k][r1][0].split(",")[0];
+			}
+			break;
+		}
+		idx++;
+	}	
+	</script>
 	</body>
 </html>
