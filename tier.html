@@ -111,8 +111,8 @@ var ck_tier = {"title":"아프리카TV CK 티어표","ver":"2.72 (2022-05-03)","
 		<script src="js/util.js?ver=0.0.5"></script>
 		<!-- <script src="js/tier_maker.js?ver=0.0.1"></script> -->
 
-		<!-- <script src="js/tier_list.js?ver=0.0.1"></script> -->
-		<script src="https://test.aengji.com/afreecatv/tier_list.min.js?ver=0.0.58"></script>
+		<script src="js/tier_list2.js?ver=0.0.1"></script>
+		<!-- <script src="https://test.aengji.com/afreecatv/tier_list.min.js?ver=0.0.58"></script> -->
 		<script>
 		var dialog;
 			if(location.hostname.indexOf("netlify") > -1){
@@ -128,25 +128,8 @@ var ck_tier = {"title":"아프리카TV CK 티어표","ver":"2.72 (2022-05-03)","
 		</script>
 	<script  src="js/scratch_card.min.js?ver=0.0.2"></script>
 	<script>
-	  <!-- var canvas = document.getElementById('js-canvas'); -->
-	  <!-- canvas.style.backgroundImage = "url(img/notice.jpg)"; -->
-	  
-	  var r1 = 0;
-	r1 = Math.floor(Math.random() * Object.keys(ck_tier.tier).length);
-	var idx = 0;
-	for(var k in ck_tier.tier){
-		if(r1 == idx){
-			r1 = Math.floor(Math.random() * ck_tier.tier[k].length);
-			var canvas = document.getElementById("js-canvas");
-			if(canvas){
-				canvas.style.backgroundImage = "url(img/bj_high/" + ck_tier.tier[k][r1][0].split(",")[0] + ".jpg)";
-				document.getElementById("bj_name").textContent = ck_tier.tier[k][r1][0].split(",")[0];
-			}
-			break;
-		}
-		idx++;
-	}	
-	
+	  var canvas = document.getElementById('js-canvas');
+	  canvas.style.backgroundImage = "url(img/notice.jpg)";
 	</script>
 	</body>
 </html>
