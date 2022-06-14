@@ -390,6 +390,7 @@ html, body{
 }
 .onair {
 	outline: 8px solid #ff0000;
+	/* box-shadow: 0px 0px 6px 1px #ff0000; */
 }
 .live {
 	height:30px;
