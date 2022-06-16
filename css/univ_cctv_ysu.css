@@ -125,7 +125,6 @@
 .silhouette.offline .card-tier, .silhouette.offline .card-race, .silhouette.offline .card-title, .silhouette.offline .card-name {
 	opacity: 0;
 	transition: opacity 1s;
-	transition-delay: 2s;
 }
 .silhouette:hover, .silhouette.onair:hover .card-tier, .silhouette.offline:hover .card-tier, .silhouette.onair:hover .card-race, .silhouette.offline:hover .card-race, .silhouette.onair:hover .card-title, .silhouette.offline:hover .card-title, .silhouette.onair:hover .card-name, .silhouette.offline:hover .card-name {
 	opacity: 1;
