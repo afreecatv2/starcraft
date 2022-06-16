@@ -443,3 +443,13 @@
 	background-color: #2A7D15;
 }
 
+.kart {
+	position:absolute;
+	width:108px;
+	height:108px;
+	cursor: pointer;
+}
+
+.kart.onair {
+	border: 8px solid #f00;
+}
