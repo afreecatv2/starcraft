@@ -655,6 +655,7 @@ h2 {
 	position:absolute;
 	left: 0;
 	top: 64px;
+	pointer-events: none;
 }
 .card:hover .c-icon {
 	position:absolute;
