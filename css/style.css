@@ -8,6 +8,12 @@ html, body{
 	background-color:#0c052e;
 	font-family: 'Jua';
 }
+body.dark {	
+	background-color:#0c052e;
+}
+body.light {	
+	background-color:#eef;
+}
 
 .container{
 	color:#fff;
@@ -40,6 +46,13 @@ html, body{
 }
 .tier_desc{
 	vertical-align: middle;font-size:72px;font-weight:800;margin-right:20px;z-index:2;
+}
+
+.tier_desc.dark{
+	color: #fff;
+}
+.tier_desc.light{
+	color: #333;
 }
 
 .container_list{
@@ -348,12 +361,24 @@ tr th:nth-child(14),tr td:nth-child(14){
 	/* box-shadow: 0 0 5px 5px red; */
 	box-shadow: 0 3px 8px #eeeeee;
 }
+.tier-frame.dark{
+	box-shadow: 0 3px 8px #eeeeee;
+}
+.tier-frame.light{
+	box-shadow: 0 3px 8px #333;
+}
 .tier-image{
 	width:128px;
 	height:123px;
 	/* border:5px solid #aaaaaa; */
 	border:5px solid #000000;
 	border-radius:10px 10px 0 0;
+}
+.tier-image.dark{
+	border:5px solid #000;
+}
+.tier-image.light{
+	border:5px solid #fff;
 }
 .tier-image .Z{
 	background-color: purple;
@@ -383,6 +408,8 @@ tr th:nth-child(14),tr td:nth-child(14){
 	/* box-shadow: 0 3px 10px white; */
 	box-shadow: 0 3px 8px #cccccc;
 	cursor:pointer;
+}
+.tier-name.light{
 }
 
 .tier-live{
@@ -496,3 +523,97 @@ tr th:nth-child(14),tr td:nth-child(14){
 .tier-frame:hover .speech-bubble.remark{
 	display: inline-block;
 }
+
+
+.switch-wrapper {
+	position: fixed;
+	left:20px;
+	top:80px;
+  margin: 30px 0;
+  font-size: 0;
+  z-index:99999;
+}
+
+.switch-wrapper input {
+  display: none;
+}
+
+.switch-label {
+  font-size: 1rem;
+  display: inline-block;
+  line-height: 40px;
+  vertical-align: top;
+  padding: 5px 10px;
+  transition: transform ease-in 0.2s;
+  font-weight: bold;
+  opacity: 0.6;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 50px;
+  border: 2px solid #eee;
+  background-color: #2196F3;
+  background-image: radial-gradient(circle, #fefefe 20%, transparent 30%), radial-gradient(circle, #fefefe 20%, transparent 30%), radial-gradient(circle, #fefefe 20%, transparent 30%), radial-gradient(circle, #fefefe 20%, transparent 30%), radial-gradient(circle, #fefefe 20%, transparent 30%), radial-gradient(circle, #fefefe 20%, transparent 30%);
+  background-size: 50% 50%, 60% 60%, 40% 40%, 40% 40%, 50% 50%, 40% 40%;
+  background-position: 60% 82%, 80% 80%, 82% 80%, 110% 20%, 134% 12%, 130% 20%;
+  background-repeat: no-repeat;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  overflow: hidden;
+}
+
+.switch:before {
+  position: absolute;
+  content: "";
+  height: 35px;
+  width: 35px;
+  top: 50%;
+  left: 2px;
+  cursor: pointer;
+  transform: translateY(-50%);
+  background-color: #ffeb3b;
+  background-image: radial-gradient(circle, #ffc107 15%, #ffeb3b 100%);
+  box-shadow: 0px 0px 20px 10px rgba(255, 235, 255, 0.4);
+  transition: transform ease-in 0.2s;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+}
+
+.switch-label.day {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+input:checked ~ .switch {
+  background-color: #023660;
+  background-image: radial-gradient(circle, #fff 10%, transparent 30%), radial-gradient(circle, #fff 10%, transparent 30%), radial-gradient(circle, #fff 10%, transparent 30%), radial-gradient(circle, #fff 10%, transparent 30%), radial-gradient(circle, #fff 10%, transparent 30%), radial-gradient(circle, #fff 10%, transparent 30%), radial-gradient(circle, #fff 10%, transparent 30%), radial-gradient(circle, #fff 10%, transparent 30%), radial-gradient(circle, #fff 10%, transparent 30%);
+  background-size: 8% 8%, 7% 7%, 6% 6%, 8% 8%, 8% 8%, 6% 6%, 6% 6%, 8% 8%, 7% 7%;
+  background-position: 20% 20%, 45% 30%, 25% 55%, 20% 90%, 40% 60%, 5% 50%, 58% 10%, 58% 60%, 50% 80%;
+  background-repeat: no-repeat;
+}
+input:checked ~ .switch:before {
+  background-color: #ddd;
+  background-image: radial-gradient(circle, #c4c4c4 50%, transparent 50%), radial-gradient(circle, #c9c9c9 50%, transparent 50%), radial-gradient(circle, #c9c9c9 50%, transparent 50%), radial-gradient(circle, #c9c9c9 50%, transparent 50%);
+  background-size: 40% 40%, 25% 25%, 50% 50%, 30% 30%;
+  background-position: 20% 20%, 65% 30%, 120% 100%, 20% 80%;
+  box-shadow: 0px 0px 20px 10px rgba(255, 255, 255, 0.2);
+}
+
+.switch-wrapper input:checked ~ .switch-label.day {
+  transform: scale(1);
+  opacity: 0.6;
+}
+.switch-wrapper input:checked ~ .switch-label.night {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.switch-wrapper input:checked ~ .switch:before {
+  transform: translate(60px, -50%);
+}
+
