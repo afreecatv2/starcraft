@@ -653,8 +653,9 @@ h2 {
 }
 .card .c-icon {
 	position:absolute;
-	left: 0;
-	top: 64px;
+	left: -10px;
+	top: 68px;
+	width:72px;
 }
 .card .c-icon:active {
 	pointer-events: none;	
@@ -662,17 +663,17 @@ h2 {
 .card:hover .c-icon {
 	position:absolute;
 	left: auto;
-	right: 0;
+	right: -10px;
 	top: 0;
 }
 .card.onair .c-icon {
 	position:absolute;
 	left: auto;
-	right: 0;
+	right: -10px;
 	top: 0;
 }
 .card.onair:hover .c-icon {
 	position:absolute;
-	left: 0;
-	top: 64px;
+	left: -10px;
+	top: 72px;
 }
