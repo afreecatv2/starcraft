@@ -119,21 +119,15 @@ var ck_tier = {"title":"아프리카TV CK 티어표","ver":"2.73 (2022-06-16)","
 		<script src="js/data.js?ver=0.0.10"></script>
 		<script src="js/util.js?ver=0.0.5"></script>
 		<!-- <script src="js/tier_maker.js?ver=0.0.1"></script> -->
-
+<script>
+popup3("서버 점검중");
+</script>
 		<!-- <script src="js/tier_list.js?ver=0.0.1"></script> -->
 		<script src="https://test.aengji.com/afreecatv/tier_list.min.js?ver=0.0.59"></script>
 		<script>
-		var dialog;
-			if(location.hostname.indexOf("netlify") > -1){
-				dialog = popup3("netlify 서버로 접속하셨습니다.\이 서버는 예비용 서버로 속도가 느립니다.\n로딩이 너무 느리신 분들은 구글에서 앵게임넷을 검색하시거나\n starcraft.aengji.com 으로 접속하세요.");
-			}else{
-				dialog = popup3("티어 정보는 에펨코리아 [스타CK 밸런스 티어표]를 참조하였습니다.\n\n방송중인 BJ 사진 위에 커서를 올리면 메뉴가 나타납니다. (전적, 방송보기)\n전체 카테고리 대상 (2분 간격으로 갱신. 낮시간 5분)");
-			}
+			  
+			  
 			var bg_url = "img/bg_tier.jpg";
-			
-			  setTimeout(() => {
-				dialog.close();
-			  }, 2000);
 		</script>
 	<script  src="js/scratch_card.min.js?ver=0.0.2"></script>
 	<script>
