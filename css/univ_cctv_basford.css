@@ -651,3 +651,25 @@ h2 {
   filter: grayscale(0);
   transition-property: background, filter, -webkit-filter;
 }
+.card .c-icon {
+	position:absolute;
+	left: 0;
+	top: 64px;
+}
+.card:hover .c-icon {
+	position:absolute;
+	left: auto;
+	right: 0;
+	top: 0;
+}
+.card.onair .c-icon {
+	position:absolute;
+	left: auto;
+	right: 0;
+	top: 0;
+}
+.card.onair:hover .c-icon {
+	position:absolute;
+	left: 0;
+	top: 64px;
+}
