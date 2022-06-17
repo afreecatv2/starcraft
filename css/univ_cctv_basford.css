@@ -654,8 +654,8 @@ h2 {
 .card .c-icon {
 	position:absolute;
 	left: -10px;
-	top: 68px;
-	width:72px;
+	top: 76px;
+	width:64px;
 }
 .card .c-icon:active {
 	pointer-events: none;	
@@ -675,5 +675,5 @@ h2 {
 .card.onair:hover .c-icon {
 	position:absolute;
 	left: -10px;
-	top: 72px;
+	top: 76px;
 }
