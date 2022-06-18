@@ -73,6 +73,59 @@
   <script src="js/util.js?ver=0.0.2"></script>
   <!-- <script src="js/univ_cctv_fa.js?ver=0.0.14"></script> -->
   <script src="https://test.aengji.com/afreecatv/univ/univ_cctv_fa.min.js?ver=0.0.3"></script>
+    <script>
+	setTimeout(() => {
+		var sr = document.querySelector('.star-tier-item[user_id="ys9024"]');
+		var span1 = document.createElement("span");
+		span1.style.position = "absolute";
+		span1.style.top = "0px";
+		span1.style.left = "200px";
+		span1.textContent = "신들의 전쟁 4킬";
+		sr.appendChild(span1);
+		
+		
+		var km1 = document.createElement("img");
+		km1.setAttribute("src", "img/icons/icon_terran_r.png");
+		km1.style.position = "absolute";
+		km1.setAttribute("title", "새이");
+		km1.style.top = "20px";
+		km1.style.left = "200px";
+		km1.style.height = "32px";
+		km1.style.filter = "brightness(2)";
+		sr.appendChild(km1);
+		
+		km1 = document.createElement("img");
+		km1.setAttribute("src", "img/icons/icon_zerg_r.png");
+		km1.setAttribute("title", "짱다");
+		km1.style.position = "absolute";
+		km1.style.top = "20px";
+		km1.style.left = "234px";
+		km1.style.height = "32px";
+		km1.style.filter = "brightness(2)";
+		sr.appendChild(km1);
+		
+		km1 = document.createElement("img");
+		km1.setAttribute("src", "img/icons/icon_terran_r.png");
+		km1.setAttribute("title", "히엉");
+		km1.style.position = "absolute";
+		km1.style.top = "20px";
+		km1.style.left = "268px";
+		km1.style.height = "32px";
+		km1.style.filter = "brightness(2)";
+		sr.appendChild(km1);
+		
+		km1 = document.createElement("img");
+		km1.setAttribute("src", "img/icons/icon_zerg_r.png");
+		km1.setAttribute("title", "서윤");
+		km1.style.position = "absolute";
+		km1.style.top = "20px";
+		km1.style.left = "302px";
+		km1.style.height = "32px";
+		km1.style.filter = "brightness(2)";
+		sr.appendChild(km1);
+		
+	}, 1000);
+  </script>
 </body>
 
 </html>
