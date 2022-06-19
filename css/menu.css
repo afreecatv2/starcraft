@@ -227,8 +227,12 @@ input[type="radio"]:checked+label span {
 	transition: background-color 0.24s linear;
 }
 
-input[type="checkbox"]:disabled+label {
+input[type="checkbox"]+label {
 	color:#ccc;
 	margin-right: -10px;
 }
 
+input[type="checkbox"]:disabled+label {
+	color:#ccc;
+	margin-right: -10px;
+}
