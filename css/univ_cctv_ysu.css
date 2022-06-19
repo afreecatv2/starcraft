@@ -118,7 +118,8 @@
 	transition: opacity 1s;
 } */
 .silhouette.onair .card-tier, .silhouette.onair .card-race, .silhouette.onair .card-title, .silhouette.onair .card-name {
-	opacity: 0;
+	/* opacity: 0; */
+	opacity: 1;
 	transition: opacity 1s;
 	transition-delay: 3s;
 }
