@@ -266,5 +266,22 @@
   
   <!-- <script src="https://test.aengji.com/afreecatv/univ/univ_cctv_3d_hover.min.js?ver=0.0.1"></script> -->
 	  
+	<script>
+	var div1 = document.createElement("div");
+	
+	var img1 = document.createElement("img");
+	img1.style.width = "120px";
+	img1.style.height = "160px";
+	img1.style.marginLeft = "40px";
+	img1.style.marginTop = "20px";
+	img1.style.objectFit = "cover";
+	img1.setAttribute("src","img/mcu/icon_bong_160.png");
+	img1.setAttribute("title","출처: FMKOREA 흐하오항으하");
+	div1.style.zIndex = "9";
+	div1.appendChild(img1);  
+	var pEl = document.getElementById("app");
+	var nr = document.getElementById("28");
+	pEl.insertBefore(div1, nr.parentNode);
+	</script>
 </body>
 </html>
