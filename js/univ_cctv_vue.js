@@ -9,7 +9,7 @@ for(var i = 0; i< ml.length; i++){
 		
 	var btn1 = document.createElement('button');
 	btn1.className = 'fa-brands fa-adn';
-	btn1.style.color = 'color:#1C46AE';
+	btn1.style.color = '#1C46AE';
 	btn1.setAttribute('au',ml[i][0]);
 	btn1.onclick = function changeContent() {
 		window.open('https://bj.afreecatv.com/' + event.target.getAttribute('au'));
@@ -19,7 +19,7 @@ for(var i = 0; i< ml.length; i++){
 	if(ml[i][1] !== ""){
 		btn1 = document.createElement('button');
 		btn1.className = 'fa-brands fa-youtube';
-		btn1.style.color = 'color:#f00';
+		btn1.style.color = '#f00';
 		btn1.setAttribute('au',ml[i][1]);
 		btn1.onclick = function changeContent() {
 			window.open('https://www.youtube.com/' + event.target.getAttribute('au'));
