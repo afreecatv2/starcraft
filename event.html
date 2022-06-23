@@ -11,7 +11,7 @@
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="bootstrap-icons.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/input.css?ver=0.0.1">
-		<link href="css/style.css?ver=0.0.31" rel="stylesheet">
+		<link href="css/event_pair.css?ver=0.0.31" rel="stylesheet">
 		<link rel="stylesheet" href="css/menu.css?ver=0.0.6">
 		<link rel="stylesheet" href="css/text.css?ver=0.0.6">
 		<link rel="stylesheet" href="css/sticker.css?ver=0.0.6">
@@ -22,7 +22,7 @@
 		}
 		.tier_desc{
 			text-shadow: 4px 4px #000;
-			display: none;
+			
 		}
 		</style>
 	</head>
@@ -31,51 +31,51 @@
 			<div style="display:flex;flex-flow: wrap;justify-content: center;">
 				<nav class="sub-menu white">
 					<ul>
-						<li><a href="fav.html">즐겨찾기</a></li>
-						<li><a href="tier.html">티어표</a></li>
+					<li><a href="fav.html">즐겨찾기</a></li>
+					<li><a href="tier.html">티어표</a></li>
+					<li class="active"><a href="event.html">생컨대전</a></li>
 					<li><a href="tournament.html" target="_blank">3티어대회</a></li>
-						<li class="active"><a href="event.html">3티어대회</a></li>
-						<li><a href="sadari_afreecatv.html" target="_blank">사다리</a></li>
+					<li><a href="sadari_afreecatv.html" target="_blank">사다리</a></li>
 					<li><a href="gacha.html" target="_blank">뽑기</a></li>
-						<li><a href="fa.html">FA</a></li>
-						<li><a href="cswu.html">캄성</a></li>
-						<li><a href="ukkz.html">우끼</a></li>
+					<li><a href="fa.html">FA</a></li>
+					<li><a href="cswu.html">캄성</a></li>
+					<li><a href="ukkz.html">우끼</a></li>
 					<li><a href="midas.html">미다스</a></li>
-						<li><a href="ysu.html">염석대</a></li>
-						<li><a href="basford.html">바스포드</a></li>
-						<li><a href="cp.html">CP</a></li>
-						<li><a href="cgj.html">철와대</a></li>
-						<li><a href="nsu.html">NSU</a></li>
-						<li><a href="jsa.html">JSA</a></li>
-						<li><a href="mcu.html">무친대</a></li>
-					<li><a href="amu.html">아마대</a></li>
+					<li><a href="ysu.html">염석대</a></li>
+					<li><a href="basford.html">바스포드</a></li>
+					<li><a href="cp.html">CP</a></li>
+					<li><a href="cgj.html">철와대</a></li>
+					<li><a href="nsu.html">NSU</a></li>
+					<li><a href="jsa.html">JSA</a></li>
+					<li><a href="mcu.html">무친대</a></li>
+					<li class="active"><a href="amu.html">아마대</a></li>
 					<li><a href="pu.html">츠나대</a></li>
 					<li><a href="msg.html">MSG</a></li>
 					<li><a href="bcd.html">방치대</a></li>
 					<li><a href="uhd.html">혼잔대</a></li>
 					<li><a href="mst.html">마싯대</a></li>
-						<li><a href="https://note.afreecatv.com/app/index.php?page=write&targetUserId=k1111u" target="_blank">오류신고</a></li>
-					</ul>
-				</nav>
-				<div style="background-color:#eeeeee;border:2px solid #eeeeee;">
-					<div id="checkbox_tier" style="">
-						<span style="color:#000;font-size:24px;"></span>
-						<!-- <div style="display:flex;flex-direction:row;align-items:center;"> 
-							<input id="t1" type="checkbox" class="plus-minus">
-							<label for="t1" style="color:#000;font-size:36px;cursor:pointer;">1티어</label>
-						</div> -->
-					</div>
+					<li><a href="https://note.afreecatv.com/app/index.php?page=write&targetUserId=k1111u" target="_blank">오류신고</a></li>
+				</ul>
+			</nav>
+			<div style="background-color:#eeeeee;border:2px solid #eeeeee;">
+				<div id="checkbox_tier" style="">
+					<span style="color:#000;font-size:24px;"></span>
+					<!-- <div style="display:flex;flex-direction:row;align-items:center;"> 
+						<input id="t1" type="checkbox" class="plus-minus">
+						<label for="t1" style="color:#000;font-size:36px;cursor:pointer;">1티어</label>
+					</div> -->
 				</div>
 			</div>
-		</header>
+		</div>
+	</header>
 		<div id="tier_list" class="container" style="margin-top:50px;">
 		<div class="tier_title" style="z-index:1;">
 			<img src="img/ci_white01.png" style="position:absolute;left:20px;top:10px;z-index:2;">
-			<!-- <img src="img/bg_tier.jpg" style="position:absolute;width:1280px;top:80px;left:50%;margin-left:-640px;z-index:1;visibility: visible;"> -->
+			<img src="img/event.jpg" style="position:absolute;width:1280px;top:80px;left:50%;margin-left:-640px;z-index:1;visibility: visible;">
 			<canvas class="canvas" id="js-canvas" width="1280" height="618" style="position:absolute;width:1280px;top:40px;left:50%;margin-left:-640px;z-index:0;visibility: hidden;"></canvas>
 			<span id="bj_name" style="color:#82A7C900;position:absolute;left:50%;top:674px;margin-left:590px;z-index:9;"></span>
-			<div style="margin-top:-20px;z-index:2;pointer-events: none;">
-				<a href="http://www.aengji.com/" target="_blank" style="font-family:Jua;text-decoration: none;"><span style="font-size:5em;color:#fff;">감스트 3티어대회</span></a>
+			<div style="margin-top:640px;z-index:2;pointer-events: none;">
+				<!-- <a href="http://www.aengji.com/" target="_blank" style="font-family:Jua;text-decoration: none;"><span style="font-size:5em;color:#fff;">김레인 생컨 대전</span></a> -->
 				<h1 id="title"></h1>
 				<h2 id="ver"></h2>
 			</div>
@@ -99,7 +99,7 @@
 			<div id="img_tier_0" class="img_tier">
 				<h2 class="tier_desc"></h2>
 			</div>
-			<div id="container_tier_0" class="container_tier" style="z-index:20;">
+			<div id="container_tier_0" class="container_tier_parent" style="z-index:20;">
 			</div>
 		</div>
 		<!-- <div id="pageview" style="position:absolute;top:140px;right:10px;">
@@ -112,7 +112,8 @@
 		//공백 텍스트 '‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ '
 		
 	var url = 'https://test.aengji.com/afreecatv/afreecatv_onair_select_event.php';
-var ck_tier = {"title":"일정: 6월 22일(수), 6월 23일(목)","ver":"","tier_link":"https:\\\/\\\/www.fmkorea.com\\\/3844139388","tier":{"테란":[["유혜미","T","love1uu"],["별비","T","xvvx1859"],["저라뎃,승.불","T","joey1114"],["쪼이,불","T","joyjo2"]],"저그":[["하블리,불","Z","gddms97","토스전 2티어급"],["럭뜨","Z","melong48"],["다예","Z","jieun3297"],["벤츠,불","Z","xogy0400"],["오뀨,불","Z","ogm0905","테란전 2티어급"],["오렌지","Z","alswnghd1","토스전 3티어상위급"],["김인호","Z","pookygamja"]],"프로토스":[["유복실","P","yoomingseo"],["오리3,LASL 8","P","cat123123","저그전 3티어상위급"],["이뀨","P","10041004j"],["황핫바,불","P","dms0414","저그전 2티어급 "],["알밤소녀","P","gom29a"]]}};
+var ck_tier = {"title":"24일 7~8시. 14강일 경우 7시, 8강 8시 시작","ver":"","tier_link":"https:\\\/\\\/www.fmkorea.com\\\/3844139388","tier":{"신청자":[["김레인,6","T","kdb1223"],["저라뎃,승.불.3","T","joey1114"],["깅예솔,불,7","T","yunhee1222"],["조경훈,2","T","cnsgkcnehd74"],["도읍지,6","Z","doeupzi"],["오뀨,불.3","Z","ogm0905","테란전 2티어급"],["뚜밥,5","T","zalalz"],["모꿀몬,불.4","T","msuk2017"],["앵지,4","Z","gks2wl"],["란란,5","Z","rhf104"],["시조새,4","P","superbsw123"],["구보라,5","P","bora99"],["기나,불.4","P","rlsk0705","저그전 3티어급\n테란전 4티어상위급 "],["박듀듀,승.5","P","parkle1006"],["준밧드,불.5","T","gksdidqksxn"],["연다람지,불.4","T","laady1"],["옆집뽀누나,5","T","hy4985"],["소심,4","T","phh95426"],["상어녀,불.4","Z","595935","토스전 3티어급"],["파이,6","Z","pi0314","토스전 6티어상위급\n테란전 6티어급"],["쪼이,불.3","T","joyjo2"],["지두두,6","T","wjswlgns09"],["홍이랑,5","P","ghdguswo"],["연둥바둥,불.5","P","ka9rapang"],["제동빠,불.1","Z","chw2440"],["공다츠,불.8","Z","dmswls4565"],["따뜻,7","P","dduuccu"],["수뭉,2","P","koreasoo"],["김해피,3","P","imhappygood"],["오향,6","Z","uu1289"]]}};
+var names = ["덕라뎃","배사오적",".","멍테듀오","엄앵란 리셋듀오","시바라시","무친대","염석대","이스두","생선파이","쪼두두","연둥이랑",".","FA","괴인협회"];
 		</script>
 		<script src="js/bootstrap.bundle.min.js"></script>
 		<!-- <script src="js/aromanize.js"></script> -->
@@ -121,20 +122,12 @@ var ck_tier = {"title":"일정: 6월 22일(수), 6월 23일(목)","ver":"","tier
 		<script src="js/util.js?ver=0.0.5"></script>
 		<!-- <script src="js/tier_maker.js?ver=0.0.1"></script> -->
 
-		<!-- <script src="js/event.js?ver=0.0.1"></script> -->
-		<script src="https://test.aengji.com/afreecatv/event.min.js?ver=0.0.5"></script>
+		<!-- <script src="js/event_pair.js?ver=0.0.1"></script> -->
+		<script src="https://test.aengji.com/afreecatv/event_pair.min.js?ver=0.0.5"></script>
 		<script>
-		var dialog;
-			if(location.hostname.indexOf("netlify") > -1){
-				dialog = popup3("netlify 서버로 접속하셨습니다.\이 서버는 예비용 서버로 속도가 느립니다.\n로딩이 너무 느리신 분들은 구글에서 앵게임넷을 검색하시거나\n starcraft.aengji.com 으로 접속하세요.");
-			}else{
-				dialog = popup3("티어 정보는 에펨코리아 [스타CK 밸런스 티어표]를 참조하였습니다.\n\n방송중인 BJ 사진 위에 커서를 올리면 메뉴가 나타납니다. (전적, 방송보기)\n전체 카테고리 대상 (2분 간격으로 갱신. 낮시간 5분)");
-			}
+			
 			var bg_url = "img/bg_tier.jpg";
 			
-			  setTimeout(() => {
-				dialog.close();
-			  }, 200);
 		</script>
 	<script  src="js/scratch_card.min.js?ver=0.0.2"></script>
 	<script>
