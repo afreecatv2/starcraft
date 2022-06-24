@@ -205,6 +205,7 @@ h1 + p, p + p {
 	color: #fff;
 	/* -webkit-text-stroke: 1px #ffffff; */
 	text-shadow: 0px 0px 4px #000;
+	pointer-events: none;
 }
 .card span:nth-child(3) {
 	position: absolute;
@@ -217,29 +218,33 @@ h1 + p, p + p {
 	color: #fff;
 	/* -webkit-text-stroke: 1px #ffffff; */
 	text-shadow: 0px 0px 4px #000;
+	pointer-events: none;
 }
 .card span:nth-child(4) {
 	position: absolute;
 	/* top: 114px;
 	left: 4px; */
-	top: 126px;
+	top: 128px;
 	left: 16px;
 	font-size: 16px;
 	font-weight:400;
 	color: #fff;
 	/* -webkit-text-stroke: 1px #ffffff; */	
 	text-shadow: 0px 0px 4px #000;
+	z-index:2;
+	pointer-events: none;
 }
 .card span:nth-child(5) {
 	position: absolute;
 	/* top: 132px;
 	left: 4px; */
-	top: 144px;
+	top: 146px;
 	left: 16px;
 	font-size: 24px;
 	font-weight:600;
 	color: #fff;
 	/* -webkit-text-stroke: 1px #ffffff; */
 	text-shadow: 0px 0px 6px #000;
+	pointer-events: none;
 	z-index:2;
 }
