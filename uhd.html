@@ -9,6 +9,7 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link href="css/univ_cctv_m.css?ver=0.0.1" rel="stylesheet">	
   <link rel="stylesheet" href="css/menu.css?ver=0.0.4">
+  <link rel="stylesheet" href="css/univ_tile.min.css?ver=0.0.8">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 <link rel="stylesheet" href="css/music_app.css?ver=0.0.1">
 <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
@@ -19,6 +20,11 @@ body {
 .banana {
   color: #FF8D8D;
   text-shadow: 0 6px 4px rgba(0,0,0,0.4),0 -6px 1px #fff;
+}
+.menu-card .multi-button {
+  transform: scale(1.5);
+  margin-left: -16px;
+  margin-top: -24px;
 }
   </style>
 </head>
@@ -72,7 +78,7 @@ body {
 	
 		<section class="playlists">
 
-		<article id="nila25" class="card offline">
+		<article id="nila25" class="card menu-card offline">
 			<div class="card-inner">
 				<span class="card-pin"></span>
 				<div class="card-image">
@@ -89,6 +95,11 @@ body {
 					<h2 class="card-title">유소나</h2>
 				</div>
 			</div>
+				<div class="multi-button">
+					<button class="fa-brands fa-adn" style="color:#1C46AE;" onclick="window.open('https://bj.afreecatv.com/nila25');"></button>
+					<button class="fa-brands fa-youtube" style="color:#f00;" onclick="window.open('https://www.youtube.com/usonatv');"></button>
+					<button class="fa-brands fa-instagram" style="color:#B53297;" onclick="window.open('https://www.instagram.com/usona_official');"></button>
+				</div>
 		</article>
 
 		
@@ -107,6 +118,7 @@ body {
   <script src="js/util.js?ver=0.0.2"></script>
   <!-- <script src="js/univ_cctv_pu.js?ver=0.0.2"></script> -->
   <script src="https://test.aengji.com/afreecatv/univ/univ_cctv_pu.min.js?ver=0.0.3"></script>
+	<script src="https://kit.fontawesome.com/406a1d7448.js" crossorigin="anonymous"></script>
   <!-- <script>
 	
 	(function() {
