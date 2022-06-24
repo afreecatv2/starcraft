@@ -48,4 +48,14 @@ for(var i = 0; i< ml.length; i++){
 	}
 	cards[i].parentNode.classList.add('menu-card');
 	cards[i].parentNode.appendChild(newDiv);
+	
+	var newImg = document.createElement('img');
+	newImg.setAttribute('src','img/mcu/card_mcu_front.png');
+	newImg.style.position = "absolute";
+	newImg.style.width = "140px";
+	newImg.style.height = "180px";
+	newImg.style.top = "0px";
+	newImg.style.left = "0px";
+	
+	cards[i].appendChild(newImg);
 }
