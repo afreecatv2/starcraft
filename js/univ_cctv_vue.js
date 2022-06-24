@@ -56,6 +56,7 @@ for(var i = 0; i< ml.length; i++){
 	newImg.style.height = "180px";
 	newImg.style.top = "0px";
 	newImg.style.left = "0px";
+	newImg.style.pointerEvents = "none";
 	
 	cards[i].appendChild(newImg);
 }
