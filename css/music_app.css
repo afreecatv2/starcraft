@@ -263,6 +263,8 @@ body{
   transform: rotate(var(--rotation));
   transition: 0.15s ease-out;
   cursor: pointer;  
+    
+  margin-top: 1rem;
 }
 .card:nth-child(2) {
   margin-top: 1rem;
@@ -697,12 +699,15 @@ body{
   height: 12px;
   background-color: var(--c-gray-900);
   position: absolute;
-  top: 20px;
-  left: calc(50% - 6px);
+  /* top: 20px;
+  left: calc(50% - 6px); */
   border-radius: 50%;
   box-shadow: 0 0 0 2px #fff, 0 0 0 3px var(--c-gray-900);
   transform: rotate(2deg);
   z-index: 1;
+  
+   top: 20px;
+  left: 20px;
 }
 .card-pin:before, .card-pin:after {
   content: "";
@@ -862,6 +867,15 @@ body{
   outline: 0;
 } */
 
+.card.offline {
+	--rotation: 5deg;
+}
+.card.offline .card-inner{
+	top: 8px;
+}
+.card.offline .card-pin {
+  transform: rotate(-5deg);  
+}
 .card.onair .card-inner .card-image{
 	filter: none;	
 	transition: 1s;
