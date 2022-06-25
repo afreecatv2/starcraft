@@ -105,6 +105,14 @@
 .card.card28 {
   --front: url(../img/nsu/명탐정맑음.jpg);
 }
+
+.door { 
+	transform-origin: left;
+	transition: all 0.5s ease-in-out;
+}
+.card:hover .door {
+	transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-125deg);
+}
   </style>
 </head>
 <body class="bg-banana">
@@ -343,7 +351,7 @@
 				</div>
 			</div>
 			<div id="aldbwjd1" class="card menu-card card21">
-				<img src="img/nsu/iron_bar.png" style="position:absolute;top:0;left:0;width:120px;height:160px;">
+				<img class="door" src="img/nsu/iron_bar.png" style="position:absolute;top:0;left:0;width:120px;height:160px;">
 				<span class="card-tier">6</span>
 				<span class="card-race">Z</span>
 				<span class="card-title">유배중</span>
