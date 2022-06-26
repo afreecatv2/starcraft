@@ -108,6 +108,66 @@
 	z-index: 9;
 	pointer-events: none;
 }
+.icon-youtube {
+	/* display: none; */
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	top: 26px;
+	right: -15px;
+	background-image: url(../img/icons/icon_youtube.png);
+	background-size: contain;
+	z-index: 9;
+}
+.icon-youtube:hover {
+	background-color: #fff4;	
+	outline: 1px solid #fff5;
+}
+.icon-youtube-full {
+	/* display: none; */
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	top: 26px;
+	right: -15px;
+	background-image: url(../img/icons/icon_youtube_full.png);
+	background-size: contain;
+	z-index: 9;
+}
+.icon-youtube-full:hover {
+	background-color: #fff4;	
+	outline: 1px solid #fff5;
+}
+.icon-afreecatv {
+	/* display: none; */
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	top: 26px;
+	right: -15px;
+	background-image: url(../img/icons/icon_afreecatv.png);
+	background-size: contain;
+	z-index: 9;
+}
+.icon-afreecatv:hover {
+	background-color: #fff4;	
+	outline: 1px solid #fff5;
+}
+.icon-instagram {
+	/* display: none; */
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	top: 26px;
+	right: -15px;
+	background-image: url(../img/icons/icon_instagram.png);
+	background-size: contain;
+	z-index: 9;
+}
+.icon-instagram:hover {
+	background-color: #fff4;	
+	outline: 1px solid #fff5;
+}
 
 .laptop {
 	display: inline-block;
