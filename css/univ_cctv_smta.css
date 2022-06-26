@@ -55,6 +55,48 @@
 	z-index: 99999;
 }
 
+.card-tier {
+	position: absolute;
+	top: 22px;
+	left: 48px;
+	font-size: 32px;
+	font-weight:800;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+	/* -webkit-text-stroke: 1px #000; */
+}
+.card-race {
+	position: absolute;
+	top: 54px;
+	left: 50px;
+	font-size: 24px;
+	font-weight:800;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+	/* -webkit-text-stroke: 1px #000; */
+}
+.card-title {
+	position: absolute;
+	top: 136px;
+	left: 48px;
+	font-size: 16px;
+	font-weight:400;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+	/* -webkit-text-stroke: 1px #000; */
+}
+.card-name {
+	position: absolute;
+	top: 154px;
+	left: 48px;
+	font-size: 24px;
+	font-weight:600;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+	/* -webkit-text-stroke: 1px #000; */
+}
+
+
 .live {
 	display: none;
 	position: absolute;
