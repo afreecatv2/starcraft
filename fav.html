@@ -89,9 +89,8 @@
 		<script src="https://test.aengji.com/afreecatv/univ/fav.min.js?ver=0.0.14"></script>
 		<script src="js/onair_settings.js?ver=0.0.6"></script>
 		<script>
-		var dialog;
 			if(location.hostname.indexOf("netlify") > -1){
-				dialog = popup3("netlify 서버로 접속하셨습니다.\이 서버는 예비용 서버로 속도가 느립니다.\n로딩이 너무 느리신 분들은 구글에서 앵게임넷을 검색하시거나\n starcraft.aengji.com 으로 접속하세요.");
+				var dialog = popup3("netlify 서버로 접속하셨습니다.\이 서버는 예비용 서버로 속도가 느립니다.\n로딩이 너무 느리신 분들은 구글에서 앵게임넷을 검색하시거나\n starcraft.aengji.com 으로 접속하세요.");
 				setTimeout(() => {
 					dialog.close();
 				}, 2000);

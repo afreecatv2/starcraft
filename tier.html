@@ -121,9 +121,8 @@ var ck_tier = {"title":"아프리카TV CK 티어표","ver":"2.73 (2022-06-16)","
 		<!-- <script src="js/tier_list.js?ver=0.0.1"></script> -->
 		<script src="https://test.aengji.com/afreecatv/tier_list.min.js?ver=0.0.59"></script>
 		<script>
-		var dialog;
 			if(location.hostname.indexOf("netlify") > -1){
-				dialog = popup3("netlify 서버로 접속하셨습니다.\이 서버는 예비용 서버로 속도가 느립니다.\n로딩이 너무 느리신 분들은 구글에서 앵게임넷을 검색하시거나\n starcraft.aengji.com 으로 접속하세요.");
+				var dialog = popup3("netlify 서버로 접속하셨습니다.\이 서버는 예비용 서버로 속도가 느립니다.\n로딩이 너무 느리신 분들은 구글에서 앵게임넷을 검색하시거나\n starcraft.aengji.com 으로 접속하세요.");
 				 setTimeout(() => {
 				dialog.close();
 			  }, 2000);
