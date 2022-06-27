@@ -45,7 +45,8 @@
 			</nav>
 		</div>
 		
-		<div style="width:100%;margin-top: 50px;display:flex;justify-content: center">
+		<div style="width:100%;margin-top: 50px;display:flex;justify-content: center;align-items: center;flex-direction:column;">
+			<div style="display:block;color:#fff;font-size:22px;">즐겨찾기 1,2,3 선택 후 등록하기를 누르시면 BJ 추가 창이 열립니다. 스폰 상대나 대학 내 소그룹, 깐부 등 그룹 CCTV로 활용 가능합니다.</div>
 			<div style="display:flex;flex-direction:row;margin-bottom:10px;">
 				<div style="margin-right:4px;">
 					<input id="fav0" name="fav" value=0 type="radio">
@@ -68,7 +69,7 @@
 			</div>
 			<div class="topbanner" style="margin-top:0px;">
 					<div>
-						<h1 >즐겨찾기</h1>
+						<h1>등록한 BJ</h1>
 						<button id="btn_insert" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" style="color:#1c46ae;background-color:#fff;margin-left:1rem;cursor:pointer;" onclick="showModal()">등록하기</button>
 					</div>
 				</div>
@@ -91,12 +92,10 @@
 		var dialog;
 			if(location.hostname.indexOf("netlify") > -1){
 				dialog = popup3("netlify 서버로 접속하셨습니다.\이 서버는 예비용 서버로 속도가 느립니다.\n로딩이 너무 느리신 분들은 구글에서 앵게임넷을 검색하시거나\n starcraft.aengji.com 으로 접속하세요.");
-			}else{
-				dialog = popup3("즐겨찾기 1,2,3 선택 후 등록하기를 누르시면 BJ 추가 창이 열립니다.\n스폰 상대나 대학 내 소그룹, 깐부 등 그룹 CCTV로 활용 가능합니다.");
+				setTimeout(() => {
+					dialog.close();
+				}, 2000);
 			}
-			 setTimeout(() => {
-				dialog.close();
-			  }, 2000);
 		</script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-GCER6H0EXF"></script>
 <script>
