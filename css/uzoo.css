@@ -825,7 +825,7 @@ l::after {
 }
 
 f::before {
-  content: "우끼끼즈를 쏘면 안되요.";
+  content: "우끼끼즈를 쏘면 안돼요.";
   text-align: center;
   white-space: pre-wrap;
   position: fixed;
