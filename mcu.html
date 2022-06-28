@@ -8,7 +8,7 @@
   <title>CCTV - 무친대</title>
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-  <link href="css/parallax_depth_card.css?ver=0.0.8" rel="stylesheet">	
+  <link href="css/parallax_depth_card.css?ver=0.0.9" rel="stylesheet">	
   <link rel="stylesheet" href="css/menu.css?ver=0.0.4">
   <link rel="stylesheet" href="css/univ_tile.min.css?ver=0.0.8">
   <style>
@@ -219,6 +219,7 @@ overflow: auto;
 					<span slot="race">P</span>
 					<span slot="title">아마대 임대</span>
 					<span slot="name">졈니</span>
+					<img src="img/mcu/card_mcu_back.png">
 				</card>
 				<card data-image="img/mcu/탠지.png">
 					<span slot="tier">B</span>
@@ -311,6 +312,15 @@ overflow: auto;
 	</script>
 	<script src="https://kit.fontawesome.com/406a1d7448.js" crossorigin="anonymous"></script>
 	<script src="js/univ_cctv_vue.min.js?ver=0.0.5"></script>
+	<script>
+	var nr = document.getElementById("24");
+	log(nr);
+	nr.children[5].style.zIndex = 1;
+	nr.children[5].setAttribute("src","img/mcu/card_mcu_back.png");
+	nr.classList.add("onair");
+	</script>
+	
+	
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-GCER6H0EXF"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
