@@ -104,12 +104,6 @@
   cursor: pointer;
 }
 
-.fut-player-card.offline {	
-  /* background-image: url(../img/card/cards_bg_silver.png); */
-  filter: saturate(0);
-  /* transition: 1s background-image; */
-  transition: filter 1s;
-}
 
 .fut-player-card .player-card-top {
   position: relative;
@@ -209,18 +203,43 @@
 	transition: filter 1s;
 }
 
+.card_background{
+	position:absolute;
+	left: 0;
+	top: 0;
+	width:100%;
+	height:100%;
+	 background-position: center center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
 .fut-player-card:hover {
   filter: none;  
 	transition: filter 1s;
 }
+
+.fut-player-card.offline .card_background{	
+  /* background-image: url(../img/card/cards_bg_silver.png); */
+  filter: saturate(0);
+  /* transition: 1s background-image; */
+  transition: filter 1s;
+}
 .fut-player-card.onair .player-picture img {
-	background-color: #f006;
+	/* background-color: #f006; */
 	transition: background-color 1s;
 }
 .fut-player-card.offline .player-picture img {
-	background-color: #3336;
+	/* background-color: #3336; */
   filter: contrast(2) brightness(1.2) grayscale(1);
 	transition: filter 1s;
+}
+.fut-player-card.offline .card_background{
+	filter: saturate(0);
+}
+.fut-player-card.onair .card_background{
+	filter: none;
+	filter: drop-shadow(0 0 10px #f00);
 }
 
 .fut-player-card.offline:hover .player-picture img {
