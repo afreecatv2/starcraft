@@ -213,11 +213,12 @@
   filter: none;  
 	transition: filter 1s;
 }
-.fut-player-card.offline:hover {
-  filter: none;  
-	transition: filter 1s;
+.fut-player-card.onair .player-picture img {
+	background-color: #f006;
+	transition: background-color 1s;
 }
 .fut-player-card.offline .player-picture img {
+	background-color: #3336;
   filter: contrast(2) brightness(1.2) grayscale(1);
 	transition: filter 1s;
 }
@@ -226,6 +227,7 @@
   filter: none;  
 	transition: filter 1s;
 }
+
 .player-picture-offline {
 	position: absolute;
 	/* left: 43px;
