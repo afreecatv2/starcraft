@@ -179,7 +179,7 @@
 	/* left: 12px;
 	top: 3px; */
 	left: 16px;
-	top: 23px;
+	top: 16px;
 	
   /* width: 200px;
   height: 200px; */
@@ -208,10 +208,20 @@
   /* position: relative; */
 	transition: filter 1s;
 }
-.fut-player-card.offline .player-picture img {
-  filter: contrast(2) brightness(1.5) grayscale(1);
+
+.fut-player-card:hover {
+  filter: none;  
 	transition: filter 1s;
 }
+.fut-player-card.offline:hover {
+  filter: none;  
+	transition: filter 1s;
+}
+.fut-player-card.offline .player-picture img {
+  filter: contrast(2) brightness(1.2) grayscale(1);
+	transition: filter 1s;
+}
+
 .fut-player-card.offline:hover .player-picture img {
   filter: none;  
 	transition: filter 1s;
