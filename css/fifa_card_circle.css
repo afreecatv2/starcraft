@@ -225,10 +225,6 @@
   /* transition: 1s background-image; */
   transition: filter 1s;
 }
-.fut-player-card.onair .player-picture img {
-	/* background-color: #f006; */
-	transition: background-color 1s;
-}
 .fut-player-card.offline .player-picture img {
 	/* background-color: #3336; */
   filter: contrast(2) brightness(1.2) grayscale(1);
@@ -236,10 +232,11 @@
 }
 .fut-player-card.offline .card_background{
 	filter: saturate(0);
+	transition: filter 1s;
 }
 .fut-player-card.onair .card_background{
-	filter: none;
-	filter: drop-shadow(0 0 10px #f00);
+	filter: saturate(1) drop-shadow(0 0 10px #f00);
+	transition: filter 1s;
 }
 
 .fut-player-card.offline:hover .player-picture img {
