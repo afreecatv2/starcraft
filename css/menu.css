@@ -258,7 +258,6 @@ ul li ul {
   margin-top: -6px;
   display: none;
   border: none;
-  margin-left: -12px;
 }
 
 ul li:hover > ul,
@@ -273,4 +272,5 @@ ul li ul:hover {
 ul li ul li {
   clear: both;
   width: 100%;
+  margin-top: 8px;
 }
