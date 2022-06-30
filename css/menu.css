@@ -17,7 +17,12 @@ body {
 	z-index: 99999;
 	background-color: #0c052e;
 }
-
+.header.dark {
+	background-color: #0c052e;
+}
+.header.light {
+	background-color: #eef;
+}
 .sub-menu {
   /* margin: 50px; */
   /* margin-top: -20px; */
@@ -29,6 +34,12 @@ body {
   overflow-y: hidden;  
   padding-left: 0;
 	background-color: #0c052e;
+}
+.sub-menu.dark ul {
+	background-color: #0c052e;
+}
+.sub-menu.light ul {
+	background-color: #eef;
 }
 
 .sub-menu li {
@@ -235,4 +246,31 @@ input[type="checkbox"]+label {
 input[type="checkbox"]:disabled+label {
 	color:#ccc;
 	margin-right: -10px;
+}
+
+
+
+ul li ul {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: -6px;
+  display: none;
+  border: none;
+  margin-left: -12px;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  overflow: visible;
+  border: none;
+}
+
+ul li ul li {
+  clear: both;
+  width: 100%;
 }
