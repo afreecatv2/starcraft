@@ -332,3 +332,11 @@ li:hover ul#submenu {
 #submenu a {
 	background-color:#000000;
 }
+
+
+.dropdownmenu li.active a {
+	background: #000000;
+}
+#submenu li.active a {
+	background: #DF4B05;
+}
