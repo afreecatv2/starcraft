@@ -15,14 +15,15 @@ body {
 	/* align-items: center; */
 	text-align:center;
 	z-index: 99999;
-	background-color: #0c052e;
+	/* background-color: #0c052e; */
+	background-color: #30A6E6;
 }
-.header.dark {
+/* .header.dark {
 	background-color: #0c052e;
 }
 .header.light {
 	background-color: #eef;
-}
+} */
 .sub-menu {
   /* margin: 50px; */
   /* margin-top: -20px; */
