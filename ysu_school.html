@@ -9,13 +9,15 @@
   <title>CCTV - 염지고</title>
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="stylesheet" href="css/menu.css?ver=0.0.7">
-  <link href="css/3d_card_ysu.css?ver=0.0.6" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
-
+  <link rel="stylesheet" href="css/tilt.css?ver=0.0.1">
+  <link rel="stylesheet" href="css/fifa_card_univ_1.css?ver=0.0.1">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,700i'> -->
+  <link href="https://fonts.googleapis.com/css2?family=Jua&family=Roboto+Condensed:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
   <style>
 body {
-  background: #424242;
-  font-family: Jua;
+  background: #1976D2;
+  background-image: url(img/yjg/bg_yjg.jpg);
 }
 .shadow{
   font-family:Mr Dafoe, sans-serif;
@@ -26,6 +28,17 @@ body {
     0 9px 10px rgba(172,172,172,.15),
     0 30px 10px rgba(172,172,172,.18),
     0 15px 10px rgba(172,172,172,.21);
+}
+.fut-player-card .player-picture img {
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+}
+.card_background {
+  background-image: url(img/yjg/cards_bg_online.png);
+}
+.fut-player-card .player-picture {
+	top: 19px;
+	left: 20px;
 }
   </style>
 </head>
@@ -42,7 +55,7 @@ body {
 					<li><a href="cswu.html">캄성</a></li>
 					<li><a href="ukkz.html">우끼</a></li>
 					<li><a href="midas.html">미다스</a></li>
-					<li class="active"><a href="ysu.html">염석대</a></li>
+					<li><a href="ysu.html">염석대</a></li>
 					<li><a href="basford.html">바스포드</a></li>
 					<li><a href="cp.html">CP</a></li>
 					<li><a href="cgj.html">철와대</a></li>
@@ -52,6 +65,7 @@ body {
 					<li><a href="amu.html">아마대</a></li>
 					<li><a href="pu.html">츠나대</a></li>
 					<li><a href="msg.html">MSG</a></li>
+					<li class="active"><a href="ysu_school.html">염지고</a></li>
 					<li><a href="#" style="background-color:#DF4B05">기타모임</a>
 						<ul id="submenu">
 							<li><a href="bcd.html">방치대</a></li>
@@ -66,107 +80,382 @@ body {
 				</ul>
 			</nav>
 		</div>
-		
-	<img src="https://getfile.fmkorea.com/getfile.php?code=b877078759c6761bb30c2281b6ef33a2&file=https%3A%2F%2Fstimg.afreecatv.com%2FNORMAL_BBS%2F4%2F2641274%2F419562b70a133242c.jpg&" style="position:absolute;left:0;right:0;top:0;bottom:0;margin:auto;">
-	<img src="img/ysd.png" style="position:absolute;left:0;top:0;bottom:0;margin:auto 0;">
-	<img src="img/ysd.png" style="position:absolute;right:0;top:0;bottom:0;margin:auto 0;">
-		
+	
 	<div id="thumb_container" style="position:absolute;top:0;width:100%;height:100%;display:flex;justify-content:center;align-items: center;margin: 0 auto;">
 	</div>
-	<!-- margin-top:210px; -->
-    <div style="width:100%;display:flex;justify-content:center;align-items:center;flex-direction:column;margin-top:110px;z-index:2;">
-		<div style="height:64px;margin-top:-30px;margin-left:-40px;margin-bottom:-60px;z-index:99999;display:flex;flex-direction:row;">
-			<img src="img/ysu/logo_ysu.png" style="width:80px;height:80px;">
-			<div style="vertical-align: middle;margin-left:4px;color:#fff;font-family:Jua;font-size:72px;font-weight:800;" class="shadow"text>염지고</div>
-		</div>
-		<div style="position:relative;width:1440px;margin-top:120px;text-align:center;display:flex;  flex-wrap: wrap;justify-content: center;">
-						
-			<!-- style="position:absolute;right:0px;top:-140px;" -->
-			<div id="han4016" class="card blastoise" style="position:absolute;right:0px;top:-140px;">
-				<span class="inner-card-backface">
-					<span class="image" style="background-image:url(img/ysu/난닝구_c.jpg);"></span>
-					<span class="glare"></span>
-					<span class="card-tier-back">N</span>
-					<span class="card-race-back">U</span>
-					<span class="card-title-back">이사장</span>
-					<span class="card-name-back">난닝구</span>
-					<span class="icon-flip" style="left:0px;"></span>
-				</span>
-				<span class="inner-card" style="background-image:url(img/ysu/난닝구.jpg);">
-					<span class="card-tier">N</span>
-					<span class="card-race">U</span>
-					<span class="card-title">이사장</span>
-					<span class="card-name">난닝구</span>
-					<span class="glare"></span>
-					<span class="icon-flip"></span>
-				</span>
-			</div>
-			<div id="yuambo" class="card blastoise" style="position:absolute;left:0px;top:-140px;">
-				<span class="inner-card-backface">
-					<span class="image" style="background-image:url(img/ysu/염보성_c.jpg);"></span>
-					<span class="card-tier-back">J</span>
-					<span class="card-race-back">T</span>
-					<span class="card-title-back">교장</span>
-					<span class="card-name-back">염보성</span>
-					<span class="glare"></span>
-					<span class="icon-flip" style="left:0px;"></span>
-				</span>
-				<span class="inner-card terran" style="background-image:url(img/ysu/염보성.png);">
-					<span class="card-tier">J</span>
-					<span class="card-race">T</span>
-					<span class="card-title">교장</span>
-					<span class="card-name">염보성</span>
-					<span class="glare"></span>
-					<span class="icon-flip"></span>
-				</span>
-			</div>
-			<div id="daeun0793" class="card blastoise" style="position:absolute;left:0px;top:80px;">
-				<span class="inner-card-backface">
-					<span class="image" style="background-image:url(img/ysu/단잉_c.jpg);"></span>
-					<span class="card-tier-back">5</span>
-					<span class="card-race-back">P</span>
-					<span class="card-title-back" style="top:134px">퇴학생</span>
-					<span class="card-name-back" style="top:152px">단잉</span>
-					<span class="glare"></span>
-					<span class="icon-flip" style="left:0px;"></span>
-				</span>
-				<span class="inner-card protoss" style="background-image:url(img/ysu/단잉.png);">
-					<span class="card-tier">5</span>
-					<span class="card-race">P</span>
-					<span class="card-title" style="top:120px">퇴학생</span>
-					<span class="card-name" style="top:142px">단잉</span>
-					<span class="glare"></span>
-					<span class="icon-flip"></span>
-				</span>
-			</div>
+    <div style="width:100%;display:flex;justify-content:center;align-items:center;flex-direction:column;margin-top:100px;z-index:2;">
+		
+		<div style="height:64px;margin-top:-20px;margin-bottom:-60px;z-index:99999;display:flex;flex-direction:row;">			
+			<div style="vertical-align: middle;color:#fff;font-family:Jua;font-size:56px;font-weight:800;" class="shadow"text>염지고</div>
+		</div>	
+		<div style="width:1160px;margin-top:100px;text-align:center;">
 
+			<div id="yuambo" class="fut-player-card tilt" style="position:absolute;top:20px;left:20px;">			
+				<div class="card_background"></div>
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating">J<span></span></div>
+						<div class="player-position">T<span></span></div>
+						<div class="player-nation"></div>
+						
+					</div>
+				</div>
+				<div class="player-picture">
+					<img src="img/bj_png/염보성.png"/>
+					<div class="player-extra"><span>교장</span></div>
+				</div>
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>염보성</span></div>
+					</div>
+				</div>
+			</div>
+			
+			<div id="rkdakstlr911" class="fut-player-card tilt" style="position:absolute;top:240px;left:20px;">			
+				<div class="card_background"></div>
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating">2<span></span></div>
+						<div class="player-position">P<span></span></div>
+						<div class="player-nation"></div>
+						
+					</div>
+				</div>
+				<div class="player-picture">
+					<img src="img/bj_png/강만식.png"/>
+					<div class="player-extra"><span>반장</span></div>
+				</div>
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>강만식</span></div>
+					</div>
+				</div>
+			</div>
+			
+			<div style="vertical-align: middle;color:#fff;font-family:Jua;font-size:32px;font-weight:800;" class="shadow"text>면접자 명단 (합격 발표 전)</div>
+			
+			
+			
+			<div id="nananahhh" class="fut-player-card tilt">			
+				<div class="card_background"></div>
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating">N<span></span></div>
+						<div class="player-position">U<span></span></div>
+						<div class="player-nation"></div>
+						
+					</div>
+				</div>	
+				<div class="player-picture">
+					<img src="img/yjg/산군.png"/>
+					<div class="player-extra"><span></span></div>
+				</div>
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>산군</span></div>
+					</div>
+				</div>
+			</div>
+			
+			<div id="jjyjeh5454" class="fut-player-card tilt">			
+				<div class="card_background"></div>
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating">6<span></span></div>
+						<div class="player-position">P<span></span></div>
+						<div class="player-nation"></div>
+						
+					</div>
+				</div>
+				<div class="player-picture">
+					<img src="img/bj_png/하리.png"/>
+					<div class="player-extra"><span></span></div>
+				</div>
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>하리</span></div>
+					</div>
+				</div>
+			</div>
+			
+			<div id="shrck357" class="fut-player-card tilt">			
+				<div class="card_background"></div>
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating">N<span></span></div>
+						<div class="player-position">U<span></span></div>
+						<div class="player-nation"></div>
+						
+					</div>
+				</div>
+				<div class="player-picture">
+					<img src="img/yjg/쪼꼬쨈.png"/>
+					<div class="player-extra"><span></span></div>
+				</div>
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>쪼꼬쨈</span></div>
+					</div>
+				</div>
+			</div>
+			
+			<div id="dbqlcsk4" class="fut-player-card tilt">			
+				<div class="card_background"></div>
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating">B<span></span></div>
+						<div class="player-position">T<span></span></div>
+						<div class="player-nation"></div>
+						
+					</div>
+				</div>
+				<div class="player-picture">
+					<img src="img/bj_png/유너불.png"/>
+					<div class="player-extra"><span></span></div>
+				</div>
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>유너불</span></div>
+					</div>
+				</div>
+			</div>
+			
+			<div id="k3938990" class="fut-player-card tilt">			
+				<div class="card_background"></div>
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating">N<span></span></div>
+						<div class="player-position">U<span></span></div>
+						<div class="player-nation"></div>
+						
+					</div>
+				</div>
+				<div class="player-picture">
+					<img src="img/bj_png/맨만숙.png"/>
+					<div class="player-extra"><span></span></div>
+				</div>
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>맨만숙</span></div>
+					</div>
+				</div>
+			</div>
+			
+			<div id="imhappygood" class="fut-player-card tilt">			
+				<div class="card_background"></div>
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating">3<span></span></div>
+						<div class="player-position">P<span></span></div>
+						<div class="player-nation"></div>
+						
+					</div>
+				</div>
+				<div class="player-picture">
+					<img src="img/bj_png/김해피.png"/>
+					<div class="player-extra"><span></span></div>
+				</div>
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>김해피</span></div>
+					</div>
+				</div>
+			</div>
+			
+			<div id="158baby" class="fut-player-card tilt">			
+				<div class="card_background"></div>
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating">N<span></span></div>
+						<div class="player-position">U<span></span></div>
+						<div class="player-nation"></div>
+						
+					</div>
+				</div>
+				<div class="player-picture">
+					<img src="img/yjg/연수베이비.png"/>
+					<div class="player-extra"><span></span></div>
+				</div>
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>연수베이비</span></div>
+					</div>
+				</div>
+			</div>
+			
+			<div id="tongken2" class="fut-player-card tilt">			
+				<div class="card_background"></div>
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating">N<span></span></div>
+						<div class="player-position">U<span></span></div>
+						<div class="player-nation"></div>
+						
+					</div>
+				</div>
+				<div class="player-picture">
+					<img src="img/bj_png/noname.png"/>
+					<div class="player-extra"><span></span></div>
+				</div>
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>짱구짱</span></div>
+					</div>
+				</div>
+			</div>
+			
+			<div id="judy0848" class="fut-player-card tilt">			
+				<div class="card_background"></div>
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating">7<span></span></div>
+						<div class="player-position">P<span></span></div>
+						<div class="player-nation"></div>
+						
+					</div>
+				</div>
+				<div class="player-picture">
+					<img src="img/bj_png/이루리.png"/>
+					<div class="player-extra"><span></span></div>
+				</div>
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>이루리</span></div>
+					</div>
+				</div>
+			</div>
+			
+			<div id="alsgus00" class="fut-player-card tilt">			
+				<div class="card_background"></div>
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating">N<span></span></div>
+						<div class="player-position">U<span></span></div>
+						<div class="player-nation"></div>
+						
+					</div>
+				</div>
+				<div class="player-picture">
+					<img src="img/yjg/미니언.png"/>
+					<div class="player-extra"><span></span></div>
+				</div>
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>미니언</span></div>
+					</div>
+				</div>
+			</div>
+			
+			<div id="wodn0412" class="fut-player-card tilt">			
+				<div class="card_background"></div>
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating">3<span></span></div>
+						<div class="player-position">P<span></span></div>
+						<div class="player-nation"></div>
+						
+					</div>
+				</div>
+				<div class="player-picture">
+					<img src="img/bj_png/픽서.png"/>
+					<div class="player-extra"><span></span></div>
+				</div>
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>픽서</span></div>
+					</div>
+				</div>
+			</div>
+			
+			<div id="qocnrhdwn1" class="fut-player-card tilt">			
+				<div class="card_background"></div>
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating">B<span></span></div>
+						<div class="player-position">T<span></span></div>
+						<div class="player-nation"></div>
+						
+					</div>
+				</div>
+				<div class="player-picture">
+					<img src="img/bj_png/연수.png"/>
+					<div class="player-extra"><span></span></div>
+				</div>
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>연수a</span></div>
+					</div>
+				</div>
+			</div>
+			
+			<div id="daeun0793" class="fut-player-card tilt" style="position:absolute;right:0;bottom:0;">			
+				<div class="card_background"></div>
+				<div class="player-card-top">
+					<div class="player-master-info">
+						<div class="player-rating">5<span></span></div>
+						<div class="player-position">P<span></span></div>
+						<div class="player-nation"></div>
+						
+					</div>
+				</div>
+				<div class="player-picture">
+					<img src="img/bj_png/단잉.png"/>
+					<div class="player-extra"><span>퇴학생</span></div>
+				</div>
+				<div class="player-card-bottom">
+					<div class="player-info">
+						<div class="player-name"><span>단잉</span></div>
+					</div>
+				</div>
+			</div>
+			
+			
+			
 			
 		</div>
 		
 	</div>	
 
-	<div style="position:absolute;top:0;width:100%;z-index:999999;left: 50%;transform: translateX(-50%);">
-	<div style="position:relative;width:100;">
-		  <div style="position:absolute;top:60px;right:10px;font-size:24px;color:#ffffff;font-family:Jua;z-index:3;text-shadow: 2px 2px 2px #000000;">
-			캐릭터 디자인 출처: 
-			<a href="https://www.fmkorea.com/index.php?mid=starcraft&document_srl=4566602689" target="_blank" style="color:#ffffff">토스는도택종</a>
-		  </div>
-		  <div style="position:absolute;top:60px;left:10px;font-size:32px;color:#fff;font-family:Jua;text-shadow: 2px 2px 2px #000000;z-index:3">
-			<a href="ysu.html" style="color:#ffffff">CCTV 홈</a>
-		  </div>
-	  </div>
-    </div>
-	
-		
+	<div style="position:absolute;top:50px;left:40px;font-size:24px;color:#fff;font-family:Jua;text-shadow: 2px 2px 2px #000000;z-index:3">
+		<a href="http://fifa.aengji.com" target="_blank" style="color:#fff">BJ 피파 전적</a>
+	</div>
+	<!-- <div style="position:absolute;top:80px;left:40px;font-size:24px;color:#fff;font-family:Jua;text-shadow: 2px 2px 2px #000000;z-index:3">
+		<a href="bcd_list.html" style="color:#fff">리스트 CCTV</a>
+	</div> -->
+			
   <script>  
-	var url = 'https://test.aengji.com/afreecatv/afreecatv_onair_select_ysu.php';
-	var univ_list = ["han4016","yuambo","daeun0793"];
-  </script>  
+	var url = 'https://test.aengji.com/afreecatv/afreecatv_onair_select_yjg.php';
+	var univ_list = ["yuambo","rkdakstlr911","nananahhh","jjyjeh5454","shrck357","dbqlcsk4","k3938990","imhappygood","158baby","tongken2","judy0848","alsgus00","wodn0412","qocnrhdwn1","daeun0793"];
+  </script>
   <script src="js/lazysizes.min.js" type="text/javascript"></script>
   <script src="js/util.js?ver=0.0.2"></script>
-  <script src="js/3d_card_ysu.js?ver=0.0.1"></script>
-  <!-- <script src="js/univ_cctv_ysu.js?ver=0.0.1"></script> -->
-  <script src="https://test.aengji.com/afreecatv/univ/univ_cctv_ysu.min.js?ver=0.0.3"></script>
+  <!-- <script src="js/univ_cctv_bcd.js?ver=0.0.1"></script> -->
+  <script src="https://test.aengji.com/afreecatv/univ/univ_cctv_pist.min.js?ver=0.0.2"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js'></script>  
+  <script>
+  const tilt = document.querySelectorAll(".tilt");
+	<!-- VanillaTilt.init(tilt, { -->
+		<!-- reverse: true, -->
+		<!-- scale: 1.12 -->
+	<!-- }); -->
+	VanillaTilt.init(tilt, {
+	reverse: true,
+	max: 15,
+	speed: 400,
+	scale: 1.12,
+	glare: false,
+	reset: true,
+	perspective: 1000,
+	transition: true,
+	"max-glare": 0.75,
+	"glare-prerender": false,
+	gyroscope: true,
+	gyroscopeMinAngleX: -45,
+	gyroscopeMaxAngleX: 45,
+	gyroscopeMinAngleY: -45,
+	gyroscopeMaxAngleY: 45
+});
+  </script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-GCER6H0EXF"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -175,6 +464,5 @@ body {
 
   gtag('config', 'G-GCER6H0EXF');
 </script>
- 
 </body>
 </html>
