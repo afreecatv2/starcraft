@@ -96,6 +96,7 @@
   margin-right: 20px;
   margin-bottom: 20px;
   z-index: 2;
+  filter: saturate(0);
   /* transition: 200ms ease-in; */
   transition: 1s background-image;
   transform-style: preserve-3d;
