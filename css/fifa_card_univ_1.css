@@ -225,7 +225,7 @@
 	/* background-color: #3336; */
   opacity: 1;
   filter: contrast(2) brightness(1.2) grayscale(1);
-	transition: opacity 2s;
+	transition: filter 1s, opacity 2s;
 }
 .fut-player-card.offline:hover .player-picture img {
   filter: none;  
