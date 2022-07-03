@@ -215,9 +215,16 @@
   /* position: relative; */
 	transition: filter 1s;
 }
+.fut-player-card.onair .player-picture img {
+	/* background-color: #3336; */
+  opacity: 1;
+	transition: opacity 2s;
+}
 .fut-player-card.offline .player-picture img {
-  filter: contrast(2) brightness(1.5) grayscale(1);
-	transition: filter 1s;
+	/* background-color: #3336; */
+  opacity: 1;
+  filter: contrast(2) brightness(1.2) grayscale(1);
+	transition: opacity 2s;
 }
 .fut-player-card.offline:hover .player-picture img {
   filter: none;  
