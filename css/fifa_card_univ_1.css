@@ -96,7 +96,6 @@
   margin-right: 20px;
   margin-bottom: 20px;
   z-index: 2;
-  filter: saturate(0);
   /* transition: 200ms ease-in; */
   transition: 1s background-image;
   transform-style: preserve-3d;
@@ -116,6 +115,7 @@
 	 background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  filter: saturate(0);
   pointer-events: none;
 }
 /* .fut-player-card.offline {	
