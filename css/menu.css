@@ -240,10 +240,15 @@ input[type="radio"]:checked+label span {
 }
 
 input[type="checkbox"]+label {
-	color:#ccc;
+	/* color:#ccc; */
+	color:#555;
 	margin-right: -10px;
 }
 
+input[type="checkbox"]:checked+label {
+	color:#30A6E6;
+	margin-right: -10px;
+}
 input[type="checkbox"]:disabled+label {
 	color:#ccc;
 	margin-right: -10px;
