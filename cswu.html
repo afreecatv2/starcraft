@@ -221,7 +221,9 @@
   <script src="js/modify_notice.js?ver=0.0.2"></script>
   <script>
 function modify(){
-	if(event.target.textContent !== "저장"){
+	if(event.target.textContent == "저장"){
+		modify_notice();
+	}else{
 		var sign = prompt("비밀번호를 입력하세요.");
 		if (sign.toLowerCase() === sdfesfew) {
 			modify_notice();
