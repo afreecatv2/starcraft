@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="css/menu.css?ver=0.0.7">
   <link rel="stylesheet" href="css/pokemon_nsu.css?ver=0.0.4">
   <link rel="stylesheet" href="css/univ_tile.min.css?ver=0.0.8">
+  <link rel="stylesheet" href="css/post-it.css?ver=0.0.1">
   <style>
 .menu-card {
   overflow: visible; 
@@ -582,19 +583,32 @@
 	  </div>
     </div>	
 	
+<div class="post-it" style="width:200px;position:absolute;left:10px;top:0;bottom:0;margin:auto 0;">
+	<p class="sticky taped">
+		<span id="btn_mod" class="btn_mod" onclick="modify_notice()">수정하기</span>
+		<span class="btn_close" onclick="event.target.parentNode.parentNode.style.display='none'">&nbsp;X&nbsp;</span>
+		<strong>컨텐츠, 소식</strong><br>
+		<textarea id="ta_notice" name="ta_notice" rows="5" cols="24" style="display:none;height: 100%;box-sizing:border-box;">
+		</textarea>
+		<span id="sp_notice" style="white-space: pre;"></span>
+	</p>
+</div>
+
   <script>
-	var url = 'https://test.aengji.com/afreecatv/afreecatv_onair_select_nsu.php';
+	var url = 'https://test.aengji.com/afreecatv/afreecatv_onair_select_nsu2.php';
 	var univ_list = ["wnnw","nila25","70jeontaekyu","skygkrtn","cksgmldbs","minchul","hdy4546","snfjdro369","jh3697","rlarnfk24","jipsh2","kthrs9207","bijyu90","kalmian","rnaqpdrjf","gudcjf604","kwh1992","chlrlaud1","tladl5572","yeonee1129","bobun","aldbwjd1","rrrr4719","sia0518","na2un","ehgmldud1233","mingee1030","malguman","yoobee22"];
+	const univ_name = "NSU";
   </script>
   <script src="js/lazysizes.min.js" type="text/javascript"></script>
   <script src="js/util.js?ver=0.0.2"></script>
-  <!-- <script src="js/univ_cctv_ukkz.js?ver=0.0.1"></script> -->
-  <script src="https://test.aengji.com/afreecatv/univ/univ_cctv_ukkz.min.js?ver=0.0.2"></script>
+  <!-- <script src="js/univ_cctv_ukkz2.js?ver=0.0.1"></script> -->
+  <script src="https://test.aengji.com/afreecatv/univ/univ_cctv_ukkz2.min.js?ver=0.0.2"></script>
   
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
   <script  src="js/pokemon.js"></script>
   
 	<script src="https://kit.fontawesome.com/406a1d7448.js" crossorigin="anonymous"></script>
+  <script src="js/modify_notice.js?ver=0.0.2"></script>
 	<script>
 	setTimeout(function(){
 		var cnt = 0;
