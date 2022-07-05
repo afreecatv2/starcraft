@@ -2,7 +2,7 @@ function postData(url = '', name, notice) {
 	return fetch(url, {
     method: 'POST',
 	headers: {'Content-Type':'application/x-www-form-urlencoded'},
-    body: 'name=' + name + '&notice=' + notice
+    body: 'name=' + name + '&notice=' + encodeURIComponent(notice)
   })
 	.then((response) => {
 		return response.json();
