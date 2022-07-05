@@ -27,7 +27,6 @@ function modify_notice(){
 		event.target.textContent = '수정하기';
 		sp_notice.style.display = 'block';
 		ta_notice.style.display = 'none';
-		sp_notice.style.width = '200px';
 		sp_notice.textContent = ta_notice.value;
 		
 		postData('https://test.aengji.com/afreecatv/afreecatv_notice_insert.php', univ_name, ta_notice.value);
