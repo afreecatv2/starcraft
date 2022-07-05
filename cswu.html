@@ -171,7 +171,7 @@
 	
 <div class="post-it" style="width:200px;position:absolute;left:10px;top:0;bottom:0;margin:auto 0;z-index:2;">
 	<p class="sticky taped">
-		<!-- <span id="btn_mod" class="btn_mod" onclick="modify_notice()">수정하기</span> -->
+		<span id="btn_mod" class="btn_mod" onclick="modify();">수정하기</span>
 		<span class="btn_close" onclick="event.target.parentNode.parentNode.style.display='none'">&nbsp;X&nbsp;</span>
 		<strong>컨텐츠, 소식</strong><br>
 		<textarea id="ta_notice" name="ta_notice" rows="5" cols="24" style="display:none;height: 100%;box-sizing:border-box;">
@@ -182,6 +182,7 @@
 
   <script>
 	var url = 'https://test.aengji.com/afreecatv/afreecatv_onair_select_cswu2.php';
+	const sdfesfew = "1324";
 	var univ_list = ["gks2wl","brainzerg7","tjdeosks","cadenzie","llqqqq","impact501","forweourus","smmms2002","clclcl8888","9rumee","yjk011599","rhf104"];
 	const univ_name = "캄성";
   </script>
@@ -218,6 +219,14 @@
   </script> -->
   <script src="https://kit.fontawesome.com/406a1d7448.js" crossorigin="anonymous"></script>
   <script src="js/modify_notice.js?ver=0.0.2"></script>
+  <script>
+function modify(){
+var sign = prompt("비밀번호를 입력하세요.");
+	if (sign.toLowerCase() === sdfesfew) {
+		modify_notice();
+	}
+}
+  </script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-GCER6H0EXF"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
