@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="css/circle_card.css?ver=0.0.17">
   <link rel="stylesheet" href="css/univ_tile.min.css?ver=0.0.8">
   <link rel="stylesheet" href="css/fifa_card_circle.css?ver=0.0.9">
+  <link rel="stylesheet" href="css/post-it.css?ver=0.0.1">
   <style>
   body {
 	background: #222;
@@ -325,17 +326,30 @@
 	
 	<div id="thumb_container" style="position:absolute;top:0;width:100%;height:100%;display:flex;justify-content:center;align-items: center;margin: 0 auto;pointer-events:none;z-index:9;">
 	</div>
-	
+
+<div class="post-it" style="width:200px;position:absolute;left:10px;top:0;bottom:0;margin:auto 0;">
+	<p class="sticky taped">
+		<span id="btn_mod" class="btn_mod" onclick="modify_notice()">수정하기</span>
+		<span class="btn_close" onclick="event.target.parentNode.parentNode.style.display='none'">&nbsp;X&nbsp;</span>
+		<strong>컨텐츠, 소식</strong><br>
+		<textarea id="ta_notice" name="ta_notice" rows="5" cols="24" style="display:none;height: 100%;box-sizing:border-box;">
+		</textarea>
+		<span id="sp_notice" style="white-space: pre;"></span>
+	</p>
+</div>
+
   <script>
-	var url = 'https://test.aengji.com/afreecatv/afreecatv_onair_select_msg.php';
+	var url = 'https://test.aengji.com/afreecatv/afreecatv_onair_select_msg2.php';
 	var univ_list = ["vlfvlf789","starbjmatch","onlyfast","zealotmaru","byromantic","mede1234","ksmo54","kjyeon0330","tpwls9664","yonghwa0130","heksd","jth970","alswnghd1","leehantteo","dmsthfdldia","eeceec","dmswls4565","fudnjs0235","yurim0726","ppeue0625","mingee1030","popoten","busky3"];
+	const univ_name = "MSG";
   </script>
   </script>
   <script src="js/lazysizes.min.js" type="text/javascript"></script>
   <script src="js/util.js?ver=0.0.2"></script>
-  <!-- <script src="js/univ_cctv_nsu.js?ver=0.0.1"></script> -->
-  <script src="https://test.aengji.com/afreecatv/univ/univ_cctv_nsu.min.js?ver=0.0.2"></script>
+  <!-- <script src="js/univ_cctv_nsu2.js?ver=0.0.1"></script> -->
+  <script src="https://test.aengji.com/afreecatv/univ/univ_cctv_nsu2.min.js?ver=0.0.2"></script>
 	<script src="https://kit.fontawesome.com/406a1d7448.js" crossorigin="anonymous"></script>
+  <script src="js/modify_notice.js?ver=0.0.2"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-GCER6H0EXF"></script>
 <script>
   window.dataLayer = window.dataLayer || [];

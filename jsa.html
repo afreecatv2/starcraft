@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/menu.css?ver=0.0.7">
   <link href="css/image_roll.css?ver=0.0.19" rel="stylesheet">
   <link rel="stylesheet" href="css/univ_tile.min.css?ver=0.0.8">
+  <link rel="stylesheet" href="css/post-it.css?ver=0.0.1">
   <link href="https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
   
   <style>
@@ -545,16 +546,29 @@ figure:nth-child(27) {
 	<div style="position:absolute;top:60px;left:40px;font-size:32px;color:#fff;font-family:Jua;text-shadow: 2px 2px 2px #000000;z-index:3">
 		<a href="jsa_list.html" style="color:#fff">리스트 CCTV</a>
 	</div>	
-		
+
+<div class="post-it" style="width:200px;position:absolute;left:10px;top:0;bottom:0;margin:auto 0;">
+	<p class="sticky taped">
+		<span id="btn_mod" class="btn_mod" onclick="modify_notice()">수정하기</span>
+		<span class="btn_close" onclick="event.target.parentNode.parentNode.style.display='none'">&nbsp;X&nbsp;</span>
+		<strong>컨텐츠, 소식</strong><br>
+		<textarea id="ta_notice" name="ta_notice" rows="5" cols="24" style="display:none;height: 100%;box-sizing:border-box;">
+		</textarea>
+		<span id="sp_notice" style="white-space: pre;"></span>
+	</p>
+</div>
+
   <script>  
-	var url = 'https://test.aengji.com/afreecatv/afreecatv_onair_select_jsa.php';
+	var url = 'https://test.aengji.com/afreecatv/afreecatv_onair_select_jsa2.php';
 	var univ_list = ["superbsw123","nalra82","h78ert","scv6256","rjsrkdgkwk12","bumsoo552","mwhdgus","scan1014","wjdalsrl95","zx2362","askl021","chs9011","ywww123","gom29a","kitty1029","dpfkd99","phh95426","zalalz","bora99","ghkdud1617","sbpark0120","dodenvoa","bbbaesiii","xshinx","aram1213","tv112","yeeeahm97"];
+	const univ_name = "JSA";
   </script>
   <script src="js/lazysizes.min.js" type="text/javascript"></script>
   <script src="js/util.js?ver=0.0.2"></script>
-  <!-- <script src="js/univ_cctv_jsa.js?ver=0.0.1"></script> -->
-  <script src="https://test.aengji.com/afreecatv/univ/univ_cctv_jsa.min.js?ver=0.0.3"></script>
+  <!-- <script src="js/univ_cctv_jsa2.js?ver=0.0.1"></script> -->
+  <script src="https://test.aengji.com/afreecatv/univ/univ_cctv_jsa2.min.js?ver=0.0.3"></script>
 	<script src="https://kit.fontawesome.com/406a1d7448.js" crossorigin="anonymous"></script>
+  <script src="js/modify_notice.js?ver=0.0.2"></script>
   
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-GCER6H0EXF"></script>
 <script>
