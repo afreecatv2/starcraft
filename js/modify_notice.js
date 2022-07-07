@@ -32,6 +32,11 @@ function modify_notice(){
 		postData('https://test.aengji.com/afreecatv/afreecatv_notice_insert.php', univ_name, ta_notice.value).then(data => {
 			if(data == 'BLOCKED'){
 				alert('부적절한 글 수정으로 차단된 사용자입니다.\n관리자에게 문의하세요.');
+			}else if(data == 'OK'){
+				var dialog = popup3('감사합니다.\n좋은 하루 되세요.');
+				setTimeout(() => {
+					dialog.close();
+				}, 1000);
 			}
 		});
 	}
