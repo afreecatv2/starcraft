@@ -673,6 +673,7 @@ h2 {
 	left: -10px;
 	top: 76px;
 	width:64px;
+	pointer-events: none;	
 }
 .card .c-icon:active {
 	pointer-events: none;	
