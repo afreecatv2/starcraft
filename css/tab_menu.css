@@ -1,0 +1,119 @@
+
+
+.tabs {
+  display: flex;
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 0 1px 0 rgba(24, 94, 224, 0.15), 0 6px 12px 0 rgba(24, 94, 224, 0.15);
+  padding: 0.75rem;
+  border-radius: 99px;
+}
+.tabs * {
+  z-index: 2;
+}
+
+input[type=radio] {
+  display: none;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 54px;
+  width: 80px;
+  font-size: 1.25rem;
+  font-weight: 500;
+  border-radius: 99px;
+  cursor: pointer;
+  transition: color 0.15s ease-in;
+}
+
+.notification {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  margin-left: 0.75rem;
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+  transition: 0.15s ease-in;
+}
+
+input[type=radio]:checked + label {
+  color: var(--primary-color);
+}
+input[type=radio]:checked + label > .notification {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+input[id=radio-1]:checked ~ .glider {
+  transform: translateX(0);
+}
+
+input[id=radio-2]:checked ~ .glider {
+  transform: translateX(100%);
+}
+
+input[id=radio-3]:checked ~ .glider {
+  transform: translateX(200%);
+}
+
+input[id=cswu]:checked ~ .glider {
+  transform: translateX(0);
+}
+input[id=ukkz]:checked ~ .glider {
+  transform: translateX(110%);
+}
+input[id=midas]:checked ~ .glider {
+  transform: translateX(222%);
+}
+input[id=ysu]:checked ~ .glider {
+  transform: translateX(336%);
+}
+input[id=basford]:checked ~ .glider {
+  transform: translateX(446%);
+}
+input[id=cp]:checked ~ .glider {
+  transform: translateX(558%);
+}
+input[id=cwu]:checked ~ .glider {
+  transform: translateX(674%);
+}
+input[id=nsu]:checked ~ .glider {
+  transform: translateX(786%);
+}
+input[id=jsa]:checked ~ .glider {
+  transform: translateX(896%);
+}
+input[id=mcu]:checked ~ .glider {
+  transform: translateX(1012%);
+}
+input[id=amu]:checked ~ .glider {
+  transform: translateX(1126%);
+}
+input[id=tnu]:checked ~ .glider {
+  transform: translateX(1240%);
+}
+input[id=msg]:checked ~ .glider {
+  transform: translateX(1346%);
+}
+
+.glider {
+  position: absolute;
+  display: flex;
+  height: 54px;
+  width: 80px;
+  background-color: var(--secondary-color);
+  z-index: 1;
+  border-radius: 99px;
+  transition: 0.25s ease-out;
+}
+
+@media (max-width: 700px) {
+  .tabs {
+    transform: scale(0.6);
+  }
+}
