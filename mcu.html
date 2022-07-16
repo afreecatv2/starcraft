@@ -294,14 +294,22 @@ overflow: auto;
 	</script>
 	<script src="https://kit.fontawesome.com/406a1d7448.js" crossorigin="anonymous"></script>
 	<script src="js/univ_cctv_vue.min.js?ver=0.0.5"></script>
-  <script src="js/modify_notice.js?ver=0.0.5"></script>
-	<!-- <script>
-	var nr = document.getElementById("24");
-	log(nr);
-	nr.children[5].style.zIndex = 1;
-	nr.children[5].setAttribute("src","img/mcu/card_mcu_back.png");
-	nr.classList.add("onair");
-	</script> -->
+	<script src="js/modify_notice.js?ver=0.0.5"></script>
+	<script>
+	
+	var nr = document.getElementById("10");
+	
+	var img1 = document.createElement("img");
+	img1.style.width = "32px";
+	img1.style.height = "64px";
+	img1.style.position= "absolute";
+	img1.style.bottom = "10px";
+	img1.style.right = "0px";
+	img1.setAttribute("src","img/icons/trophy-half.png");
+	img1.setAttribute("title","WSL S3 준우승");
+	
+	nr.parentNode.appendChild(img1);
+	</script>
 	
 	
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-GCER6H0EXF"></script>
