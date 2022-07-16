@@ -244,12 +244,6 @@ overflow: auto;
 					<span slot="title">홍보 모델</span>
 					<span slot="name">문월</span>
 				</card>
-				<card data-image="img/mcu/유복실.png">
-					<span slot="tier">3</span>
-					<span slot="race">P</span>
-					<span slot="title">김봉두 2기</span>
-					<span slot="name">유복실</span>
-				</card>
 			</div>	
 		</div>	
 	
@@ -282,7 +276,7 @@ overflow: auto;
 
   <script>
 	var url = 'https://test.aengji.com/afreecatv/afreecatv_onair_select_mcu2.php';
-	var univ_list = ["khm11903","sas2055","koreasbg","momo130","kkmkhh1234","onlysibar","hongduck9737","peros777","rfvtgb778","ckmin706","tjdwnls123","watchfact","lovelove7777","poos69","cnsgkcnehd74","melong48","xvvx1859","msuk2017","rlsk0705","clerver","kzzang96","parkle1006","dudadi770","yochba0402","cakeee","moonwol0614","yoomingseo"];
+	var univ_list = ["khm11903","sas2055","koreasbg","momo130","kkmkhh1234","onlysibar","hongduck9737","peros777","rfvtgb778","ckmin706","tjdwnls123","watchfact","lovelove7777","poos69","cnsgkcnehd74","melong48","xvvx1859","msuk2017","rlsk0705","clerver","kzzang96","parkle1006","dudadi770","yochba0402","cakeee","moonwol0614"];
 	const univ_name = "무친대";
   </script>
   <script src="js/lazysizes.min.js" type="text/javascript"></script>
@@ -294,39 +288,8 @@ overflow: auto;
   
   <!-- <script src="https://test.aengji.com/afreecatv/univ/univ_cctv_3d_hover.min.js?ver=0.0.1"></script> -->
 	  
-	<script>
-	var div1 = document.createElement("div");
-	div1.style.width = "160px";
-	div1.style.height = "160px";
-	div1.style.zIndex = "9";
-	div1.style.display = "flex";
-	div1.style.flexDirection = "column";
-	var img1 = document.createElement("img");
-	img1.style.width = "120px";
-	img1.style.height = "160px";
-	img1.style.marginLeft = "40px";
-	img1.style.marginTop = "25px";
-	img1.style.objectFit = "cover";
-	img1.setAttribute("src","img/mcu/icon_bong_160.png");
-	img1.setAttribute("title","출처: FMKOREA 흐하오항으하");
-	div1.appendChild(img1);
-	var a1 = document.createElement("a");
-	a1.setAttribute("href","https://www.fmkorea.com/index.php?mid=starcraft&document_srl=4742239437");
-	a1.setAttribute("target","_blank");
-	a1.style.color = "#fff";
-	a1.style.textAlign = "center";
-	a1.style.marginLeft = "40px";
-	a1.style.marginTop = "-20px";
-	var newtext = document.createTextNode("출처:흐하오항으하");
-	a1.appendChild(newtext);
-	
-	div1.appendChild(a1 );
-	
-	var pEl = document.getElementById("app");
-	var nr = document.getElementById("27");
-	pEl.insertBefore(div1, nr.parentNode);
-	
-	var ml = [["khm11903","channel/UC69uMhRJcUnvMnMxKT2SS0w","channel/UCP-KRZsIkIqww2jIdrciu2g",""],["sas2055","c/만만","channel/UCXeM4iOK62K8ana7DcbaYxg","gokyungman"],["koreasbg","channel/UCns4Qg50SKaylIG1cErmvng","","koreasbg"],["momo130","channel/UCHy8aGse45vUehMmKswRYhQ","",""],["kkmkhh1234","","",""],["onlysibar","channel/UCJNTwhCAZX6hJkbUB4TKdZQ","",""],["hongduck9737","","",""],["peros777","","",""],["rfvtgb778","","",""],["ckmin706","channel/UCjfV_r8KunMcwICgj9nE7jw?view_as=subscriber","",""],["tjdwnls123","channel/UCbcOHKJ8yWUzR2oKfQeIypA","",""],["watchfact","","","watchchojaegeol"],["lovelove7777","channel/UCIX8OTcLYEPMuqFhwmzc1IA","",""],["poos69","channel/UCoYFo-lRD3pchMUtsBcEbOA?view_as=subscriber","channel/UCBBivG9AivLp3Ql3c43Vsdw",""],["cnsgkcnehd74","channel/UCeayRtjd9eHenA-XhYFJQMw?view_as=subscriber","","cnsgkcnehd74"],["melong48","channel/UCQjMHzIdzrPU5xaumA8ZUjA","","_luxxtt_"],["xvvx1859","channel/UCQ90DVFSkyPPg1kGW4hljAA","","282bb"],["msuk2017","channel/UC7EizVEQhadyeM_ZkvlWWNA","",""],["rlsk0705","","",""],["clerver","channel/UCzNDFeFlXyGN7mHx_odBGDQ","","sususu00_"],["kzzang96","channel/UChwX8UEZphPgTTXuZWqCN7A","","o712.q6"],["parkle1006","channel/UC5b1YXr_yg1vJpsBw-8Z_uQ","",""],["dudadi770","channel/UCPd2VrGLDguFs9AckozHtrA","channel/UCzGj_ulXlCDUfCaIr1JzR3A","dudadi770"],["yochba0402","channel/UCw-eVXA8pN30sA0XXPhMArA","results?search_query=%EC%A1%88%EB%8B%88","j_min__01"],["cakeee","channel/UCJD8tDlPGbfjw2WhlOaqVMA","","tansy_s2"],["moonwol0614","channel/UCtp1okjd3xQAhPNY8Wgt_Fg","","moonwol_"],["yoomingseo","channel/UCjp6gUdUVxtrsS9D-fJprjQ","","siribaebae"]];
+	<script>	
+	var ml = [["khm11903","channel/UC69uMhRJcUnvMnMxKT2SS0w","channel/UCP-KRZsIkIqww2jIdrciu2g",""],["sas2055","c/만만","channel/UCXeM4iOK62K8ana7DcbaYxg","gokyungman"],["koreasbg","channel/UCns4Qg50SKaylIG1cErmvng","","koreasbg"],["momo130","channel/UCHy8aGse45vUehMmKswRYhQ","",""],["kkmkhh1234","","",""],["onlysibar","channel/UCJNTwhCAZX6hJkbUB4TKdZQ","",""],["hongduck9737","","",""],["peros777","","",""],["rfvtgb778","","",""],["ckmin706","channel/UCjfV_r8KunMcwICgj9nE7jw?view_as=subscriber","",""],["tjdwnls123","channel/UCbcOHKJ8yWUzR2oKfQeIypA","",""],["watchfact","","","watchchojaegeol"],["lovelove7777","channel/UCIX8OTcLYEPMuqFhwmzc1IA","",""],["poos69","channel/UCoYFo-lRD3pchMUtsBcEbOA?view_as=subscriber","channel/UCBBivG9AivLp3Ql3c43Vsdw",""],["cnsgkcnehd74","channel/UCeayRtjd9eHenA-XhYFJQMw?view_as=subscriber","","cnsgkcnehd74"],["melong48","channel/UCQjMHzIdzrPU5xaumA8ZUjA","","_luxxtt_"],["xvvx1859","channel/UCQ90DVFSkyPPg1kGW4hljAA","","282bb"],["msuk2017","channel/UC7EizVEQhadyeM_ZkvlWWNA","",""],["rlsk0705","","",""],["clerver","channel/UCzNDFeFlXyGN7mHx_odBGDQ","","sususu00_"],["kzzang96","channel/UChwX8UEZphPgTTXuZWqCN7A","","o712.q6"],["parkle1006","channel/UC5b1YXr_yg1vJpsBw-8Z_uQ","",""],["dudadi770","channel/UCPd2VrGLDguFs9AckozHtrA","channel/UCzGj_ulXlCDUfCaIr1JzR3A","dudadi770"],["yochba0402","channel/UCw-eVXA8pN30sA0XXPhMArA","results?search_query=%EC%A1%88%EB%8B%88","j_min__01"],["cakeee","channel/UCJD8tDlPGbfjw2WhlOaqVMA","","tansy_s2"],["moonwol0614","channel/UCtp1okjd3xQAhPNY8Wgt_Fg","","moonwol_"]];
 	</script>
 	<script src="https://kit.fontawesome.com/406a1d7448.js" crossorigin="anonymous"></script>
 	<script src="js/univ_cctv_vue.min.js?ver=0.0.5"></script>
