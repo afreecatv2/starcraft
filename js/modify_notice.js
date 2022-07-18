@@ -49,6 +49,8 @@ function modify_notice(){
 			}else {
 				if(data.hasOwnProperty("BLOCKED")){
 					alert('부적절한 글 수정으로 차단된 사용자입니다.\n관리자에게 문의하세요.\n\n차단 사유:' + data["BLOCKED"]);
+				}else{
+					alert('저장에 실패하였습니다. 관리자에게 문의하세요');
 				}
 			}
 		});
