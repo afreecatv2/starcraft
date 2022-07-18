@@ -23,12 +23,23 @@ function modify_notice(){
 		ta_notice.value = sp_notice.textContent;
 		sp_notice.style.display = 'none';
 		document.getElementById('ta_notice').style.display = 'block';
-	} else {	
+	} else {
 		event.target.textContent = '수정하기';
 		sp_notice.style.display = 'block';
 		ta_notice.style.display = 'none';
-		sp_notice.textContent = ta_notice.value;
 		
+		if(ta_notice.value == sp_notice.textContent){
+			return;
+		}
+		
+		if(ta_notice.value.trim() == ''){
+			if( ! confirm("입력된 내용이 없습니다.\n내용 없이 저장하시겠습니까?")){
+				return;
+			}
+		}
+		
+		sp_notice.textContent = ta_notice.value;
+			
 		postData('https://test.aengji.com/afreecatv/afreecatv_notice_insert.php', univ_name, ta_notice.value).then(data => {
 			if(data == 'BLOCKED'){
 				alert('부적절한 글 수정으로 차단된 사용자입니다.\n관리자에게 문의하세요.');
