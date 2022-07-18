@@ -174,7 +174,9 @@
 		  </div>
 	  </div>
     </div>
-	
+
+<iframe src="https://www.aengji.com/poll/poll-3.php" style="width:200px;height:320px;position:absolute;right:20px;top:100px;;z-index:2;"></iframe>
+
 <div class="post-it" style="width:200px;position:absolute;left:10px;top:40px;z-index:2;">
 	<p class="sticky taped" style="padding-left:0;padding-right:0;">
 		<span id="btn_mod" class="btn_mod" onclick="modify_notice()">수정하기</span>
@@ -199,47 +201,9 @@
   <script src="js/util.js?ver=0.0.2"></script>
   <!-- <script src="js/univ_cctv_m2.js?ver=0.0.2"></script> -->
   <script src="https://test.aengji.com/afreecatv/univ/univ_cctv_m2.min.js?ver=0.0.15"></script>
-  <!-- <script>
-	
-	(function() {
-		document.onmousemove = handleMouseMove;
-		function handleMouseMove(event) {
-			var eventDoc, doc, body;
-
-			event = event || window.event; // IE-ism
-
-			if (event.pageX == null && event.clientX != null) {
-				eventDoc = (event.target && event.target.ownerDocument) || document;
-				doc = eventDoc.documentElement;
-				body = eventDoc.body;
-
-				event.pageX = event.clientX +
-				  (doc && doc.scrollLeft || body && body.scrollLeft || 0) -
-				  (doc && doc.clientLeft || body && body.clientLeft || 0);
-				event.pageY = event.clientY +
-				  (doc && doc.scrollTop  || body && body.scrollTop  || 0) -
-				  (doc && doc.clientTop  || body && body.clientTop  || 0 );
-			}
-
-			console.log('x: ' + event.pageX + ', y: ' + event.pageY);
-		}
-	})();
-	
-  </script> -->
+  <script src="js/modify_notice.js?ver=0.0.7"></script>  
   <script src="https://kit.fontawesome.com/406a1d7448.js" crossorigin="anonymous"></script>
-  <script src="js/modify_notice.js?ver=0.0.7"></script>
-<!-- <script>
-function modify(){
-	if(event.target.textContent == "저장"){
-		modify_notice();
-	}else{
-		var sign = prompt("비밀번호를 입력하세요.");
-		if (sign.toLowerCase() === sdfesfew) {
-			modify_notice();
-		}
-	}
-}
-</script> -->
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-GCER6H0EXF"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
