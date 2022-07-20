@@ -686,6 +686,24 @@ h2 {
   filter: grayscale(0);
   transition-property: background, filter, -webkit-filter;
 }
+.card34 {
+  background: url("../img/basford/유영진.png") left center no-repeat;
+  background-size: 300px;
+  filter: grayscale(1)  brightness(1.5);
+  transition-property: background, filter, -webkit-filter;
+}
+.card34:hover {
+  background: url("../img/basford/유영진.png") center center no-repeat;
+  background-size: 150px;
+  filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
+}
+.card34.onair {
+  background: url("../img/basford/유영진.png") center center no-repeat;
+  background-size: 150px;
+  filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
+}
 
 .card .c-icon {
 	position:absolute;
