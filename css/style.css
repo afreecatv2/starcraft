@@ -465,6 +465,7 @@ tr th:nth-child(14),tr td:nth-child(14){
 	vertical-align: top;
 		min-width: 7em;
     margin: 30px 10px;
+	pointer-events: none;
 }
 .speech-bubble:after {
 	border: 1em solid transparent;
