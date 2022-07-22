@@ -38,7 +38,7 @@ function modify_notice(){
 			}
 		}
 					
-		postData('https://test.aengji.com/afreecatv/afreecatv_notice_insert.php', univ_name, ta_notice.value).then(data => {
+		postData('https://www.aengji.com/afreecatv/afreecatv_notice_insert.php', univ_name, ta_notice.value).then(data => {
 			if(data == 'OK'){				
 				sp_notice.textContent = ta_notice.value;
 				
