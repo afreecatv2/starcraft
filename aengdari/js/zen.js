@@ -9,9 +9,9 @@ jQuery.browser = {};
 })();
 
 
-const bgm1 = [{mp3:'https://cdn.filesend.jp/private/wG-UL0pW5ick0d5RULuQG5CyCbQ18GpsBHcBW6-MIRrzp-nusU2OtqdJQ8x4j9ge/bgm2.mp3'}];
-const bgm2 = [{mp3: "https://cdn.filesend.jp/private/Ggb4hBSEzhH7gWDTo0iq-U2cMyNmVftvHfZlqKVCTIFyIxflHG5F43CccqHEW8oQ/bgm3.mp3"}];
-const bgm3 = [{mp3:'https://cdn.filesend.jp/private/QaFjxT_WQ1bcyctk4JlxKVA5NdYwdJJbQ2sEt3ZYZl66VwsD1TkXJpe4qPWcaTN1/sad-puppy-we-were-young-scloudtomp3downloader.com.mp3'}];
+const bgm1 = [{mp3:'bgm/bgm2.mp3'}];
+const bgm2 = [{mp3: "bgm/bgm3.mp3"}];
+const bgm3 = [{mp3:'bgm/sad-puppy-we-were-young-scloudtomp3downloader.com.mp3'}];
 
 var selected_playlist = 0;
 var playlist = [bgm1, bgm2, bgm3];
@@ -31,14 +31,9 @@ $(document).ready(function(){
 	// init
 	
 	var vol = 0.1;
-	if(aengji_settings && aengji_settings['aenggae_volume']){
-		vol = (aengji_settings['aenggae_volume'] / 100);
-	}
-	vol = 0.1;
 	
 	player.jPlayer({
 		ready: function () {
-			// $(this).jPlayer("volume", aengji_settings['aenggae_volume'] /100);
       		$(this).jPlayer("setMedia", playlist[selected_playlist][play_index]);
     	},
     	swfPath: "",
