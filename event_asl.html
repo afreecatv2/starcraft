@@ -54,6 +54,12 @@ body {
 .broad-title{
 	position: fixed;
 }
+.fc{
+	display:block;
+}
+.title{
+	display: none;
+}
   </style>
 </head>
 <body>
@@ -64,7 +70,8 @@ body {
 					<li><a href="tier.html">티어표</a></li>
 					<!-- <li><a href="melee.html">밀리전적</a></li> -->
 					<li><a href="video.html">다시보기</a></li>
-					<li class="active"><a href="event.html">LASL</a></li>
+					<li class="active"><a href="event_asl.html">ASL</a></li>
+					<li><a href="event_lasl.html">LASL</a></li>
 					<li><a href="sadari_afreecatv.html" target="_blank">사다리</a></li>
 					<li><a href="gacha.html" target="_blank">뽑기</a></li>
 					<li><a href="fa.html">FA</a></li>
@@ -109,7 +116,7 @@ body {
 			<!-- <div style="vertical-align: middle;margin-top:-20px;color:#fff;font-family:Jua;font-size:32px;font-weight:800;align-self: flex-end;" class="shadow"text>7월 2일 토요일 4시</div> -->
 		</div>
 				
-		<div id="list_container" style="width:74%;margin-top:160px;display:flex;flex-direction: column;justify-content: center;align-items:center;text-align:center;">		
+		<div id="list_container" style="width:74%;margin-top:160px;display:flex;flex-direction: column;justify-content:center;align-items:center;text-align:center;">		
 			
 		</div>
 		
@@ -151,14 +158,14 @@ body {
 				
   <script>  
 	var url = "https://0000u.github.io/api/onair.json";
-	const univ_name = "대회";
+	const univ_name = "대회2";
 	var list = {"24강":[["이재호","scv6256","G","T","JSA"],["김택용","rlaxordyd","G","P",""],["짭제","thakzkf","G","Z","바스포드"],["김성대","tjdeosks","G","Z","캄성"],["조일장","byhero","G","Z","철와대"],["최호선","ghtjs3833","K","T",""],["장윤철","tmsh401","G","P","츠나대"],["유영진","yoo376","G","T","바스포드"],["윤찬희","cksgmldbs","K","T","NSU"],["윤용태","dbsdydx","K","P","CP"],["김지성","ho1godme","G","T","철와대"],["조기석","sharpragu","K","T","NSU"],["김명운","kimmyungwun","G","Z",""],["김경모","kkmkhh1234","J","Z","무친대"],["변현제","bye1013","G","P","무친대"]]};
 	var list2 = [["ASL공식","afstar1","","",""]];
   </script>
   <script src="js/lazysizes.min.js" type="text/javascript"></script>
   <script src="js/util.js?ver=0.0.2"></script>
   <script src="js/univ_cctv_event2.js?ver=0.0.1"></script>
-  <script src="js/univ/univ_cctv_event2.min.js?ver=0.0.6"></script>
+  <script src="js/univ/univ_cctv_event2.min.js?ver=0.0.7"></script>
   <script src="js/modify_notice.js?ver=0.0.8"></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js'></script>  
   <script>
