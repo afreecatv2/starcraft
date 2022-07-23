@@ -1,3 +1,9 @@
+async function getDataAsync(url = '') {
+	var response = await fetch(url);
+	var data = await response.json();
+	return data;
+}
+
 function postData(url = '', name, notice) {
 	return fetch(url, {
     method: 'POST',
@@ -56,3 +62,10 @@ function modify_notice(){
 		});
 	}
 }
+
+
+getDataAsync('https://www.aengji.com/afreecatv/afreecatv_notice.php?name=' + univ_name).then(data => {
+	document.getElementById('sp_notice').textContent = data;
+}).catch((error) => {
+  console.error('실패:', error);
+});
