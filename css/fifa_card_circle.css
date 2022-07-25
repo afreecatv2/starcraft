@@ -1,6 +1,6 @@
 
 .thumb_container{
-	position:absolute;
+	position:fixed;
 	top:0;
 	width:100%;
 	height:100%;
@@ -17,7 +17,7 @@
 	height:270px; */
 	width:720px;
 	height:405px;
-    position: absolute;
+    position: fixed;
 	top: 40%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -31,7 +31,7 @@
 	height:270px; */
 	width:720px;
 	height:405px;
-    position: absolute;
+    position: fixed;
 	top: 40%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -241,7 +241,7 @@
 	transition: filter 1s;
 }
 .fut-player-card.onair .card_background{
-	filter: saturate(1) drop-shadow(0 0 10px #f00);
+	filter: saturate(1) drop-shadow(0 0 15px #f00);
 	transition: filter 1s;
 }
 
