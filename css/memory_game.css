@@ -43,7 +43,7 @@ body::after {
   padding: 10px 30px 10px 30px;
   width: 65%;
   height: 85%;
-  margin: 60px auto 10px auto;
+  margin: 30px auto 10px auto;
   -webkit-transition: all 2s ease-out;
   -o-transition: all 2s ease-out;
   transition: all 2s ease-out;
@@ -56,7 +56,7 @@ body::after {
   position: relative;
   color: white;
   padding: 1px;
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Jua', sans-serif;
 }
 
 .tabbar > div {
@@ -74,12 +74,12 @@ h4 {
 }
 
 h4 {
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Jua', sans-serif;
   font-weight: 400;
 }
 
 h4 > span {
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Jua', sans-serif;
   color: #27c93f;
 }
 
@@ -91,7 +91,7 @@ h4 > span {
 }
 
 button {
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Jua', sans-serif;
   border-radius: 3px;
   background-color: #ff5f56;
   width: 100px;
@@ -101,6 +101,7 @@ button {
   position: absolute;
   font-size: 20px;
   color: white;
+  cursor: pointer;
   -webkit-box-shadow: 2px 2px 2px #ff5f56;
           box-shadow: 2px 2px 2px #ff5f56;
   border: 1px solid rgba(0, 0, 0, 0.342);
