@@ -281,7 +281,7 @@ body {
 }
 .face.front .title-wrapper .title {
   position: relative;
-  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Jua', sans-serif;
   width: 100%;
   text-transform: uppercase;
   font-size: 2vw;
@@ -391,7 +391,7 @@ body {
 }
 .info-title {
   font-size: 1.5vw;
-  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Jua', sans-serif;
   text-align: left;
   padding: 0;
   margin: 0;
