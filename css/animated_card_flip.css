@@ -375,7 +375,7 @@ body {
   margin-top: 25.08%;
   margin-left: -12.92%;
   background-color: #fff;
-  border: 3px solid #FFF;
+  border: 3px solid #F00;
   z-index: 20;
 }
 .info-wrapper {
@@ -388,6 +388,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
+  /* padding: 4% 15% 15%; */
   padding: 4% 15% 15%;
 }
 .info-title {
