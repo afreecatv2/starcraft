@@ -112,8 +112,8 @@ body {
   align-items: center;
 }
 .card-wrapper {
-  display: block;
-  float: left;
+  display: inline-block;
+  /* float: left; */
   position: relative;
   margin: 0;
   /* width: 28%; 
@@ -305,7 +305,8 @@ body {
   line-height: 1;
   letter-spacing: 1px;
   text-transform: uppercase;
-  opacity: 0;
+  /* opacity: 0; */
+  opacity: 0.8;
   transition: opacity 0.15s;
 }
 .face.front:hover::before {
