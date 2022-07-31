@@ -305,7 +305,7 @@ ul li ul li {
 	/* font: bold 12px/20px Jua;
 	padding: 10px 25px; */
 	font: bold 24px/30px Jua;
-	padding: 15px 5px 0px;
+	padding: 12px 5px 0px;
 	text-align: center;
 	text-decoration: none;
 	-webkit-transition: all .25s ease;
@@ -363,14 +363,15 @@ i {
     content: attr(badge);
     position: absolute;
     background: rgba(0,0,255,0.5);
-    width:20px;
-    height:20px;
+    width:18px;
+    height:18px;
     top:0;
     right:0;
     text-align: center;
-    line-height: 20px;;
+    line-height: 18px;
     font-size: 8px;
     border-radius: 50%;
     color:white;
     border:1px solid blue;
+	pointer-events: none;
 }
