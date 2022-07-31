@@ -1,5 +1,9 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap'); */
- 
+ :root {
+  --primary-color: #185ee0;
+  --secondary-color: #e6eef9;
+}
+
 body {
 	font-family: "Jua";
 }
@@ -301,7 +305,7 @@ ul li ul li {
 	/* font: bold 12px/20px Jua;
 	padding: 10px 25px; */
 	font: bold 24px/30px Jua;
-	padding: 5px 5px;
+	padding: 15px 5px 0px;
 	text-align: center;
 	text-decoration: none;
 	-webkit-transition: all .25s ease;
@@ -343,4 +347,30 @@ li:hover ul#submenu {
 }
 #submenu li.active a {
 	background: #DF4B05;
+}
+
+
+
+.icon-blue {color: #0088cc}
+.icon-grey {color: grey}
+i {   
+    width:100px;
+    text-align:center;
+    vertical-align:middle;
+    position: relative;
+}
+.badge:after{
+    content: attr(badge);
+    position: absolute;
+    background: rgba(0,0,255,0.5);
+    width:20px;
+    height:20px;
+    top:0;
+    right:0;
+    text-align: center;
+    line-height: 20px;;
+    font-size: 8px;
+    border-radius: 50%;
+    color:white;
+    border:1px solid blue;
 }
