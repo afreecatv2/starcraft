@@ -119,9 +119,9 @@ body {
   /* width: 28%; 
   height: 0; */
   width: 200px;
-  height: 0;
-  padding: 0 0 28%;
-  margin: -20px 20px;
+  height: 200px;
+  /* padding: 0 0 28%; */
+  margin: 30px 20px;
   cursor: pointer;
   perspective: 700px;
 }
@@ -133,8 +133,8 @@ body {
   display: block;
   float: left;
   position: absolute;
-  top: 6%;
-  left: 6%;
+  /* top: 6%;
+  left: 6%; */
   /* width: 88%;
   height: 88%; */
   
