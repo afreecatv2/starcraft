@@ -277,14 +277,14 @@ body {
 					  <div class="logo-left"></div>
 						<span class="card-tier">R</span>
 						<span class="card-race">T</span>
-						<span class="card-title">교수</span>
+						<span class="card-title">반장</span>
 						<span class="card-name">지동원</span>
 				  </div>
 				  <div class="back back-left">
 					<img src="img/bj_png/지동원.png" />
 						<span class="card-tier">R</span>
 						<span class="card-race">T</span>
-						<span class="card-title">교수</span>
+						<span class="card-title">반장</span>
 						<span class="card-name">지동원</span>
 				  </div>
 				</div>
@@ -1017,6 +1017,18 @@ body {
   <script src="js/univ/univ_cctv2.min.js?ver=0.0.1"></script>
 	<script src="https://kit.fontawesome.com/406a1d7448.js" crossorigin="anonymous"></script>
   <script src="js/modify_notice.js?ver=0.0.8"></script>
+<script>
+const nicknames = ["유헤비","위례뱃살아","특대채린","나는푸짐","너무찐봉순","찐나린"];
+const card3 = document.getElementById("jjyjeh5454");
+const pe3 = card3.querySelectorAll(".card-title");
+const r = Math.floor(Math.random() * nicknames.length);
+pe3[0].textContent = nicknames[r];  
+pe3[1].textContent = nicknames[r];  
+  
+</script>
+  
+  
+  
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-GCER6H0EXF"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
