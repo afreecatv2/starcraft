@@ -411,7 +411,8 @@ body {
   border-top: 1px solid #e0e0e0;
 }
 .info-content-item {
-  color: #222;
+  /* color: #222; */
+  color: #ddd;
   font-size: 0.75vw;
   line-height: 1;
   text-align: center;
