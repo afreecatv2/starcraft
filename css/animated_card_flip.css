@@ -400,6 +400,7 @@ body {
   text-align: center;
   display: block;
   width: 100%;
+  color: #aaa;
 }
 .info-content {
   display: flex;
@@ -411,8 +412,7 @@ body {
   border-top: 1px solid #e0e0e0;
 }
 .info-content-item {
-  /* color: #222; */
-  color: #ddd;
+  color: #222;
   font-size: 0.75vw;
   line-height: 1;
   text-align: center;
@@ -428,7 +428,8 @@ body {
   font-size: 1.1vw;
   margin-top: 7px;
   text-transform: none;
-  color: #222;
+  /* color: #222; */
+  color: #aaa;
 }
 .info {
   position: absolute;
