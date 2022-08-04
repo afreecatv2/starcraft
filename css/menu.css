@@ -333,12 +333,14 @@ li:hover ul#submenu {
 #submenu li {
 	float: none;
 	width: 100%;
+	white-space: nowrap;
 }
 #submenu a:hover {
 	background: #DF4B05;
 }
 #submenu a {
 	background-color:#000000;
+	width: 150%;
 }
 
 
