@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/menu.css?ver=0.0.10">
   <link rel="stylesheet" href="css/tilt.css?ver=0.0.1">
   <!-- <link rel="stylesheet" href="css/fifa_card_univ.css?ver=0.0.3"> -->
+  <link rel="stylesheet" href="css/fifa.css?ver=0.0.6">
   <link rel="stylesheet" href="css/fifa_card_event.css?ver=0.0.2">
   <link rel="stylesheet" href="css/univ_tile.min.css?ver=0.0.8">
   <link rel="stylesheet" href="css/post-it.css?ver=0.0.1">
@@ -60,7 +61,7 @@ body {
 </head>
 <body>
 
-<div style="position:absolute;top:98px;right:0;z-index:99999;">
+<div style="position:absolute;top:98px;left:0;z-index:99999;">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9088087979435603"
      crossorigin="anonymous"></script>
 <ins class="adsbygoogle"
@@ -125,46 +126,22 @@ body {
 		
 	<div id="thumb_container" style="position:absolute;top:0;width:100%;height:100%;display:flex;justify-content:center;align-items: center;margin: 0 auto;">
 	</div>
-    <div style="width:100%;display:flex;justify-content:center;align-items:center;flex-direction:column;margin-top:100px;z-index:2;">
-		
-			<div style="display:inline-block;margin-left:80px;"></div>
-			
-		<!-- <div style="height:64px;margin-top:-40px;margin-bottom:-60px;z-index:99999;display:flex;flex-direction:row;">			
-			<div style="vertical-align: middle;color:#fff;font-family:Jua;font-size:56px;font-weight:800;" class="shadow"text>
-				조용히사라배 대학 대전
-				
-			</div>
-		</div> -->
-		
-		<div id="list_container" style="width:74%;margin-top:0px;display:flex;flex-direction: column;justify-content: center;align-items:center;text-align:center;z-index:2;">		
-			
-		</div>
-		<img src="https://stimg.afreecatv.com/NORMAL_BBS/0/867450/300362ed1ba1641b8.jpg">
-	</div>
+    
 	
-				<div id="arinbbidol" class="fut-player-card menu-card tilt onair" style="position:absolute;left:0px;top:20px;">
-					<div class="card_background" style="background-image: url(img/logo_afreecatv.png);"></div>
-					<div class="player-card-top">
-						<div class="player-master-info">
-							<div class="player-rating"><span></span></div>
-							<div class="player-position"><span></span></div>
-						</div>
-					</div>
-					<div class="player-picture">
-						<img src="img/bj_png/기뉴다.png"/>
-						<div class="player-extra"><span>주최</span></div>
-					</div>
-					<div class="player-card-bottom">
-						<div class="player-info">
-							<div class="player-name"><span>기뉴다</span></div>
-						</div>
-					</div>	
-				</div>
-				
 
-<!-- <iframe src="https://www.aengji.com/drbpoll/example.php" style="width:200px;height:70%;position:absolute;right:20px;top:140px;" title="바스포드 VS JSA"></iframe> -->
 
-<div class="post-it" style="width:200px;position:absolute;left:10px;top:170px;">
+<div class="wrapper" >
+	<div id="mobile-hdr">
+		<button id="mobile-table" class="mobile-menu">
+			<span></span>
+			<span></span>
+			<span></span>
+		</button>
+	</div>
+	<section id="standings-container" class="left-col" style="left:0;object-fit:contains;">		
+		<img src="https://stimg.afreecatv.com/NORMAL_BBS/0/867450/300362ed1ba1641b8.jpg" style="position:absolute;left:0;width:100%;object-fit:contains;">
+
+<div class="post-it" style="width:200px;position:absolute;right:10px;top:0px;">
 	<p class="sticky taped" style="padding-left:0;padding-right:0;">
 		<span id="btn_mod" class="btn_mod" onclick="modify_notice()">수정하기</span>
 		<span class="btn_close" onclick="event.target.parentNode.parentNode.style.display='none'">&nbsp;X&nbsp;</span>
@@ -175,19 +152,47 @@ body {
 	</p>
 </div>
 
+	</section>
+	<section class="right-col" style="height:100%;display:inline-block;">
+		<div id="hexagonal">
+			<!-- ******************************************
+			  Matchday 1
+			***********************************************-->
+			
+			
+		</div>
+	</section>
+	
+	
+</div>
+	
+	
+	
+	
+
+<!-- <iframe src="https://www.aengji.com/drbpoll/example.php" style="width:200px;height:70%;position:absolute;right:20px;top:140px;" title="바스포드 VS JSA"></iframe> -->
+
+
+
 				
   <script>  
 	var url = "https://0000u.github.io/api/onair.json";
 	const univ_name = "대회3";
 	var list = {};
 	var list2 = [["기뉴다","arinbbidol","","",""]];
-	var logo = {"캄성":"logo_cswu.png","우끼":"ukkz/logo_ukkz.png","바스포드":"basford.png","CP":"cp.png","철와대":"cgj.png","NSU":"nsu.png","JSA":"jsa.png","무친대":"mcu.png","아마대":"amu/logo_amu.png","츠나대":"pu/logo_tsuna.png","MSG":"msg/logo_msg.png","라저대":"lju.png"};
+	var logo = {"캄성":"logo_cswu.png","우끼끼즈":"ukkz/logo_ukkz.png","바스포드":"basford.png","CP":"cp.png","철와대":"cgj.png","NSU":"nsu.png","JSA":"jsa.png","무친대":"mcu.png","아마대":"amu/logo_amu.png","츠나대":"pu/logo_tsuna.png","MSG":"msg/logo_msg.png","라저대":"lju.png"};
+	var mtype={10:'예선 1경기(경기전)', 20:'예선 2경기(경기전)', 30:'예선 3경기(경기전)', 40:'예선 4경기(경기전)', 50:'예선 5경기(경기전)', 110:'예선 1경기', 120:'예선 2경기', 130:'예선 3경기', 140:'예선 4경기', 150:'예선 5경기'};
+
+<!-- {"bj1":"","bj2":"","mtype":100,"mdate":"2022-02-14 20:00:00","score1":0,"score2":0}, -->
+var data=[{"bj1":"JSA","bj2":"MSG","mtype":10,"mdate":"2022-08-07 16:00:00","score1":0,"score2":0},{"bj1":"우끼끼즈","bj2":"아마대","mtype":20,"mdate":"2022-08-07 16:00:00","score1":0,"score2":0}];
+
   </script>
   <script src="js/lazysizes.min.js" type="text/javascript"></script>
   <script src="chart/Chart.min.js"></script>
   <script src="js/util.js?ver=0.0.2"></script>
   <!-- <script src="js/univ_cctv_event3.js?ver=0.0.1"></script> -->
   <!-- <script src="js/univ/univ_cctv_event3.min.js?ver=0.0.12"></script> -->
+  <script src="js/lol_record_3.js?ver=0.0.24"></script>
   <script src="js/modify_notice.js?ver=0.0.8"></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js'></script>  
   <script>
