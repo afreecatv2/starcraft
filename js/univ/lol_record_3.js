@@ -65,10 +65,7 @@ function displayData(fifa_list, filter, cover){
 		
 		// if(bj1 !=='' && bj2 !=='' && parseInt(match.mtype) !== 10 && parseInt(match.mtype) !== 20)
 		// if(parseInt(match.mtype) == 30 || (cover && (parseInt(match.mtype) == 30 || parseInt(match.mtype) == 40))){
-		if(parseInt(match.mtype) > 99){
-			updateTable(bj1, parseInt(match.score1), bj2, parseInt(match.score2));
-		}		
-		
+				
 		if(date !== match.mdate.split(' ')[0]){
 			date = match.mdate.split(' ')[0];
 			
@@ -103,13 +100,13 @@ function displayData(fifa_list, filter, cover){
 				
 		var ds = ce(dm, 'div',{'class':'teams-score','data-game':'played'});
 		
-		/* if(parseInt(match.mtype) > 99){
-			ce(ds, 'input',{'type':'text','class':'local','data-team':bj1,'onBlur':'updateGame(this);','maxlength':2, 'value':match.score1 == 1?'승':'패','readonly':''});
-			ce(ds, 'input',{'type':'text','class':'local','data-team':bj2,'onBlur':'updateGame(this);','maxlength':2, 'value':match.score2 == 1?'승':'패','readonly':''});
+		if(parseInt(match.mtype) > 99){
+			ce(ds, 'input',{'type':'text','class':'local','data-team':bj1,'onBlur':'updateGame(this);','maxlength':2, 'value':(match.score1 > match.score2 ?'승   ':'패   ')  + match.score1,'readonly':''});
+			ce(ds, 'input',{'type':'text','class':'local','data-team':bj2,'onBlur':'updateGame(this);','maxlength':2, 'value':match.score2 + (match.score2 > match.score1?'   승':'   패'),'readonly':''});
 		}else{
 			ce(ds, 'input',{'type':'text','class':'local','data-team':bj1,'onBlur':'updateGame(this);','maxlength':2, 'value':match.score1 == 1?'':'','readonly':''});
 			ce(ds, 'input',{'type':'text','class':'local','data-team':bj2,'onBlur':'updateGame(this);','maxlength':2, 'value':match.score2 == 1?'':'','readonly':''});
-		} */
+		}
 		
 		mcontainer.appendChild(node);
 	}
