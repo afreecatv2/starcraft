@@ -61,45 +61,6 @@ input[id=radio-3]:checked ~ .glider {
   transform: translateX(200%);
 }
 
-input[id=cswu]:checked ~ .glider {
-  transform: translateX(0);
-}
-input[id=ukkz]:checked ~ .glider {
-  transform: translateX(110%);
-}
-input[id=midas]:checked ~ .glider {
-  transform: translateX(222%);
-}
-input[id=ysu]:checked ~ .glider {
-  transform: translateX(336%);
-}
-input[id=basford]:checked ~ .glider {
-  transform: translateX(446%);
-}
-input[id=cp]:checked ~ .glider {
-  transform: translateX(558%);
-}
-input[id=cwu]:checked ~ .glider {
-  transform: translateX(674%);
-}
-input[id=nsu]:checked ~ .glider {
-  transform: translateX(786%);
-}
-input[id=jsa]:checked ~ .glider {
-  transform: translateX(896%);
-}
-input[id=mcu]:checked ~ .glider {
-  transform: translateX(1012%);
-}
-input[id=amu]:checked ~ .glider {
-  transform: translateX(1126%);
-}
-input[id=tnu]:checked ~ .glider {
-  transform: translateX(1240%);
-}
-input[id=msg]:checked ~ .glider {
-  transform: translateX(1346%);
-}
 
 .glider {
   position: absolute;
