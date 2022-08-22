@@ -9,7 +9,7 @@
   <title>앵게임넷 - 다시보기</title>
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="stylesheet" href="css/menu.css?ver=0.0.10">
-  <link rel="stylesheet" href="css/tab_menu.css?ver=0.0.9">
+  <link rel="stylesheet" href="css/tab_menu.css?ver=0.0.10">
   <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
   
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -117,6 +117,47 @@ input[type=radio] + label {
 	height:32px;line-height:32px;padding:0 10px;text-align:center;vertical-align:middle;position: absolute;left:12px;top:14px;color:#fff;border-radius:5%;font-size:24px;
 }
 
+
+input[id=cswu]:checked ~ .glider {
+  transform: translateX(0);
+}
+input[id=ukkz]:checked ~ .glider {
+  transform: translateX(110%);
+}
+input[id=basford]:checked ~ .glider {
+  transform: translateX(222%);
+}
+input[id=cp]:checked ~ .glider {
+  transform: translateX(336%);
+}
+input[id=cwu]:checked ~ .glider {
+  transform: translateX(446%);
+}
+input[id=nsu]:checked ~ .glider {
+  transform: translateX(558%);
+}
+input[id=jsa]:checked ~ .glider {
+  transform: translateX(674%);
+}
+input[id=mcu]:checked ~ .glider {
+  transform: translateX(786%);
+}
+input[id=amu]:checked ~ .glider {
+  transform: translateX(896%);
+}
+input[id=tnu]:checked ~ .glider {
+  transform: translateX(1012%);
+}
+input[id=msg]:checked ~ .glider {
+  transform: translateX(1126%);
+}
+/* input[id=tnu]:checked ~ .glider {
+  transform: translateX(1240%);
+}
+input[id=msg]:checked ~ .glider {
+  transform: translateX(1346%);
+} */
+
 </style>
 </head>
 <body>
@@ -191,7 +232,7 @@ input[type=radio] + label {
 		<label class="tab" for="cswu" onclick="test(this)">캄성</label>
 		
 		<input type="radio" id="ukkz" name="tabs" />
-		<label class="tab" for="ukkz" onclick="test(this)">우끼</label>
+		<label class="tab" for="ukkz" onclick="test(this)">우끼끼즈</label>
 				
 		<input type="radio" id="basford" name="tabs" />
 		<label class="tab" for="basford" onclick="test(this)">바스포드</label>
