@@ -1,0 +1,47 @@
+body{
+	font-family: "Jua";
+}
+
+.phone {
+	display: flex;
+  justify-content: center;
+  /* width: 460px; */
+  width: 90%;
+  border-radius: 25px;
+  /* overflow: hidden; */
+  overflow: none;
+  padding: 0;
+  box-shadow: 0 0 0 10px var(--c-gray-300), 0 0 0 11px var(--c-gray-200);
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.playlists {
+  margin-top: 1.5rem;
+  /* display: flex; */
+  display: relative;
+  padding: 1rem 0.5rem;
+}
+.card {
+	width: 214px;
+	height: 212px;
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+}
+.card-img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	pointer-events: none;
+	transition: opacity .5s;
+}
+.card.onair img:nth-child(2) {
+	opacity: 0;
+}
+.card.offline:hover img:nth-child(2) {
+	opacity: 0;
+}
