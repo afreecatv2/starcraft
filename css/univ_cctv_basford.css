@@ -726,6 +726,26 @@ h2 {
   transition-property: background, filter, -webkit-filter;
 }
 
+.card51 {
+  background: url("../img/basford/앵지.png") left center no-repeat;
+  background-size: 300px;
+  filter: grayscale(1)  brightness(1.5);
+  transition-property: background, filter, -webkit-filter;
+}
+.card51:hover {
+  background: url("../img/basford/앵지.png") center center no-repeat;
+  background-size: 150px;
+  filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
+}
+.card51.onair {
+  background: url("../img/basford/앵지.png") center center no-repeat;
+  background-size: 150px;
+  filter: grayscale(0);
+  transition-property: background, filter, -webkit-filter;
+}
+
+
 .card .c-icon {
 	position:absolute;
 	left: -10px;
