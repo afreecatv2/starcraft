@@ -111,7 +111,6 @@ overflow: auto;
 		<div style="width:84%;margin-top:-30px;text-align:center;">
 			
 			<div id="app" class="container">
-				<img src="img/icons/congrats-1.gif" style="-webkit-transform: scaleX(-1);transform: scaleX(-1);">
 				
 				<card data-image="img/mcu/김봉준.png">
 					<span slot="tier">J</span>
@@ -277,7 +276,6 @@ overflow: auto;
 					<span slot="name">문월</span>
 				</card>
 				
-				<img src="img/icons/congrats-1.gif">
 			</div>	
 		</div>	
 	
@@ -343,6 +341,18 @@ overflow: auto;
 	
 	nr.parentNode.appendChild(img1);
 	
+	nr = document.getElementById("14");
+	
+	img1 = document.createElement("img");
+	img1.style.width = "64px";
+	img1.style.height = "64px";
+	img1.style.position= "absolute";
+	img1.style.bottom = "10px";
+	img1.style.right = "0px";
+	img1.setAttribute("src","img/icons/trophy.png");
+	img1.setAttribute("title","LASL S14 우승");
+	
+	nr.parentNode.appendChild(img1);
 	
 	nr = document.getElementById("24");	
 	img1 = document.createElement("img");
