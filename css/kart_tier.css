@@ -9,6 +9,7 @@
 	font-size: 1.8em;
 	color: #fff;
 	vertical-align: middle;
+	cursor: pointer;
 }
 .tier-title {
 	font-size: 24px;
@@ -21,12 +22,14 @@
 	margin-bottom:10px;
 	text-align:center;
 	font-size: 1.8em;
+	pointer-events: none;
 }
 .kart-on-air{
 	outline:0.15em solid #66FF00;
 	border-radius:0.5em;
+	pointer-events: none;
 }
-.tier-thumb{
+/* .tier-thumb{
 	display: none;
     position: absolute;
     left: -200px;
@@ -35,7 +38,8 @@
 	width:480px;
 	height:270px;
 	border: 0.1em solid white;
-}
+	pointer-events: none;
+} */
 .tier-item:hover .tier-thumb{
 	display: block;
 }
@@ -43,13 +47,18 @@
 	height:100px;
 	width:100px;
 	border-radius:0.4em;
-	border:0.1em solid white;
+	border:0.1em solid #fff;
+	pointer-events: none;
+}
+.tier-item.onair .tier-image{
+    border:0.15em solid #f00;
 }
 .tier-image-on{
 	height:100px;
 	width:100px;
 	border-radius:0.4em;
 	border:0.1em solid yellow;
+	pointer-events: none;
 }
 .tier-item-on:hover .tier-thumb{
 	display: block;
@@ -58,10 +67,12 @@
 	display: block;
 	font-size: 24px;
 	margin-bottom: 0px;
+	pointer-events: none;
 }
 .tier-number {
 	font-size: 18px;
 	display: block;
+	pointer-events: none;
 }
 .tier-up {
 	display: none;
