@@ -125,8 +125,11 @@ body {
 		
 	<div style="display:flex;width:100%;justify-content:center;align-items:center;flex-direction:column;margin-top:70px;color:#fff;z-index:2;text-align:center;">
 			<h2 style="font-size:48px;">NSU 카트 티어표</h2>
+			
 			<h2 style="font-size:24px;"><br>+ - 클릭으로 티어 조정을 할 수 있습니다.<br>티어 조정은 팬심을 빼고 최대한 객관적으로 해주세요.</h2>
-			<h2 style="font-size:24px;color:#f00;">티어를 장난으로 조정하는 사람은 블랙리스트에 추가합니다.</h2>
+			<!-- <h2 style="font-size:24px;color:#f00;">티어를 장난으로 조정하는 사람은 블랙리스트에 추가합니다.</h2> -->
+			<h2 style="font-size:24px;"><br>(티어 조정이 어느정도 되어서 임시적으로 기능을 닫습니다.)</h2>
+			
 		<div style="width:76%;margin-top:30px;text-align:center;">
 			<div id='kart_tier'>
 			</div>
@@ -141,11 +144,13 @@ body {
 	var url = "https://test.aengji.com/afreecatv/afreecatv_kart_tier.php?type=50";
 	const univ_name = "NSU카트";
 	var univ_map = {"wnnw":["7티어","이사장","남순","Zerg"],"nila25":["N","구단주","유소나","U"],"since221":["N","구단주","김원","U"],"70jeontaekyu":["0티어","박사","전태규","Protoss"],"firebathero":["Jack","총장","흑운장","Terran"],"skygkrtn":["Joker","교수","김학수","Protoss"],"scv6256":["God","","이재호","Terran"],"minchul":["God","교수","김민철","Zerg"],"sharpragu":["King","교수","조기석","Terran"],"jh3697":["Jack","교수","서문지훈","Zerg"],"kthrs9207":["0티어","교수","파도튜브","Protoss"],"kalmian":["1티어","교수","토스봇","Protoss"],"bijyu90":["1티어","","다린","Terran"],"rnaqpdrjf":["2티어","","남덕선","Zerg"],"gudcjf604":["2티어","학생회장","블랙워크","Protoss"],"gddms97":["3티어","","하블리","Zerg"],"tladl5572":["4티어","","효딤","Protoss"],"daeun0793":["5티어","","단잉","Protoss"],"rrrr4719":["6티어","","류하","Protoss"],"ehgmldud1233":["6티어","","히엉","Terran"],"na2un":["7티어","","박나닝","Zerg"],"malguman":["7티어","","명탐정맑음","Protoss"],"yoobee22":["8티어","비서","지효","Protoss"]};
+	var update_mode = false;
+	var kart_tier_list = [["흑운장","100"],["김학수","100"],["다린","150"],["파도튜브","150"],["조기석","150"],["효딤","200"],["블랙워크","200"],["남덕선","200"],["서문지훈","250"],["박나닝","250"],["하블리","250"],["김민철","300"],["이재호","300"],["전태규","300"],["남순","300"],["류하","350"],["지효","350"],["단잉","350"],["토스봇","400"],["히엉","400"],["김원","500"],["유소나","500"],["명탐정맑음","550"]];
   </script>
   <script src="js/lazysizes.min.js" type="text/javascript"></script>
   <script src="js/util.js?ver=0.0.2"></script>
   <!-- <script src="js/cswu_kart.js?ver=0.0.1"></script> -->
-  <script src="js/univ/cswu_kart.min.js?ver=0.0.12"></script>
+  <script src="js/univ/cswu_kart.min.js?ver=0.0.14"></script>
   <script src="js/cswu_kart_insert.js?ver=0.0.12"></script>
   <script src="https://kit.fontawesome.com/406a1d7448.js" crossorigin="anonymous"></script>
 
