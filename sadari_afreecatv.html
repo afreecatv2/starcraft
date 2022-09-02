@@ -1,18 +1,87 @@
-<html lang="en">
-	<head>
-	<title>앵게임넷 - 사다리 게임</title>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="keywords" content="앵게임넷,앵지,사다리,사다리 게임,앵다리">
-	<meta name="description" content="앵게임넷,앵지,사다리,사다리 게임,앵다리">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- <link rel="stylesheet" type="text/css" href="css/meterial.css"> -->
-	<link rel="stylesheet" type="text/css" href="css/zen.css">
-	<link rel="stylesheet" type="text/css" href="css/input.css?ver=0.0.1">
-	<link rel="stylesheet" type="text/css" href="css/sadari.css?ver=0.0.12">
-	<link rel="icon" type="image/x-icon" href="favicon.ico">
-	</head>
-	<body style="overflow-y:hidden;display:flex;flex-direction: column;align-items: center;justify-content: center;background-color:#000;" >		
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="keywords" content="스타,스타크래프트,스타 크래프트,티어표,아프리카,아프리카 tv,앵게임넷,앵지">
+  <meta name="description" content="스타,스타크래프트,스타 크래프트,티어표,아프리카,아프리카 tv,앵게임넷,앵지">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>앵게임넷 - 사다리</title>
+  <link rel="stylesheet" href="css/menu.css?ver=0.0.10">
+  <link rel="stylesheet" type="text/css" href="css/zen.css">
+  <link rel="stylesheet" type="text/css" href="css/input.css?ver=0.0.2">
+  <link rel="stylesheet" type="text/css" href="css/sadari.css?ver=0.0.12">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+
+
+		<div class="header">
+			<nav class="dropdownmenu">
+				<ul>
+					<li><a href="fav.html">홈</a></li>
+					<li><a href="tier.html">티어표</a></li>
+					<li><a href="#" style="background-color:#DF4B05">카트</a>
+						<ul id="submenu">
+							<li><a href="cswu_kart.html">캄성카트</a></li>
+							<li><a href="basford_kart.html">바포카트</a></li>
+							<li><a href="cgj_kart.html">철와카트</a></li>
+							<li><a href="nsu_kart.html">남순카트</a></li>
+							<li><a href="mcu_kart.html">무친카트</a></li>
+						</ul>
+					</li>
+					<li><a href="video.html">다시보기</a></li>
+					<li><a href="event_asl.html" style="background-color:#DF4B05">대회</a>
+						<ul id="submenu">
+							<li><a href="event_asl.html">ASL</a></li>
+							<li><a href="event_lasl.html">LASL</a></li>
+						</ul>
+					</li>
+					<li><a href="event_asl.html" style="background-color:#DF4B05">미니게임</a>
+						<ul id="submenu">
+							<li><a href="sadari_afreecatv.html">사다리</a></li>
+							<li><a href="gacha.html">랜덤뽑기</a></li>
+							<li><a href="vegas.html">X베가스</a></li>
+						</ul>
+					</li>
+					<li class="active"><a href="fa.html">FA</a></li>
+					<li><a href="cswu.html">캄성</a></li>
+					<li><a href="ukkz.html">우끼끼즈</a></li>
+					<li><a href="basford.html">바스포드</a></li>
+					<li><a href="cp.html">CP</a></li>
+					<li><a href="cgj.html">철와대</a></li>
+					<li><a href="nsu.html">NSU</a></li>
+					<li><a href="jsa.html">JSA</a></li>
+					<li><a href="mcu.html">무친대</a></li>
+					<li><a href="amu.html">아마대</a></li>
+					<li><a href="pu.html">츠나대</a></li>
+					<li><a href="msg.html">MSG</a></li>
+					<li><a href="suma.html">고대학</a></li>
+					<li><a href="#" style="background-color:#DF4B05">기타모임</a>
+						<ul id="submenu">
+							<li><a href="bcd.html">방치대</a></li>
+							<li><a href="mst.html">마싯대</a></li>
+							<li><a href="ysu_school.html">염지고</a></li>
+							<li><a href="smta.html">슴타D</a></li>
+							<li><a href="shin_school.html">신사관</a></li>
+							<li><a href="nsu_campus.html">탕치고</a></li>
+							<li><a href="ma.html">괴인</a></li>
+							<li><a href="rookies.html">루키즈</a></li>
+							<li><a href="pist.html">파이스트</a></li>
+							<li><a href="hakvard.html">학버드</a></li>
+							<li><a href="midas.html">미다스</a></li>
+							<li><a href="ysu.html">염석대</a></li>
+							<li><a href="lju.html">라저대</a></li>
+						</ul>
+					</li>
+					<li><a href="https://bj.afreecatv.com/k1111u" target="_blank">피드백</a></li>
+				</ul>
+			</nav>
+		</div>
+		
+    <div style="position:relative;width:100%;height:100%;overflow-y:hidden;display:flex;flex-direction: column;align-items: center;justify-content: center;background-color:#000;margin-top:30px;">
+		
+		
 		<!-- <canvas id="canvas" width=312 height=600 style="position:absolute;top:100px;border:1px solid #ffffff; border-radius:3px; box-shadow:0px 0px 30px 0px #e7e7e7 inset; text-align center; margin:0px auto;"></canvas> -->
 		<canvas id="canvas" width=312 height=600 style="position:absolute;top:120px;text-align center; margin:0px auto;"></canvas>
 		<canvas id="canvas2" width=312 height=700 style="position:absolute;top:120px;text-align center; margin:0px auto;"></canvas>
@@ -71,7 +140,10 @@
 			<div class="dim"></div>
 			 
 		</div>
-		</div>
+		
+		<!-- </div> -->
+		
+		
 		<div id="div_blind" style="display:flex;align-items: center;justify-content: center;position:absolute;width:100%;height:37%;background-color:#0444b3;margin-top:-102px;">
 			<div id="div_blind_2" style="display:block;width:0px;height:100%;background-color:#000;">
 			</div>
@@ -162,7 +234,7 @@
 				</div>
 			</div>
 		</div>
-		<a href="http://www.aengji.com/wordpress/?uid=2&mod=document&pageid=1" target="_blank" style="position:absolute;right:10;bottom:10;color:#fff;">BGM Copyright</a>
+		<a href="http://www.aengji.com/wordpress/?uid=2&mod=document&pageid=1" target="_blank" style="position:absolute;right:10px;bottom:10px;color:#fff;">BGM Copyright</a>
 		<div id="zen" style="display:none;position:fixed;right:0;top:0px;margin-top:0;">
 			<span class="player" ></span>
 			<span class="circle"></span>
@@ -175,19 +247,32 @@
 			</div>
 		</div>
 		
-		<!-- <script src="js/jquery-2.1.3.min.js"></script> -->
-		<script src="js/jquery-3.2.1.min.js"></script>
-		<script type="text/javascript" src="js/jquery.rotate.js"></script>
-		<script type="text/javascript" src="js/jquery.grab.js"></script> 
-		<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
-		<script src="js/aromanize.js"></script>
-		<script src="js/zen.js?ver=0.0.6"></script>
-		<script src="js/bj_list.js?ver=0.0.4"></script>
-		<script src="js/util.js?ver=0.0.11"></script>
-		<!-- <script src="js/sadari.js?ver=0.0.29"></script> -->
-		<script src="js/sadari.min.js?ver=0.0.30"></script>
+		
+		
+		
+	</div>
+
+<!-- <script src="js/jquery-2.1.3.min.js"></script> -->
+<script src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.rotate.js"></script>
+<script type="text/javascript" src="js/jquery.grab.js"></script> 
+<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+<script src="js/aromanize.js"></script>
+<script src="js/zen.js?ver=0.0.7"></script>
+<script src="js/bj_list.js?ver=0.0.4"></script>
+<script src="js/util.js?ver=0.0.11"></script>
+<!-- <script src="js/sadari.js?ver=0.0.29"></script> -->
+<script src="js/sadari.min.js?ver=0.0.30"></script>
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GCER6H0EXF"></script>
 <script>
-pageview();
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GCER6H0EXF');
 </script>
-	</body>
+</body>
+
 </html>

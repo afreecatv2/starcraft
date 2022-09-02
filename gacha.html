@@ -1,11 +1,17 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>앵게임넷 - 뽑기</title>
+
+  <meta charset="utf-8">
+  <meta name="keywords" content="스타,스타크래프트,스타 크래프트,티어표,아프리카,아프리카 tv,앵게임넷,앵지">
+  <meta name="description" content="스타,스타크래프트,스타 크래프트,티어표,아프리카,아프리카 tv,앵게임넷,앵지">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>앵게임넷 - 랜덤 뽑기</title>
+  <link rel="stylesheet" href="css/menu.css?ver=0.0.10">
   <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/gacha.css">
-<style>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>
 body {
 	font-family: Jua;
 }
@@ -29,8 +35,74 @@ div.middle-div {
 </style>
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<div id="app">
+
+		<div class="header">
+			<nav class="dropdownmenu">
+				<ul>
+					<li><a href="fav.html">홈</a></li>
+					<li><a href="tier.html">티어표</a></li>
+					<li><a href="#" style="background-color:#DF4B05">카트</a>
+						<ul id="submenu">
+							<li><a href="cswu_kart.html">캄성카트</a></li>
+							<li><a href="basford_kart.html">바포카트</a></li>
+							<li><a href="cgj_kart.html">철와카트</a></li>
+							<li><a href="nsu_kart.html">남순카트</a></li>
+							<li><a href="mcu_kart.html">무친카트</a></li>
+						</ul>
+					</li>
+					<li><a href="video.html">다시보기</a></li>
+					<li><a href="event_asl.html" style="background-color:#DF4B05">대회</a>
+						<ul id="submenu">
+							<li><a href="event_asl.html">ASL</a></li>
+							<li><a href="event_lasl.html">LASL</a></li>
+						</ul>
+					</li>
+					<li><a href="event_asl.html" style="background-color:#DF4B05">미니게임</a>
+						<ul id="submenu">
+							<li><a href="sadari_afreecatv.html">사다리</a></li>
+							<li><a href="gacha.html">랜덤뽑기</a></li>
+							<li><a href="vegas.html">X베가스</a></li>
+						</ul>
+					</li>
+					<li class="active"><a href="fa.html">FA</a></li>
+					<li><a href="cswu.html">캄성</a></li>
+					<li><a href="ukkz.html">우끼끼즈</a></li>
+					<li><a href="basford.html">바스포드</a></li>
+					<li><a href="cp.html">CP</a></li>
+					<li><a href="cgj.html">철와대</a></li>
+					<li><a href="nsu.html">NSU</a></li>
+					<li><a href="jsa.html">JSA</a></li>
+					<li><a href="mcu.html">무친대</a></li>
+					<li><a href="amu.html">아마대</a></li>
+					<li><a href="pu.html">츠나대</a></li>
+					<li><a href="msg.html">MSG</a></li>
+					<li><a href="suma.html">고대학</a></li>
+					<li><a href="#" style="background-color:#DF4B05">기타모임</a>
+						<ul id="submenu">
+							<li><a href="bcd.html">방치대</a></li>
+							<li><a href="mst.html">마싯대</a></li>
+							<li><a href="ysu_school.html">염지고</a></li>
+							<li><a href="smta.html">슴타D</a></li>
+							<li><a href="shin_school.html">신사관</a></li>
+							<li><a href="nsu_campus.html">탕치고</a></li>
+							<li><a href="ma.html">괴인</a></li>
+							<li><a href="rookies.html">루키즈</a></li>
+							<li><a href="pist.html">파이스트</a></li>
+							<li><a href="hakvard.html">학버드</a></li>
+							<li><a href="midas.html">미다스</a></li>
+							<li><a href="ysu.html">염석대</a></li>
+							<li><a href="lju.html">라저대</a></li>
+						</ul>
+					</li>
+					<li><a href="https://bj.afreecatv.com/k1111u" target="_blank">피드백</a></li>
+				</ul>
+			</nav>
+		</div>
+		
+    <div style="position:relative;width:100%;height:100%;overflow-y:hidden;display:flex;flex-direction: column;align-items: center;justify-content: center;background-color:#000;margin-top:30px;">
+		
+		
+		<div id="app">
   <div class="container">
     <div class="game-layer">
       <div class="machine-container">
@@ -79,8 +151,11 @@ div.middle-div {
 		<textarea id="ta_custom" name="ta_custom" rows="12" cols="10" placeholder="&#10;" style="margin-left:10px;">투혼&#10;폴리&#10;이클&#10;우끼끼즈&#10;신상문&#10;유혜미&#10;캄성&#10;김윤환&#10;김성대&#10;염석대&#10;염보성&#10;정윤종&#10;바스포드&#10;감스트&#10;도재욱&#10;학버드&#10;만만&#10;김학수&#10;CP&#10;서윤&#10;박재혁&#10;파이스트&#10;파이&#10;케이&#10;철기중대&#10;철구&#10;기뉴다&#10;NSU&#10;남순&#10;전태규&#10;JSA&#10;시조새&#10;이재호&#10;무친대&#10;김봉준&#10;송병구</textarea>
 	</div>
 </div>
-<!-- partial -->
-  <script src='js/gsap/gsap.min.js'></script>
+		
+		
+	</div>
+
+<script src='js/gsap/gsap.min.js'></script>
 <script src='js/gsap/EasePack.min.js'></script>
 <script src='js/gsap/DrawSVGPlugin3.min.js'></script>
 <script src='js/gsap/ScrambleTextPlugin3.min.js'></script>
@@ -95,8 +170,16 @@ div.middle-div {
 <script  src="js/bj_names.js"></script>
 <script src="js/util.js?ver=0.0.12"></script>
 <script  src="js/gacha.min.js?ver=0.0.2"></script>
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GCER6H0EXF"></script>
 <script>
-pageview();
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GCER6H0EXF');
 </script>
 </body>
+
 </html>
