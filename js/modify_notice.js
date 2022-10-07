@@ -44,7 +44,7 @@ function modify_notice(){
 			}
 		}
 					
-		postData('https://www.aengji.com/afreecatv/afreecatv_notice_insert.php', univ_name, ta_notice.value).then(data => {
+		postData('http://aengji.dothome.co.kr/afreecatv/afreecatv_notice_insert.php', univ_name, ta_notice.value).then(data => {
 			if(data == 'OK'){				
 				sp_notice.textContent = ta_notice.value;
 				
@@ -64,7 +64,7 @@ function modify_notice(){
 }
 
 
-getDataAsync('https://www.aengji.com/afreecatv/afreecatv_notice.php?name=' + univ_name).then(data => {
+getDataAsync('http://aengji.dothome.co.kr/afreecatv/afreecatv_notice2.php?name=' + univ_name).then(data => {
 	document.getElementById('sp_notice').textContent = data;
 }).catch((error) => {
   console.error('실패:', error);
